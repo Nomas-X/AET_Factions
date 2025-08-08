@@ -928,7 +928,7 @@ class cfgGroups
     name="Independent";
     class nomas
     {
-      name="nomas";
+      name="ECF - Bastion Breaker";
 
       class Infantry
       {
