@@ -1189,9 +1189,9 @@ class cfgGroups
             position[]={0,-5,0};
           };
         };
-        class AET_F_bastionBreaker_I_ECF_R_SF_Rifle_Squad_AT
+        class AET_F_bastionBreaker_I_ECF_R_SF_Team_AT
         {
-          name="SF Rifle Squad AT";
+          name="SF Team AT";
           faction="AET_F_bastionBreaker_I_ECF_nomas";
           side=2;
           class Unit0
@@ -1230,9 +1230,9 @@ class cfgGroups
             position[]={0,-20,0};
           };
         };
-        class AET_F_bastionBreaker_I_ECF_R_SF_Rifle_Squad
+        class AET_F_bastionBreaker_I_ECF_R_SF_Team
         {
-          name="SF Rifle Squad";
+          name="SF Team";
           faction="AET_F_bastionBreaker_I_ECF_nomas";
           side=2;
           class Unit0

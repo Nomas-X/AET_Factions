@@ -41,7 +41,7 @@ parameters = [
 ]
 dlc = ["ws","rf"]
 
-[bastionBreaker]
+[bastionBreakerFaction]
 workshop = [
     "450814997",  # CBA_A3's Workshop ID
     "463939057",  # ACE3
@@ -65,3 +65,8 @@ parameters = [
 	"-showScriptErrors",
 ]
 dlc = []
+mission = "Bastion_Breaker_ECF_FACTION.VR"
+
+[bastionBreakerGroups]
+extends = "bastionBreakerFaction"
+mission = "Bastion_Breaker_ECF_GROUPS.VR"
