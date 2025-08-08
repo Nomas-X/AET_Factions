@@ -2,6 +2,7 @@ class cfgPatches
 {
   class AET_F_remalAlGhaib_I_Tura_nomas
   {
+	skipWhenMissingDependencies = 1;
     units[]={"AET_F_remalAlGhaib_I_Tura_Squad_Leader","AET_F_remalAlGhaib_I_Tura_Medic","AET_F_remalAlGhaib_I_Tura_Rifleman_2","AET_F_remalAlGhaib_I_Tura_Vehicle_Crew","AET_F_remalAlGhaib_I_Tura_Marksman","AET_F_remalAlGhaib_I_Tura_AT_Specialist","AET_F_remalAlGhaib_I_Tura_Grenadier","AET_F_remalAlGhaib_I_Tura_IED_Specialist","AET_F_remalAlGhaib_I_Tura_Rifleman_1","AET_F_remalAlGhaib_I_Tura_Machine_Gunner","AET_F_remalAlGhaib_I_Tura_Ram_1500","AET_F_remalAlGhaib_I_Tura_Ram_1500_HMG","AET_F_remalAlGhaib_I_Tura_Ram_1500_Rocket","AET_F_remalAlGhaib_I_Tura_Offroad_UP","AET_F_remalAlGhaib_I_Tura_Offroad_UP_HMG","AET_F_remalAlGhaib_I_Tura_KamAZ_ZU"};
     weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_Galat_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_Galat_worn_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS_optic_DMS_weathered_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_lxWS","AET_F_remalAlGhaib_I_Tura_launch_RPG7_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_GL_lxWS","AET_F_remalAlGhaib_I_Tura_LMG_S77_Desert_lxWS"};
     requiredVersion=0.1;
