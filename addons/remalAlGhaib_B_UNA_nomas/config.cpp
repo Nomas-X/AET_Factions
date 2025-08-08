@@ -2,6 +2,7 @@ class cfgPatches
 {
   class AET_F_remalAlGhaib_B_UNA_nomas
   {
+	skipWhenMissingDependencies = 1;
     units[]={"AET_F_remalAlGhaib_B_UNA_Squad_Leader","AET_F_remalAlGhaib_B_UNA_Grenadeir","AET_F_remalAlGhaib_B_UNA_Medic","AET_F_remalAlGhaib_B_UNA_Machine_Gunner","AET_F_remalAlGhaib_B_UNA_Autorifleman","AET_F_remalAlGhaib_B_UNA_AT_Specialist","AET_F_remalAlGhaib_B_UNA_Vehicle_Crew","AET_F_remalAlGhaib_B_UNA_Rifleman","AET_F_remalAlGhaib_B_UNA_MATV","AET_F_remalAlGhaib_B_UNA_Offroad","AET_F_remalAlGhaib_B_UNA_Offroad_UP","AET_F_remalAlGhaib_B_UNA_Ram_1500","AET_F_remalAlGhaib_B_UNA_Ram_1500_MMG"};
     weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS"};
     requiredVersion=0.1;
