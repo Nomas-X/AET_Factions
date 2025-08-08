@@ -40,3 +40,28 @@ parameters = [
 	"-showScriptErrors",
 ]
 dlc = ["ws","rf"]
+
+[bastionBreaker]
+workshop = [
+    "450814997",  # CBA_A3's Workshop ID
+    "463939057",  # ACE3
+	"894678801",  # TFAR BETA
+    "3499977893", # Advanced Developer Tools
+    "1779063631", # ZEN
+	"623475643",  # 3den Enhanced
+	"2478080991", # Scion Conflict
+	"2757485942", # Scion Conflict Vehicle Extension
+	"2605563484", # Scion Conflict Extended Arsenal
+	"2974697658", # Scion Conflict Reborn
+	"1923321700", # O&T Expansion Eden
+	"2931279278", # The Kuiper Engagements
+	"3539476763", # Scifi Vehicles Pack
+	"1771335720", # Drongos Config Generator
+]
+parameters = [
+    "-noPause",
+    "-noPauseAudio",
+	"-debug",
+	"-showScriptErrors",
+]
+dlc = []
