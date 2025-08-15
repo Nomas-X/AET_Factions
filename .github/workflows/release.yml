@@ -11,6 +11,12 @@ jobs:
   release-addon:
     runs-on: ubuntu-latest
     steps:
+        - name: Update timestamp in file
+          shell: pwsh
+          run: |
+            $ticks = [DateTime]::UtcNow.Ticks
+            $filePath = "meta.cpp"
+            (Get-Content $filePath) -replace 'timestamp\s*=\s*;', "timestamp = $ticks;" | Set-Content $filePath
         - name: Set VERSION env
           run: echo VERSION=${GITHUB_REF#refs/tags/${{ env.VERSION }}} >> $GITHUB_ENV
         - name: Checkout the source code
