@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_bastionBreaker_I_ECF_nomas
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_bastionBreaker_I_ECF_Rifleman","AET_F_bastionBreaker_I_ECF_Medic","AET_F_bastionBreaker_I_ECF_AT_Specialist","AET_F_bastionBreaker_I_ECF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Marksman","AET_F_bastionBreaker_I_ECF_Machine_Gunner","AET_F_bastionBreaker_I_ECF_UAV_Operator","AET_F_bastionBreaker_I_ECF_Squad_Leader","AET_F_bastionBreaker_I_ECF_Crewman","AET_F_bastionBreaker_I_ECF_Officer","AET_F_bastionBreaker_I_ECF_Skimmer_Drone_Man","AET_F_bastionBreaker_I_ECF_SF_Sniper","AET_F_bastionBreaker_I_ECF_SF_Spotter","AET_F_bastionBreaker_I_ECF_SF_Team_Leader","AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG","AET_F_bastionBreaker_I_ECF_SF_Rifleman","AET_F_bastionBreaker_I_ECF_SF_Marksman","AET_F_bastionBreaker_I_ECF_SF_AT_Specialist","AET_F_bastionBreaker_I_ECF_SF_Medic","AET_F_bastionBreaker_I_ECF_SF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Helicopter_Pilot","AET_F_bastionBreaker_I_ECF_Pilot","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_SHORAD","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_APC","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_FSV","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_IFV","AET_F_bastionBreaker_I_ECF_AH_44_A_Dragonfly","AET_F_bastionBreaker_I_ECF_AH_44_S_Dragonfly","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_A","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_M"};
+    units[]={"AET_F_bastionBreaker_I_ECF_Rifleman","AET_F_bastionBreaker_I_ECF_Medic","AET_F_bastionBreaker_I_ECF_AT_Specialist","AET_F_bastionBreaker_I_ECF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Marksman","AET_F_bastionBreaker_I_ECF_Machine_Gunner","AET_F_bastionBreaker_I_ECF_UAV_Operator","AET_F_bastionBreaker_I_ECF_Squad_Leader","AET_F_bastionBreaker_I_ECF_Crewman","AET_F_bastionBreaker_I_ECF_Officer","AET_F_bastionBreaker_I_ECF_Skimmer_Drone_Man","AET_F_bastionBreaker_I_ECF_SF_Sniper","AET_F_bastionBreaker_I_ECF_SF_Spotter","AET_F_bastionBreaker_I_ECF_SF_Team_Leader","AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG","AET_F_bastionBreaker_I_ECF_SF_Rifleman","AET_F_bastionBreaker_I_ECF_SF_Marksman","AET_F_bastionBreaker_I_ECF_SF_AT_Specialist","AET_F_bastionBreaker_I_ECF_SF_Medic","AET_F_bastionBreaker_I_ECF_SF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Helicopter_Pilot","AET_F_bastionBreaker_I_ECF_Pilot","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_SHORAD","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_APC","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_FSV","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_IFV","AET_F_bastionBreaker_I_ECF_AH_44_A_Dragonfly","AET_F_bastionBreaker_I_ECF_AH_44_S_Dragonfly","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_A","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_M","AET_F_bastionBreaker_I_ECF_G10_MRAP","AET_F_bastionBreaker_I_ECF_G10_MRAP_A","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Armed","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Closed","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Open","AET_F_bastionBreaker_I_ECF_UT_53_I_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_UT_53_V_Comanche_Dropship"};
     weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightSC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP_optic_SRS","AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_SkimmerDroneGun","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_fbipod_01_F_blk"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","A3_Weapons_F","sc_weapons","screborn_uniforms","A3_Characters_F","A3_Weapons_F_Items","A3_Weapons_F_Enoch_Launchers_Titan","SC_RebornUnits_Earth_Colonies_Federation","A3_Drones_F_Weapons_F_Gamma_Items","SC_Scion_Empire_Metro_Police_Scion_Empire_Metro_Police","sc_newequipment","SC_newequipment2","A3_Weapons_F_Enoch_Rifles_MSBS"};
@@ -337,6 +337,13 @@ class cfgVehicles
   class TKE_Ext_Dragonfly_S;
   class TKE_Ext_GUSA;
   class TKE_Ext_GUSM;
+  class SCEXT_Dingo_SE;
+  class SCEXT_Dingo_A_SE;
+  class SCEXT_Gator_TC_A_SE;
+  class SC_Gator_TC_SE;
+  class SC_Gator_TO_SE;
+  class SC_EXT_Comanche_SE;
+  class SC_EXT_Comanche_V_SE;
 
   class AET_F_bastionBreaker_I_ECF_Rifleman: I_soldier_F
   {
@@ -792,6 +799,76 @@ class cfgVehicles
     typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Pilot"};
   };
 
+  class AET_F_bastionBreaker_I_ECF_G10_MRAP: SCEXT_Dingo_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="G10 MRAP";
+    hiddenSelectionsTextures[]={"sc_wheeled\data\gator\body_black_co.paa","sc_wheeled\data\gator\doors_co.paa","sc_wheeled\data\gator\compartment_co.paa","sc_wheeled\data\gator\frame_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_G10_MRAP_A: SCEXT_Dingo_A_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="G10 MRAP A";
+    hiddenSelectionsTextures[]={"sc_wheeled\data\gator\body_black_co.paa","sc_wheeled\data\gator\doors_co.paa","sc_wheeled\data\gator\compartment_co.paa","sc_wheeled\data\ferret\details_black_co.paa","sc_wheeled\data\gator\frame_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Armed: SCEXT_Gator_TC_A_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="G12 Truck Transport Armed";
+    hiddenSelectionsTextures[]={"sc_wheeled\data\gator\body_black_co.paa","sc_wheeled\data\gator\doors_co.paa","sc_wheeled\data\gator\compartment_co.paa","sc_wheeled\data\ferret\details_black_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Closed: SC_Gator_TC_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="G12 Truck Transport Closed";
+    hiddenSelectionsTextures[]={"sc_wheeled\data\gator\body_black_co.paa","sc_wheeled\data\gator\doors_co.paa","sc_wheeled\data\gator\compartment_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Open: SC_Gator_TO_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="G12 Truck Transport Open";
+    hiddenSelectionsTextures[]={"sc_wheeled\data\gator\body_black_co.paa","sc_wheeled\data\gator\doors_co.paa","sc_wheeled\data\gator\frame_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_UT_53_I_Comanche_Dropship: SC_EXT_Comanche_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="UT 53 I Comanche Dropship";
+    hiddenSelectionsTextures[]={"sc_ext_heli\data\textures\body_black_co.paa","sc_ext_heli\data\textures\details_co.paa","sc_ext_heli\data\textures\light_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Helicopter_Pilot";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Helicopter_Pilot"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_UT_53_V_Comanche_Dropship: SC_EXT_Comanche_V_SE
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="UT 53 V Comanche Dropship";
+    hiddenSelectionsTextures[]={"sc_ext_heli\data\textures\body_black_co.paa","sc_ext_heli\data\textures\details_co.paa","sc_ext_heli\data\textures\light_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Helicopter_Pilot";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Helicopter_Pilot"};
+  };
+
 
   class AET_F_bastionBreaker_I_ECF_Medic_pack: SC_PTC
   {
@@ -1081,9 +1158,9 @@ class cfgGroups
             position[]={0,-15,0};
           };
         };
-        class AET_F_bastionBreaker_I_ECF_R_Fire_Team
+        class AET_F_bastionBreaker_I_ECF_R_Fire_Team_Rifle
         {
-          name="Fire Team";
+          name="Fire Team Rifle";
           faction="AET_F_bastionBreaker_I_ECF_nomas";
           side=2;
           class Unit0
@@ -1432,6 +1509,281 @@ class cfgGroups
             vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
             rank="PRIVATE";
             position[]={0,-120,0};
+          };
+        };
+        class AET_F_bastionBreaker_I_ECF_R_G10_MRAP
+        {
+          name="G10 MRAP";
+          faction="AET_F_bastionBreaker_I_ECF_nomas";
+          side=2;
+          class Unit0
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_G10_MRAP";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Squad_Leader";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+        };
+        class AET_F_bastionBreaker_I_ECF_R_G10_MRAP_A
+        {
+          name="G10 MRAP A";
+          faction="AET_F_bastionBreaker_I_ECF_nomas";
+          side=2;
+          class Unit0
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_G10_MRAP_A";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Squad_Leader";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class AET_F_bastionBreaker_I_ECF_R_G12_Truck_Transport_Armed
+        {
+          name="G12 Truck Transport Armed";
+          faction="AET_F_bastionBreaker_I_ECF_nomas";
+          side=2;
+          class Unit0
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Armed";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Squad_Leader";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Medic";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Machine_Gunner";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+          class Unit5
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-75,0};
+          };
+          class Unit6
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-90,0};
+          };
+          class Unit7
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-105,0};
+          };
+          class Unit8
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-120,0};
+          };
+        };
+        class AET_F_bastionBreaker_I_ECF_R_G12_Truck_Transport_Closed
+        {
+          name="G12 Truck Transport Closed";
+          faction="AET_F_bastionBreaker_I_ECF_nomas";
+          side=2;
+          class Unit0
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Closed";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Squad_Leader";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Medic";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Machine_Gunner";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+          class Unit5
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-75,0};
+          };
+          class Unit6
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-90,0};
+          };
+          class Unit7
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-105,0};
+          };
+          class Unit8
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-120,0};
+          };
+        };
+        class AET_F_bastionBreaker_I_ECF_R_G12_Truck_Transport_Open
+        {
+          name="G12 Truck Transport Open";
+          faction="AET_F_bastionBreaker_I_ECF_nomas";
+          side=2;
+          class Unit0
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Open";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Squad_Leader";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Medic";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Machine_Gunner";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+          class Unit5
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-75,0};
+          };
+          class Unit6
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-90,0};
+          };
+          class Unit7
+          {
+            side=2;
+            vehicle="AET_F_bastionBreaker_I_ECF_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-105,0};
           };
         };
       };
