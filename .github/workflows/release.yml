@@ -15,7 +15,7 @@ jobs:
           shell: pwsh
           run: |
             $ticks = [DateTime]::UtcNow.Ticks
-            $filePath = "meta.cpp"
+            $filePath = "${{ github.workspace }}/meta.cpp"
             (Get-Content $filePath) -replace 'timestamp\s*=\s*;', "timestamp = $ticks;" | Set-Content $filePath
         - name: Set VERSION env
           run: echo VERSION=${GITHUB_REF#refs/tags/${{ env.VERSION }}} >> $GITHUB_ENV
