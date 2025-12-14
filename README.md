@@ -22,7 +22,7 @@ Examples:
 
 `AET_F_RemalAlGhaib_I_Tura`
 
-`AET_F__RemalAlGhaib_B_UNA`
+`AET_F_RemalAlGhaib_B_UNA`
 
 
 ### "Your mod name" Field
