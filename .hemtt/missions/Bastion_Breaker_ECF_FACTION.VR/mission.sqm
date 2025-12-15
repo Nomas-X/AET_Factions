@@ -1,0 +1,5639 @@
+version=54;
+class EditorData
+{
+	moveGridStep=2;
+	angleGridStep=1.5707964;
+	scaleGridStep=100;
+	autoGroupingDist=10;
+	toggles=1;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
+	class ItemIDProvider
+	{
+		nextID=276;
+	};
+	class Camera
+	{
+		pos[]={3805.7144,80.387276,5592.1753};
+		dir[]={-0.62210214,-0.69063967,-0.36897114};
+		up[]={-0.59400851,0.72321904,-0.35230878};
+		aside[]={-0.51016486,7.8522135e-07,0.86016363};
+	};
+};
+binarizationWanted=0;
+sourceName="bastion_breaker_ecf_faction";
+addons[]=
+{
+	"A3_Characters_F",
+	"sc_weapons",
+	"Weapons_Globe_ACC",
+	"A3_Weapons_F_Acc",
+	"ace_realisticnames",
+	"A3_Weapons_F",
+	"A3_Characters_F_Exp",
+	"SC_Reborn_Gear",
+	"screborn_uniforms",
+	"A3_Weapons_F_Items",
+	"ace_medical_treatment",
+	"A3_Weapons_F_Enoch_Launchers_Titan",
+	"ace_optics",
+	"sc_weapons_2",
+	"A3_Drones_F_Weapons_F_Gamma_Items",
+	"ace_scopes",
+	"A3_Characters_F_Enoch_Facewear",
+	"SC_EA",
+	"screbornweapons",
+	"A3_Characters_F_Heads",
+	"A3_Characters_F_Orange_Facewear",
+	"ace_goggles",
+	"A3_Weapons_F_Mark_Acc",
+	"sc_newequipment",
+	"SC_newequipment2",
+	"A3_Weapons_F_Enoch_Rifles_MSBS",
+	"A3_Weapons_F_Enoch_Acc",
+	"A3_Weapons_F_Exp",
+	"ace_laserpointer",
+	"A3_Weapons_F_Enoch",
+	"TKE_MD",
+	"ace_ballistics",
+	"TKE_Ext_Core_V",
+	"ace_gforces",
+	"ace_parachute",
+	"tfar_external_intercom",
+	"ace_hearing",
+	"drongosconfiggenerator",
+	"sc_ext_vehicles",
+	"sc_wheeled",
+	"sc_ext_heli",
+	"A3_Armor_F_Decade_MBT_02",
+	"A3_Air_F_Exp_UAV_03",
+	"A3_Soft_F_Exp_UGV_01"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=36;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="sc_weapons";
+			name="sc_weapons";
+			author="Scion Conflict Mod Team";
+			url="https://steamcommunity.com/sharedfiles/filedetails/?id=2478080991";
+		};
+		class Item2
+		{
+			className="A3_Weapons_F_expEden";
+			name="O&T Expansion Eden - Weapons and Accessories";
+			author="Trager";
+			url="https://steamcommunity.com/workshop/filedetails/?id=1923321700";
+		};
+		class Item3
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="A3_Characters_F_Exp";
+			name="Arma 3 Apex - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="SC_Reborn_Gear";
+			name="SC_Reborn_Gear";
+			author="Moose (Outworld Studios)";
+		};
+		class Item6
+		{
+			className="screborn_uniforms";
+			name="screborn_uniforms";
+			author="Moose (Scion Conflict Mod Team)";
+		};
+		class Item7
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item8
+		{
+			className="A3_Weapons_F_Enoch";
+			name="Arma 3 Contact Platform - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
+			className="ace_optics";
+			name="ACE3 - Optics";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item10
+		{
+			className="sc_weapons_2";
+			name="sc_weapons_2";
+			author="Luca";
+			url="https://steamcommunity.com/sharedfiles/filedetails/?id=2478080991";
+		};
+		class Item11
+		{
+			className="A3_Drones_F";
+			name="Arma 3 Beta - Drones";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="ace_scopes";
+			name="ACE3 - Scopes";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item13
+		{
+			className="A3_Characters_F_Enoch";
+			name="Arma 3 Contact Platform - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item14
+		{
+			className="SC_EA";
+			name="SC_EA";
+			author="Nightwolf2112";
+		};
+		class Item15
+		{
+			className="screbornweapons";
+			name="screbornweapons";
+			author="Moose";
+			url="https://steamcommunity.com/sharedfiles/filedetails/?id=2478080991";
+		};
+		class Item16
+		{
+			className="A3_Characters_F_Orange";
+			name="Arma 3 Orange - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item17
+		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item18
+		{
+			className="A3_Weapons_F_Mark";
+			name="Arma 3 Marksmen - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item19
+		{
+			className="sc_newequipment";
+			name="sc_newequipment";
+			author="Moose (Scion Conflict)";
+		};
+		class Item20
+		{
+			className="SC_newequipment2";
+			name="SC_newequipment2";
+			author="Moose";
+		};
+		class Item21
+		{
+			className="A3_Weapons_F_Exp";
+			name="Arma 3 Apex - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="ace_laserpointer";
+			name="ACE3 - Laser Pointer";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item23
+		{
+			className="TKE_MD";
+			name="TKE_MD";
+			author="Rogue771";
+		};
+		class Item24
+		{
+			className="ace_ballistics";
+			name="ACE3 - Ballistics";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item25
+		{
+			className="TKE_Ext_Core_V";
+			name="TKE_Ext_Core_V";
+			author="Luca";
+		};
+		class Item26
+		{
+			className="ace_parachute";
+			name="ACE3 - Parachute";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item27
+		{
+			className="tfar_external_intercom";
+			name="TFAR - Intercom Phone";
+			author="Task Force Arrowhead Radio Team";
+		};
+		class Item28
+		{
+			className="ace_hearing";
+			name="ACE3 - Hearing";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item29
+		{
+			className="DrongosConfigGenerator";
+			name="Drongo's Config Generator";
+			author="Drongo";
+		};
+		class Item30
+		{
+			className="sc_ext_vehicles";
+			name="sc_ext_vehicles";
+			author="Luca";
+			url="https://steamcommunity.com/id/7112015/myworkshopfiles/";
+		};
+		class Item31
+		{
+			className="sc_wheeled";
+			name="sc_wheeled";
+			author="Scion Conflict Mod Team";
+			url="https://steamcommunity.com/sharedfiles/filedetails/?id=2478080991";
+		};
+		class Item32
+		{
+			className="sc_ext_heli";
+			name="sc_ext_heli";
+			author="Luca";
+			url="https://steamcommunity.com/id/7112015/myworkshopfiles/";
+		};
+		class Item33
+		{
+			className="A3_Armor_F_Decade";
+			name="CFGPATCHES_A3_Armor_F_Decade";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item34
+		{
+			className="A3_Air_F_Exp";
+			name="Arma 3 Apex - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item35
+		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+dlcs[]=
+{
+	"Expansion",
+	"Mark",
+	"Enoch"
+};
+randomSeed=9169871;
+class ScenarioData
+{
+	author="Redwan S.";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=41;
+		class Item0
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3721.134,5.0014391,5540.251};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Rifleman";
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=60;
+					type="I_soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=59;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3727.969,5.0014391,5540.3696};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Medic";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12C";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12C:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_PTC";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+									class Item1
+									{
+										name="FirstAidKit";
+										count=10;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=63;
+					type="I_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=62;
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3726.4431,5.0014391,5540.4907};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="AT_Specialist";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="SC_MPML";
+								optics="SC_MPML_Scope";
+								class primaryMuzzleMag
+								{
+									name="SC_MPML_M_AT";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_WarbotRocketRack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="SC_MPML_M_AT";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SC_MPML_M_HE";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=71;
+					type="I_Soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=70;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3725.0781,5.0014391,5540.3667};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="AA_Specialist";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="launch_B_Titan_olive_F";
+								class primaryMuzzleMag
+								{
+									name="Titan_AA";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=73;
+					type="I_Soldier_AA_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=72;
+		};
+		class Item4
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3722.24,5.0014391,5540.3379};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						name="Marksman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12";
+								optics="SC_TSO55";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=173;
+					type="I_Soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=78;
+		};
+		class Item5
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3723.7251,5.0014391,5540.3887};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Machine_Gunner";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_PKMP";
+								optics="optic_SRS";
+								firemode="SC_Rifle_PKMP:FullAutoFast";
+								class primaryMuzzleMag
+								{
+									name="SC_200Rnd_338_Mag";
+									ammoLeft=200;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SC_200Rnd_338_Mag";
+										count=1;
+										ammoLeft=200;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_RebornUnits_Machinegunner_pack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SC_200Rnd_338_Mag";
+										count=4;
+										ammoLeft=200;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=81;
+					type="I_Soldier_AR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=80;
+		};
+		class Item6
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3719.8921,5.0014391,5540.3047};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="UAV_Operator";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12C";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12C:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="I_UAV_01_backpack_F";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="I_UavTerminal";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=83;
+					type="I_soldier_UAV_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=82;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3729.3621,5.0014391,5540.355};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Squad_Leader";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_ColonistRucksack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="SmokeShellPurple";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellYellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=87;
+					type="I_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=86;
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3718.5681,5.0014391,5540.0527};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						name="Crewman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_Ghoul";
+								optics="optic_Yorris";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_Ghoul:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="RD_45Rnd_45HP_Mag";
+									ammoLeft=45;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="RD_45Rnd_45HP_Mag";
+										count=4;
+										ammoLeft=45;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="SC_ColonistHatColonialGuard";
+						};
+					};
+					id=89;
+					type="I_crew_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=88;
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3715.0259,5.0014391,5540.0356};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Officer";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_AR12C";
+								optics="optic_SRS";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_AR12C:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="SC_35Rnd_762x51_Mag";
+									ammoLeft=35;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigv2ColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SC_35Rnd_762x51_Mag";
+										count=9;
+										ammoLeft=35;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Bandanna_blk";
+							headgear="ECF_Beret";
+						};
+					};
+					id=91;
+					type="I_officer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=90;
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3713.3149,5.0014391,5540.0449};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Skimmer_Drone_Man";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_SkimmerDroneGun";
+								firemode="SC_SkimmerDroneGun:FullAutoFast";
+								class primaryMuzzleMag
+								{
+									name="SC_200Rnd_338_MagBastard";
+									ammoLeft=300;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_SkimmerDrone";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SC_200Rnd_338_MagBastard";
+										count=1;
+										ammoLeft=300;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_RebornUnits_Skimmer_pack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SC_200Rnd_338_MagBastard";
+										count=8;
+										ammoLeft=300;
+									};
+								};
+							};
+							goggles="None";
+						};
+					};
+					id=93;
+					type="I_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=92;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3720.697,5.0014391,5534.042};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						name="SF_Sniper";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_SSR55";
+								optics="SC_TSO55";
+								underBarrel="bipod_01_F_blk";
+								firemode="SC_Rifle_SSR55:Single";
+								class primaryMuzzleMag
+								{
+									name="SC_5Rnd_50HV_Mag";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SC_5Rnd_50HV_Mag";
+										count=6;
+										ammoLeft=5;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							hmd="sc_trojanrespirator";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=178;
+					type="I_Soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=98;
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3719.6289,5.0014391,5534.1367};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						name="SF_Spotter";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_SSR55C";
+								optics="SC_TSO55";
+								underBarrel="bipod_01_F_blk";
+								firemode="SC_Rifle_SSR55C:Single";
+								class primaryMuzzleMag
+								{
+									name="SC_5Rnd_50HV_Mag";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SC_5Rnd_50HV_Mag";
+										count=6;
+										ammoLeft=5;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							hmd="sc_trojanrespirator";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=179;
+					type="I_Soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=100;
+		};
+		class Item13
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3724.0769,5.0014391,5536.4497};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="SF_Team_Leader";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_GL_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_GL_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="1Rnd_HE_Grenade_shell";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_EnforcerRucksack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="SmokeShellPurple";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellYellow";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="UGL_FlareRed_F";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="1Rnd_SmokePurple_Grenade_shell";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="1Rnd_SmokeYellow_Grenade_shell";
+										count=3;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=103;
+					type="I_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=102;
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3721.334,5.0014391,5536.4507};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="SF_Rifleman_SG";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=105;
+					type="I_soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=104;
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3720.043,5.0014391,5536.5298};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="SF_Rifleman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item5
+									{
+										name="6Rnd_12Gauge_Slug";
+										count=1;
+										ammoLeft=6;
+									};
+									class Item6
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=2;
+										ammoLeft=6;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=107;
+					type="I_soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=106;
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3718.7539,5.0014391,5536.3857};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="SF_Marksman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_Mark_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								underBarrel="bipod_01_F_blk";
+								firemode="arifle_MSBS65_Mark_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=109;
+					type="I_Soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=108;
+		};
+		class Item17
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3717.479,5.0014391,5536.4468};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						name="SF_AT_Specialist";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="SC_MPML";
+								optics="SC_MPML_Scope";
+								class primaryMuzzleMag
+								{
+									name="SC_MPML_M_AT";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item5
+									{
+										name="6Rnd_12Gauge_Slug";
+										count=1;
+										ammoLeft=6;
+									};
+									class Item6
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=2;
+										ammoLeft=6;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_WarbotRocketRack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="SC_MPML_M_AT";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SC_MPML_M_HE";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=176;
+					type="I_Soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=110;
+		};
+		class Item18
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3722.656,5.0014391,5536.5259};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="SF_Medic";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_PTC";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+									class Item1
+									{
+										name="FirstAidKit";
+										count=10;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=113;
+					type="I_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=112;
+		};
+		class Item19
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3715.9929,5.0014391,5536.3706};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="SF_AA_Specialist";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								muzzle="muzzle_snds_65_TI_blk_F";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="launch_B_Titan_olive_F";
+								class primaryMuzzleMag
+								{
+									name="Titan_AA";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_WarfighterVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item5
+									{
+										name="6Rnd_12Gauge_Slug";
+										count=1;
+										ammoLeft=6;
+									};
+									class Item6
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=2;
+										ammoLeft=6;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="SC_MMPGasmask";
+							hmd="TKE_IntegratedNVGs";
+							headgear="SC_MMPHelmetCommon";
+						};
+					};
+					id=115;
+					type="I_Soldier_AA_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=114;
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3728.4448,8.015728,5560.7759};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="TC_15_Bearcat_SHORAD";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=116;
+			type="TKE_Ext_Bearcat_AA";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3721.6777,7.9842701,5560.165};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="TC_15_Bearcat_APC";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=117;
+			type="TKE_Ext_Bearcat_Unarmed";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3714.6877,7.9842701,5559.8999};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="TC_15_Bearcat_FSV";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=118;
+			type="TKE_Ext_Bearcat_Cannon";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3706.2698,7.9842701,5560.001};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="TC_15_Bearcat_IFV";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=119;
+			type="TKE_Ext_Bearcat_Autocannon";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3729.8618,4.8338757,5601.7427};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AH_44_A_Dragonfly";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=120;
+			type="TKE_Ext_Dragonfly_A";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3704.0435,4.8338757,5601.9951};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AH_44_S_Dragonfly";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=121;
+			type="TKE_Ext_Dragonfly_S";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3730.7974,5.2253647,5629.4233};
+				angles[]={0,6.2807593,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="General_Utility_Shuttle_A";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=122;
+			type="TKE_Ext_GUSA";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3704.2974,5.2253647,5629.2935};
+				angles[]={0,6.2724342,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="General_Utility_Shuttle_M";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=123;
+			type="TKE_Ext_GUSM";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item28
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3717.2971,5.0014391,5539.8159};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						rank="MAJOR";
+						name="Helicopter_Pilot";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_Ghoul";
+								optics="optic_Yorris";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_Ghoul:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="RD_45Rnd_45HP_Mag";
+									ammoLeft=45;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="SC_JumpsuitColonistColonialGuard";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="RD_45Rnd_45HP_Mag";
+										count=4;
+										ammoLeft=45;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="H_PilotHelmetHeli_B";
+						};
+					};
+					id=128;
+					type="I_pilot_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=126;
+		};
+		class Item29
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3716.165,5.0014391,5540.022};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						rank="COLONEL";
+						name="Pilot";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SC_Rifle_Ghoul";
+								optics="optic_Yorris";
+								flashlight="acc_flashlight";
+								firemode="SC_Rifle_Ghoul:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="RD_45Rnd_45HP_Mag";
+									ammoLeft=45;
+								};
+							};
+							class handgun
+							{
+								name="SC_Pistol_SSP9";
+								class primaryMuzzleMag
+								{
+									name="SC_15Rnd_45HP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="U_I_pilotCoveralls";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SC_ColonistRigColonialGuard";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SC_15Rnd_45HP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="RD_45Rnd_45HP_Mag";
+										count=4;
+										ammoLeft=45;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Balaclava_TI_blk_F";
+							headgear="H_PilotHelmetFighter_O";
+						};
+					};
+					id=130;
+					type="I_pilot_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectCollision";
+							expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="attachMarker";
+							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=129;
+		};
+		class Item30
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3720.3638,5,5649.8984};
+			};
+			id=177;
+			type="DCG_Core";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="DCG_Core_DCG_ModuleTag";
+					expression="_this setVariable ['DCG_ModuleTag',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="AET_F_bastionBreaker_I_ECF";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="DCG_Core_DCG_ModuleFactionName";
+					expression="_this setVariable ['DCG_ModuleFactionName',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="nomas";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="DCG_Core_DCG_ModuleGenerateWeapons";
+					expression="_this setVariable ['DCG_ModuleGenerateWeapons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="TRUE";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="DCG_Core_DCG_ModuleFactionSide";
+					expression="_this setVariable ['DCG_ModuleFactionSide',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3727.501,6.6943917,5548.3931};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="G10_MRAP";
+				textures="Black";
+			};
+			id=185;
+			type="SCEXT_Dingo_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3722.9951,7.1552458,5548.2861};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="G10_MRAP_A";
+				textures="Black";
+			};
+			id=186;
+			type="SCEXT_Dingo_A_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3718.0559,7.3078327,5547.8511};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="G12_Truck_Transport_Armed";
+				textures="Black";
+			};
+			id=191;
+			type="SCEXT_Gator_TC_A_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3713.4961,5.0020041,5547.8965};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="G12_Truck_Transport_Closed";
+				textures="Black";
+			};
+			id=192;
+			type="SC_Gator_TC_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3708.6401,5.0020041,5547.5273};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="G12_Transport_Open";
+				textures="Black";
+			};
+			id=193;
+			type="SC_Gator_TO_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3731.7627,4.8869205,5578.999};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="UT_53_I_Comanche_Dropship";
+				textures="Black";
+			};
+			id=201;
+			type="SC_EXT_Comanche_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3703.176,4.9036493,5578.083};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="UT_53_V_Comanche_Dropship";
+				textures="Black";
+			};
+			id=202;
+			type="SC_EXT_Comanche_V_SE";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Black";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3738.1318,7.3704405,5555.9775};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="T_100X_Futura";
+				textures="Grey";
+			};
+			id=211;
+			type="O_MBT_02_railgun_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Grey";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=6;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetHull";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetTurret";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showLog";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3747.8198,6.5363517,5556.9424};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="MQ_12_Falcon";
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=224;
+			type="B_T_UAV_03_dynamicLoadout_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3757.8188,7.0893388,5556.6543};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="UGV_Stomper_RCWS";
+				reportOwnPosition=1;
+			};
+			id=225;
+			type="B_T_UGV_01_rcws_olive_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="attachMarker";
+					expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ObjectCollision";
+					expression="[_this, 	(			[false,true] select (if 		(_value in [true,false]) 	then 	{parseNumber _value} else {_value # 0}		 ) ) 	] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};
