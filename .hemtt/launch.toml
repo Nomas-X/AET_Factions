@@ -70,3 +70,36 @@ mission = "Bastion_Breaker_ECF_FACTION.VR"
 [bastionBreakerGroups]
 extends = "bastionBreakerFaction"
 mission = "Bastion_Breaker_ECF_GROUPS.VR"
+
+[mapleSyrupFaction]
+workshop = [
+	"1673456286", # 3CB Factions
+	"623475643", # 3den Enhanced
+	"463939057", # ace
+	"3499977893", # Advanced Developer Tools
+	"450814997", # CBA_A3
+	"843425103", # RHSAFRF
+	"843593391", # RHSGREF
+	"843632231", # RHSSAF
+	"843577117", # RHSUSAF
+	"894678801", # Task Force Arrowhead Radio (BETA!!!)
+	"2770242574", # TFC_CA
+	"2770236561", # TFC_CORE
+	"2770248260", # TFC_RCAF
+	"3031816871", # TFC_RCN
+	"2770253787", # TFC_SF
+	"1779063631", # Zeus Enhanced
+	"1771335720", # Drongos Config Generator
+]
+parameters = [
+    "-noPause",
+    "-noPauseAudio",
+	"-debug",
+	"-showScriptErrors",
+]
+dlc = []
+mission = "Maple_Syrup_VLA_FACTION.VR"
+
+[mapleSyrupGroups]
+extends = "mapleSyrupFaction"
+mission = "Maple_Syrup_VLA_GROUPS.VR"
