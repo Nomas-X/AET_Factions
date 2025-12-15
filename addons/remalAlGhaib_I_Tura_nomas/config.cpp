@@ -136,6 +136,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_sand_bandit","V_lxWS_HarnessO_oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_sand_bandit","V_lxWS_HarnessO_oli"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Medic: I_SFIA_medic2_lxWS
@@ -153,6 +154,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_black_bandit","G_Bandanna_Oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_black_bandit","G_Bandanna_Oli"};
     backpack="AET_F_remalAlGhaib_I_Tura_Medic_pack";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Rifleman_2: I_SFIA_scout_lxWS
@@ -170,6 +172,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_green","V_lxWS_HarnessO_oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_green","V_lxWS_HarnessO_oli"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Vehicle_Crew: I_SFIA_scout_lxWS
@@ -187,6 +190,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_04_green","V_lxWS_TacVestIR_oli","G_Bandanna_Oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_04_green","V_lxWS_TacVestIR_oli","G_Bandanna_Oli"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Marksman: I_SFIA_scout_lxWS
@@ -204,6 +208,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_sand","V_Chestrig_khk"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_sand","V_Chestrig_khk"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_AT_Specialist: I_SFIA_hireling_lxWS
@@ -221,6 +226,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_black"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_black"};
     backpack="AET_F_remalAlGhaib_I_Tura_AT_Specialist_pack";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Grenadier: I_SFIA_defector_lxWS
@@ -238,6 +244,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_green_bandit","V_lxWS_TacVestIR_oli","G_Bandanna_blk"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_green_bandit","V_lxWS_TacVestIR_oli","G_Bandanna_blk"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_IED_Specialist: I_SFIA_thug_lxWS
@@ -255,6 +262,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_green_bandit","G_Aviator"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_green_bandit","G_Aviator"};
     backpack="AET_F_remalAlGhaib_I_Tura_IED_Specialist_pack";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Rifleman_1: I_SFIA_scout_lxWS
@@ -272,6 +280,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_green","V_lxWS_TacVestIR_oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_green","V_lxWS_TacVestIR_oli"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Machine_Gunner: I_Tura_HeavyGunner_lxWS
@@ -289,6 +298,7 @@ class cfgVehicles
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_green","V_lxWS_HarnessO_oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_03_green","V_lxWS_HarnessO_oli"};
     backpack="";
+	scope=2;
   };
 
   class AET_F_remalAlGhaib_I_Tura_Ram_1500: I_Tura_Pickup_01_RF
@@ -405,7 +415,7 @@ class cfgGroups
   class INDEP
   {
     name="Independent";
-    class Tura
+    class AET_F_remalAlGhaib_I_Tura_F
     {
       name="Tura - Remal Al-Ghaib";
 

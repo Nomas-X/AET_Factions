@@ -885,19 +885,19 @@ class cfgVehicles
 	class TransportItems {};
 	class TransportBackpacks {};
 	class textureSources
+	{
+		// This texture source will be available for every defined factions
+		class AET_F_bastionBreaker_I_ECF_T_100X_Futura_Texture
 		{
-			// This texture source will be available for every defined factions
-			class AET_F_bastionBreaker_I_ECF_T_100X_Futura_ECF_Texture
-			{
-				// Display name of the texture
-				displayName = "ECF";
-				// Author of the texture
-				author = "$STR_A3_Bohemia_Interactive";
-				// Paths to the texture files, in the same order as the hidden selections
-				textures[] = {"a3\armor_f_decade\mbt_02\data\mbt_02_body_expo_co.paa","a3\armor_f_decade\mbt_02\data\mbt_02_turret_expo_co.paa","a3\armor_f_decade\mbt_02\data\mbt_02_expo_co.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
-				// This source should be available for the following factions
-				factions[] = {};
-			};
+			// Display name of the texture
+			displayName = "ECF";
+			// Author of the texture
+			author = "$STR_A3_Bohemia_Interactive";
+			// Paths to the texture files, in the same order as the hidden selections
+			textures[] = {"a3\armor_f_decade\mbt_02\data\mbt_02_body_expo_co.paa","a3\armor_f_decade\mbt_02\data\mbt_02_turret_expo_co.paa","a3\armor_f_decade\mbt_02\data\mbt_02_expo_co.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
+			// This source should be available for the following factions
+			factions[] = {};
+		};
 	};
 
   };
@@ -1045,7 +1045,7 @@ class cfgGroups
   class INDEP
   {
     name="Independent";
-    class nomas
+    class AET_F_bastionBreaker_I_ECF_F
     {
       name="ECF - Bastion Breaker";
 

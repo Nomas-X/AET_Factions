@@ -375,7 +375,7 @@ class cfgGroups
   class WEST
   {
     name="BLUFOR";
-    class nomas
+    class AET_F_remalAlGhaib_B_UNA_F
     {
       name="UNA - Remal Al-Ghaib";
 
