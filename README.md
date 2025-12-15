@@ -50,3 +50,5 @@ Set to `True`.
 3. You are allowed to modify your factions if you know what you're doing, [this link](https://community.bistudio.com/wiki/Arma_3:_Characters_And_Gear_Encoding_Guide#Backpack_Configuration) for example shows how to handle inventories of vehicles.
 
 4. Make sure to add `skipWhenMissingDependencies = 1;` to the CfgPatches at the start of the config file of each addon.
+
+5. Weapons use one of the magazines found in the inventory of the unit, and does not care about what is in the weapon, as such always ensure to either edit the loadout config or include an extra magazine for the weapon. This will be most noticable with units that carry a launcher but no backpack.
