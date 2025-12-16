@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=32;
+		nextID=33;
 	};
 	class Camera
 	{
-		pos[]={14971.537,41.403774,15910.31};
-		dir[]={0.045822624,-0.62718743,-0.77754587};
-		up[]={0.036899734,0.77885997,-0.62611538};
-		aside[]={-0.99828601,-5.8457954e-07,-0.058832582};
+		pos[]={14977.404,35.302662,15895.182};
+		dir[]={0.26686895,-0.65612602,-0.70592248};
+		up[]={0.23202397,0.7546435,-0.61374766};
+		aside[]={-0.93540937,-7.3690899e-07,-0.35362607};
 	};
 };
 binarizationWanted=0;
@@ -270,7 +270,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -6302,7 +6302,7 @@ class Mission
 				position[]={14994.338,5,15828.22};
 			};
 			title="T-55 hidden selections must be set to";
-			description="[""uk3cb_factions\addons\uk3cb_factions_vehicles\armour\uk3cb_factions_vehicles_t-series\t55\data\t55_body_fdf_co.paa"",""uk3cb_factions\addons\uk3cb_factions_vehicles\armour\uk3cb_factions_vehicles_t-series\t55\data\t55_tower_fdf_co.paa""]" \n "" \n "Also:  textureList[]={""FDF"", 1};";
+			description="Almost all vehicles had to have their textures set via:" \n "" \n "textureList[]={""FDF"", 1};" \n "" \n "otherwise they will default to their original";
 			id=421;
 		};
 		class Item29

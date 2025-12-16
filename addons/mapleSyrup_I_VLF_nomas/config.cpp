@@ -407,6 +407,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_mtlb\data\body_1_fdf_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_mtlb\data\pk_mod_fdf_co.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman"};
+	textureList[]={"FDF", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_MT_LB_PKT: UK3CB_I_MTLB_PKT_CHK
@@ -417,6 +418,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_mtlb\data\body_1_fdf_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_mtlb\data\pk_mod_fdf_co.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman"};
+	textureList[]={"FDF", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_BMP_2: UK3CB_CHD_I_BMP2
@@ -427,6 +429,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_1_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_2_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_3_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_4_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_5_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_6_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman"};
+	textureList[]={"Olive", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_BMP_1: UK3CB_CHD_I_BMP1
@@ -437,6 +440,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_1_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_2_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_3_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_4_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_5_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\apc\uk3cb_factions_vehicles_bmp\data\oli_bmp_6_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\decal\no_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman"};
+	textureList[]={"Olive", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_BTR_60: UK3CB_CHD_I_BTR60
@@ -447,6 +451,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_a2port_armor\data\btr60_body_co.paa","rhsafrf\addons\rhs_a2port_armor\data\btr60_details_co.paa","","rhsafrf\addons\rhs_btr70\habar\data\sa_gear_02_co.paa","rhsafrf\addons\rhs_btr70\habar\data\sa_gear_02_co.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa","rhsafrf\addons\rhs_decals\data\labels\misc\no_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
+	textureList[]={"OLIVE", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_GAZ_66: rhsgref_ins_g_gaz66
@@ -457,6 +462,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_gaz66\data\gaz66_co.paa","rhsafrf\addons\rhs_gaz66\data\tent_co.paa","rhsafrf\addons\rhs_gaz66\data\rhs_gaz66_kung_co.paa","rhsafrf\addons\rhs_gaz66\data\rhs_gaz66_ap2kung_co.paa","rhsafrf\addons\rhs_gaz66\data\rhs_gaz66_repkung_co.paa","rhsafrf\addons\rhs_decals\data\numbers\default\7_ca.paa","rhsafrf\addons\rhs_decals\data\numbers\default\3_ca.paa","rhsafrf\addons\rhs_decals\data\numbers\default\8_ca.paa","rhsafrf\addons\rhs_decals\data\numbers\default\8_ca.paa","","","",""};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
+	textureList[]={"standard", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Closed: UK3CB_CHD_I_LR_Softtop_Transport_Closed
@@ -467,6 +473,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_base_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_special_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_mg-spg9_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\civ_lr_glass_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
+	textureList[]={"Green", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Open: UK3CB_CHD_I_LR_Softtop_Transport_Open
@@ -477,6 +484,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_base_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_special_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_mg-spg9_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\civ_lr_glass_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
+	textureList[]={"Green", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_Land_Rover_Opentop_9K38_AA: UK3CB_CHD_I_LR_Opentop_Igla_Chair
@@ -487,6 +495,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_base_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_special_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_mg-spg9_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\civ_lr_glass_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
+	textureList[]={"Green", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_Land_Rover_WMIK_DShKM: UK3CB_CHD_I_LR_WMIK_DSHKM
@@ -497,6 +506,7 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_base_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_special_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\green_lr_mg-spg9_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_landrover\data\civ_lr_glass_ca.paa"};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
+	textureList[]={"Green", 1};
   };
 
   class AET_F_mapleSyrup_I_VLF_Ural_4320: RHS_Ural_MSV_01
