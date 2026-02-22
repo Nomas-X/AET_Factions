@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_mapleSyrup_I_VLF_nomas
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Medic","AET_F_mapleSyrup_I_VLF_Helicopter_Pilot","AET_F_mapleSyrup_I_VLF_Marksman","AET_F_mapleSyrup_I_VLF_Anti_Air","AET_F_mapleSyrup_I_VLF_Anti_Tank_NLAW","AET_F_mapleSyrup_I_VLF_rifleman_1","AET_F_mapleSyrup_I_VLF_Rifleman_AT","AET_F_mapleSyrup_I_VLF_Anti_Tank_RPG","AET_F_mapleSyrup_I_VLF_Squad_Leader","AET_F_mapleSyrup_I_VLF_Anti_Air_Assistant","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman_Light","AET_F_mapleSyrup_I_VLF_rifleman_2","AET_F_mapleSyrup_I_VLF_MT_LB_ZU_23","AET_F_mapleSyrup_I_VLF_MT_LB_PKT","AET_F_mapleSyrup_I_VLF_BMP_2","AET_F_mapleSyrup_I_VLF_BMP_1","AET_F_mapleSyrup_I_VLF_BTR_60","AET_F_mapleSyrup_I_VLF_GAZ_66","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Closed","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Open","AET_F_mapleSyrup_I_VLF_Land_Rover_Opentop_9K38_AA","AET_F_mapleSyrup_I_VLF_Land_Rover_WMIK_DShKM","AET_F_mapleSyrup_I_VLF_Ural_4320","AET_F_mapleSyrup_I_VLF_T_55A","AET_F_mapleSyrup_I_VLF_Mil_Mi_8_Transport","AET_F_mapleSyrup_I_VLF_KamAZ_5350","AET_F_mapleSyrup_I_VLF_2S1","AET_F_mapleSyrup_I_VLF_9K38_Djigit","AET_F_mapleSyrup_I_VLF_ZSU_23_4V","AET_F_mapleSyrup_I_VLF_KORD_6T7","AET_F_mapleSyrup_I_VLF_KORD_6U16","AET_F_mapleSyrup_I_VLF_NSV_6T7","AET_F_mapleSyrup_I_VLF_PKM_High","AET_F_mapleSyrup_I_VLF_PKM_Low","AET_F_mapleSyrup_I_VLF_ZU_23_2","AET_F_mapleSyrup_I_VLF_2B14_1_Podnos"};
+    units[]={"AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Medic","AET_F_mapleSyrup_I_VLF_Helicopter_Pilot","AET_F_mapleSyrup_I_VLF_Marksman","AET_F_mapleSyrup_I_VLF_Anti_Air","AET_F_mapleSyrup_I_VLF_Anti_Tank_NLAW","AET_F_mapleSyrup_I_VLF_rifleman_1","AET_F_mapleSyrup_I_VLF_Rifleman_AT","AET_F_mapleSyrup_I_VLF_Anti_Tank_RPG","AET_F_mapleSyrup_I_VLF_Squad_Leader","AET_F_mapleSyrup_I_VLF_Anti_Air_Assistant","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman_Light","AET_F_mapleSyrup_I_VLF_rifleman_2","AET_F_mapleSyrup_I_VLF_MT_LB_ZU_23","AET_F_mapleSyrup_I_VLF_MT_LB_PKT","AET_F_mapleSyrup_I_VLF_BMP_2","AET_F_mapleSyrup_I_VLF_BMP_1","AET_F_mapleSyrup_I_VLF_BTR_60","AET_F_mapleSyrup_I_VLF_GAZ_66","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Closed","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Open","AET_F_mapleSyrup_I_VLF_Land_Rover_Opentop_9K38_AA","AET_F_mapleSyrup_I_VLF_Land_Rover_WMIK_DShKM","AET_F_mapleSyrup_I_VLF_Ural_4320","AET_F_mapleSyrup_I_VLF_T_55A","AET_F_mapleSyrup_I_VLF_Mil_Mi_8_Transport","AET_F_mapleSyrup_I_VLF_KamAZ_5350","AET_F_mapleSyrup_I_VLF_2S1","AET_F_mapleSyrup_I_VLF_9K38_Djigit","AET_F_mapleSyrup_I_VLF_ZSU_23_4V","AET_F_mapleSyrup_I_VLF_KORD_6T7","AET_F_mapleSyrup_I_VLF_KORD_6U16","AET_F_mapleSyrup_I_VLF_NSV_6T7","AET_F_mapleSyrup_I_VLF_PKM_High","AET_F_mapleSyrup_I_VLF_PKM_Low","AET_F_mapleSyrup_I_VLF_ZU_23_2","AET_F_mapleSyrup_I_VLF_2B14_1_Podnos","AET_F_mapleSyrup_I_AFRF_T50_generic","AET_F_mapleSyrup_I_AFRF_T50_blueonblue"};
     weapons[]={"AET_F_mapleSyrup_I_VLF_UK3CB_RK62","AET_F_mapleSyrup_I_VLF_rhs_weap_makarov_pm","AET_F_mapleSyrup_I_VLF_rhs_weap_pkm","AET_F_mapleSyrup_I_VLF_UK3CB_SVD_OLD_rhs_acc_pso1m2","AET_F_mapleSyrup_I_VLF_rhs_weap_igla","AET_F_mapleSyrup_I_VLF_ACE_launch_NLAW_ready_F","AET_F_mapleSyrup_I_VLF_rhs_weap_m72a7","AET_F_mapleSyrup_I_VLF_rhs_weap_rpg7"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","tfar_handhelds","UK3CB_Factions_Weapons2_RK62","rhs_c_weapons","UK3CB_Factions_CHD_W_B","rhs_c_troops","A3_Characters_F_Enoch","UK3CB_Factions_LSM_B","ace_medical_treatment","rhsgref_c_troops","UK3CB_Factions_Weapons_SVD_OLD","UK3CB_Factions_CW_SOV_O_LATE","A3_Characters_F","ace_disposable","rhsusf_c_weapons"};
@@ -277,8 +277,8 @@ class cfgVehicles
     respawnWeapons[]={"AET_F_mapleSyrup_I_VLF_UK3CB_SVD_OLD_rhs_acc_pso1m2","AET_F_mapleSyrup_I_VLF_rhs_weap_makarov_pm","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
-    magazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S","uk3cb_mag_2Rnd_Igla"};
-    respawnMagazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S","uk3cb_mag_2Rnd_Igla"};
+    magazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S"};
+    respawnMagazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","H_Booniehat_oli","rhs_6sh117_svd","G_Balaclava_oli"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","H_Booniehat_oli","rhs_6sh117_svd","G_Balaclava_oli"};
     backpack="AET_F_mapleSyrup_I_VLF_Marksman_pack";
@@ -784,13 +784,11 @@ class cfgVehicles
 
   class AET_F_mapleSyrup_I_AFRF_T50_generic : RHS_T50_vvs_generic
   {
-	faction = "rhs_faction_vvs";
 	displayName = "Unknown";
   };
 
   class AET_F_mapleSyrup_I_AFRF_T50_blueonblue : RHS_T50_vvs_blueonblue
   {
-	faction = "rhs_faction_vvs";
 	displayName = "Unknown";
   };
 
