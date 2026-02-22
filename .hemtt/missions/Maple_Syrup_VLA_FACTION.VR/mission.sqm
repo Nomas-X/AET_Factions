@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1133;
+		nextID=1147;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=60;
+		nextID=63;
 	};
 	class Camera
 	{
-		pos[]={14986.532,29.888367,15795.889};
-		dir[]={0.28189591,-0.55747426,0.78089851};
-		up[]={0.18928947,0.83019364,0.52436131};
-		aside[]={0.94061416,2.2136373e-07,-0.33955246};
+		pos[]={15011.839,63.0047,15971.075};
+		dir[]={-0.14822744,-0.41253179,-0.89882463};
+		up[]={-0.067125984,0.9109441,-0.40703863};
+		aside[]={-0.98668844,8.8184606e-08,0.16271751};
 	};
 };
 binarizationWanted=0;
@@ -65,14 +65,13 @@ addons[]=
 	"rhs_c_2s1",
 	"AET_F_mapleSyrup_I_VLF_nomas",
 	"rhs_c_a2port_armor",
-	"rhs_c_heavyweapons",
-	"UK3CB_Factions_Static_PKM"
+	"rhs_c_heavyweapons"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=32;
+		items=31;
 		class Item0
 		{
 			className="UK3CB_Factions_NAP";
@@ -283,13 +282,6 @@ class AddonsMetaData
 			name="Heavy weapons pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
-		};
-		class Item31
-		{
-			className="UK3CB_Factions_Static_PKM";
-			name="3CB Factions - Static";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
 		};
 	};
 };
@@ -7046,57 +7038,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15010.617,6.3065662,15819.968};
-				angles[]={0,5.8745513,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="NSV_6T7";
-			};
-			id=506;
-			type="RHS_NSV_TriPod_MSV";
-		};
-		class Item40
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15008.5,4.9927335,15819.628};
-				angles[]={0,5.8745513,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="PKM_High";
-			};
-			id=507;
-			type="UK3CB_O_Static_PKM_High_MSV";
-		};
-		class Item41
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15006.566,4.9927335,15819.162};
-				angles[]={0,5.8745513,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="PKM_Low";
-			};
-			id=508;
-			type="UK3CB_O_Static_PKM_Low_MSV";
-		};
-		class Item42
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={15003.964,6.8724203,15817.59};
 				angles[]={0,5.8963161,0};
 			};
@@ -7109,7 +7050,7 @@ class Mission
 			id=583;
 			type="RHS_ZU23_MSV";
 		};
-		class Item43
+		class Item40
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7168,6 +7109,50 @@ class Mission
 				};
 				nAttributes=3;
 			};
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15011.454,6.6109953,15819.662};
+				angles[]={0,5.9277315,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="DShKM";
+			};
+			id=1133;
+			type="rhsgref_ins_DSHKM";
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15009.196,6.2949557,15818.877};
+				angles[]={0,5.9417987,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="DSHkM_Minitripod";
+			};
+			id=1134;
+			type="rhsgref_ins_DSHKM_Mini_TriPod";
+		};
+		class Item43
+		{
+			dataType="Group";
+			side="Independent";
+			class Attributes
+			{
+			};
+			id=1139;
+			atlOffset=-5;
 		};
 	};
 };
