@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1147;
+		nextID=1315;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=63;
+		nextID=69;
 	};
 	class Camera
 	{
-		pos[]={15011.839,63.0047,15971.075};
-		dir[]={-0.14822744,-0.41253179,-0.89882463};
-		up[]={-0.067125984,0.9109441,-0.40703863};
-		aside[]={-0.98668844,8.8184606e-08,0.16271751};
+		pos[]={14952.3,48.180454,15890.55};
+		dir[]={0.52386832,-0.4612619,-0.71629244};
+		up[]={0.27230898,0.88726914,-0.3723343};
+		aside[]={-0.80723685,5.6502176e-07,-0.59038097};
 	};
 };
 binarizationWanted=0;
@@ -474,7 +474,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14980.347,8.2304878,15837.769};
+						position[]={14967.833,8.2304878,15835.441};
 						angles[]={0,6.0076852,0};
 					};
 					side="Empty";
@@ -7146,13 +7146,95 @@ class Mission
 		};
 		class Item43
 		{
-			dataType="Group";
-			side="Independent";
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14984.984,7.3106947,15835.913};
+				angles[]={0,5.9550109,0};
+			};
+			side="Empty";
+			flags=4;
 			class Attributes
 			{
+				name="T_72A";
+				textures="SOV";
 			};
-			id=1139;
-			atlOffset=-5;
+			id=1241;
+			type="UK3CB_CW_SOV_O_LATE_T72A";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="SOV";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Tanks_Hide";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

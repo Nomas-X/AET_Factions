@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_mapleSyrup_I_VLF_nomas
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Medic","AET_F_mapleSyrup_I_VLF_Helicopter_Pilot","AET_F_mapleSyrup_I_VLF_Marksman","AET_F_mapleSyrup_I_VLF_Anti_Air","AET_F_mapleSyrup_I_VLF_Anti_Tank_NLAW","AET_F_mapleSyrup_I_VLF_rifleman_1","AET_F_mapleSyrup_I_VLF_Rifleman_AT","AET_F_mapleSyrup_I_VLF_Anti_Tank_RPG","AET_F_mapleSyrup_I_VLF_Squad_Leader","AET_F_mapleSyrup_I_VLF_Anti_Air_Assistant","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman_Light","AET_F_mapleSyrup_I_VLF_rifleman_2","AET_F_mapleSyrup_I_VLF_MT_LB_ZU_23","AET_F_mapleSyrup_I_VLF_MT_LB_PKT","AET_F_mapleSyrup_I_VLF_BMP_2","AET_F_mapleSyrup_I_VLF_BMP_1","AET_F_mapleSyrup_I_VLF_BTR_60","AET_F_mapleSyrup_I_VLF_GAZ_66","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Closed","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Open","AET_F_mapleSyrup_I_VLF_Land_Rover_Opentop_9K38_AA","AET_F_mapleSyrup_I_VLF_Land_Rover_WMIK_DShKM","AET_F_mapleSyrup_I_VLF_Ural_4320","AET_F_mapleSyrup_I_VLF_T_55A","AET_F_mapleSyrup_I_VLF_Mil_Mi_8_Transport","AET_F_mapleSyrup_I_VLF_KamAZ_5350","AET_F_mapleSyrup_I_VLF_2S1","AET_F_mapleSyrup_I_VLF_9K38_Djigit","AET_F_mapleSyrup_I_VLF_ZSU_23_4V","AET_F_mapleSyrup_I_VLF_KORD_6T7","AET_F_mapleSyrup_I_VLF_KORD_6U16","AET_F_mapleSyrup_I_VLF_ZU_23_2","AET_F_mapleSyrup_I_VLF_2B14_1_Podnos","AET_F_mapleSyrup_I_AFRF_T50_generic","AET_F_mapleSyrup_I_AFRF_T50_blueonblue","AET_F_mapleSyrup_I_VLF_DSHkM_Minitripod","AET_F_mapleSyrup_I_VLF_DShKM"};
+    units[]={"AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Medic","AET_F_mapleSyrup_I_VLF_Helicopter_Pilot","AET_F_mapleSyrup_I_VLF_Marksman","AET_F_mapleSyrup_I_VLF_Anti_Air","AET_F_mapleSyrup_I_VLF_Anti_Tank_NLAW","AET_F_mapleSyrup_I_VLF_rifleman_1","AET_F_mapleSyrup_I_VLF_Rifleman_AT","AET_F_mapleSyrup_I_VLF_Anti_Tank_RPG","AET_F_mapleSyrup_I_VLF_Squad_Leader","AET_F_mapleSyrup_I_VLF_Anti_Air_Assistant","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman_Light","AET_F_mapleSyrup_I_VLF_rifleman_2","AET_F_mapleSyrup_I_VLF_MT_LB_ZU_23","AET_F_mapleSyrup_I_VLF_MT_LB_PKT","AET_F_mapleSyrup_I_VLF_BMP_2","AET_F_mapleSyrup_I_VLF_BMP_1","AET_F_mapleSyrup_I_VLF_BTR_60","AET_F_mapleSyrup_I_VLF_GAZ_66","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Closed","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Open","AET_F_mapleSyrup_I_VLF_Land_Rover_Opentop_9K38_AA","AET_F_mapleSyrup_I_VLF_Land_Rover_WMIK_DShKM","AET_F_mapleSyrup_I_VLF_Ural_4320","AET_F_mapleSyrup_I_VLF_T_55A","AET_F_mapleSyrup_I_VLF_T_72A","AET_F_mapleSyrup_I_VLF_Mil_Mi_8_Transport","AET_F_mapleSyrup_I_VLF_KamAZ_5350","AET_F_mapleSyrup_I_VLF_2S1","AET_F_mapleSyrup_I_VLF_9K38_Djigit","AET_F_mapleSyrup_I_VLF_ZSU_23_4V","AET_F_mapleSyrup_I_VLF_KORD_6T7","AET_F_mapleSyrup_I_VLF_KORD_6U16","AET_F_mapleSyrup_I_VLF_ZU_23_2","AET_F_mapleSyrup_I_VLF_2B14_1_Podnos","AET_F_mapleSyrup_I_VLF_DSHkM_Minitripod","AET_F_mapleSyrup_I_VLF_DShKM"};
     weapons[]={"AET_F_mapleSyrup_I_VLF_UK3CB_RK62","AET_F_mapleSyrup_I_VLF_rhs_weap_makarov_pm","AET_F_mapleSyrup_I_VLF_rhs_weap_pkm","AET_F_mapleSyrup_I_VLF_UK3CB_SVD_OLD_rhs_acc_pso1m2","AET_F_mapleSyrup_I_VLF_rhs_weap_igla","AET_F_mapleSyrup_I_VLF_ACE_launch_NLAW_ready_F","AET_F_mapleSyrup_I_VLF_rhs_weap_m72a7","AET_F_mapleSyrup_I_VLF_rhs_weap_rpg7"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","tfar_handhelds","UK3CB_Factions_Weapons2_RK62","rhs_c_weapons","UK3CB_Factions_CHD_W_B","rhs_c_troops","A3_Characters_F_Enoch","UK3CB_Factions_LSM_B","ace_medical_treatment","rhsgref_c_troops","UK3CB_Factions_Weapons_SVD_OLD","UK3CB_Factions_CW_SOV_O_LATE","A3_Characters_F","ace_disposable","rhsusf_c_weapons"};
@@ -141,6 +141,7 @@ class cfgVehicles
   class RHS_Ural_MSV_01;
   class rhs_2b14_82mm_msv;
   class UK3CB_NAP_O_T55;
+  class UK3CB_CW_SOV_O_LATE_T72A;
   class UK3CB_CW_SOV_O_LATE_Mi8;
   class rhs_kamaz5350_msv;
   class rhsgref_ins_DSHKM;
@@ -194,8 +195,6 @@ class cfgVehicles
   class rhs_Igla_AA_pod_msv;
   class rhs_KORD_MSV;
   class rhs_KORD_high_MSV;
-  class RHS_T50_vvs_generic;
-  class RHS_T50_vvs_blueonblue;
   class DefaultEventHandlers;
 
   class AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner: I_E_Soldier_AAR_F
@@ -604,6 +603,17 @@ class cfgVehicles
 	textureList[]={"FDF", 1};
   };
 
+  class AET_F_mapleSyrup_I_VLF_T_72A: UK3CB_CW_SOV_O_LATE_T72A
+  {
+    faction="AET_F_mapleSyrup_I_VLF_nomas";
+    side=2;
+    displayName="T 72M1";
+    hiddenSelectionsTextures[]={"uk3cb_factions\addons\uk3cb_factions_vehicles\armour\uk3cb_factions_vehicles_t-series\t72\data\t72_sov_khk_1_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\armour\uk3cb_factions_vehicles_t-series\t72\data\t72_sov_khk_2_co.paa","uk3cb_factions\addons\uk3cb_factions_vehicles\armour\uk3cb_factions_vehicles_t-series\t72\data\t72_sov_khk_3_co.paa",""};
+    crew="AET_F_mapleSyrup_I_VLF_Crewman";
+    typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman"};
+	textureList[]={"SOV", 1};
+  };
+
   class AET_F_mapleSyrup_I_VLF_Mil_Mi_8_Transport: UK3CB_CW_SOV_O_LATE_Mi8
   {
     faction="AET_F_mapleSyrup_I_VLF_nomas";
@@ -769,16 +779,6 @@ class cfgVehicles
     hiddenSelectionsTextures[]={};
     crew="AET_F_mapleSyrup_I_VLF_Crewman_Light";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman_Light"};
-  };
-
-  class AET_F_mapleSyrup_I_AFRF_T50_generic : RHS_T50_vvs_generic
-  {
-	displayName = "Unknown";
-  };
-
-  class AET_F_mapleSyrup_I_AFRF_T50_blueonblue : RHS_T50_vvs_blueonblue
-  {
-	displayName = "Unknown";
   };
 
   class AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner_pack: UK3CB_PLM_B_B_Sidor_RIF_01
