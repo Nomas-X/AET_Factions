@@ -6,7 +6,7 @@ class cfgPatches
     units[]={"AET_F_mapleSyrup_I_AFRF_T50_generic","AET_F_mapleSyrup_I_AFRF_T50_blueonblue","AET_F_mapleSyrup_I_AFRF_Ka60_c"};
     weapons[]={};
     requiredVersion=0.1;
-    requiredAddons[]={"rhs_c_air", "rhs_c_a3retex"};
+    requiredAddons[]={"rhs_c_air", "rhs_c_a3retex", "rhs_c_a2port_air"};
   };
 };
 
@@ -26,6 +26,7 @@ class cfgVehicles
   class RHS_T50_vvs_generic;
   class RHS_T50_vvs_blueonblue;
   class rhs_ka60_c;
+  class rhs_pchela1t_vvs;
 
   class AET_F_mapleSyrup_I_AFRF_T50_generic : RHS_T50_vvs_generic
   {
@@ -43,5 +44,11 @@ class cfgVehicles
   {
 	displayName = "Unknown";
 	faction="AET_F_mapleSyrup_O_AFRF_nomas";
+  };
+
+  class AET_F_mapleSyrup_O_AFRF_pachela1t : rhs_pchela1t_vvs
+  {
+	displayName = "Unknown";
+	faction = "AET_F_mapleSyrup_O_AFRF_nomas";
   };
 };
