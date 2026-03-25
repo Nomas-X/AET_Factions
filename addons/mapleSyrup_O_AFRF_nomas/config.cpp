@@ -30,6 +30,7 @@ class cfgVehicles
 
   class AET_F_mapleSyrup_I_AFRF_T50_generic : RHS_T50_vvs_generic
   {
+	scopeCurator=2;
 	displayName = "Unknown";
 	faction="AET_F_mapleSyrup_O_AFRF_nomas";
   };
