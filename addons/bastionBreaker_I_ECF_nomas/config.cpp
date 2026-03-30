@@ -847,11 +847,11 @@ class cfgVehicles
     typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
   };
 
-  class AET_F_bastionBreaker_I_ECF_G12_Transport_Open: SC_Gator_TO_SE
+  class AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Open: SC_Gator_TO_SE
   {
     faction="AET_F_bastionBreaker_I_ECF_nomas";
     side=2;
-    displayName="G12 Transport Open";
+    displayName="G12 Truck Transport Open";
     hiddenSelectionsTextures[]={"sc_wheeled\data\gator\body_black_co.paa","sc_wheeled\data\gator\doors_co.paa","sc_wheeled\data\gator\frame_co.paa"};
     crew="AET_F_bastionBreaker_I_ECF_Crewman";
     typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
