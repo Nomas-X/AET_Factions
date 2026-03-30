@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_mapleSyrup_O_AFRF_nomas
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_mapleSyrup_I_AFRF_T50_generic","AET_F_mapleSyrup_I_AFRF_T50_blueonblue","AET_F_mapleSyrup_I_AFRF_Ka60_c"};
+    units[]={"AET_F_mapleSyrup_I_AFRF_T50_generic","AET_F_mapleSyrup_I_AFRF_T50_blueonblue","AET_F_mapleSyrup_I_AFRF_Ka60_c","AET_F_mapleSyrup_O_AFRF_pachela1t"};
     weapons[]={};
     requiredVersion=0.1;
     requiredAddons[]={"rhs_c_air", "rhs_c_a3retex", "rhs_c_a2port_air"};
@@ -15,7 +15,7 @@ class cfgFactionClasses
   class AET_F_mapleSyrup_O_AFRF_nomas
   {
     icon="";
-    displayName="Armed Forces of the Russian Federation - Maple Syrup";
+    displayName="AFRF - Maple Syrup";
     side=0;
     priority=1;
   };
@@ -30,7 +30,6 @@ class cfgVehicles
 
   class AET_F_mapleSyrup_I_AFRF_T50_generic : RHS_T50_vvs_generic
   {
-	scopeCurator=2;
 	displayName = "Unknown";
 	faction="AET_F_mapleSyrup_O_AFRF_nomas";
   };
