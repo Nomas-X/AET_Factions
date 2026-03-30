@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_bastionBreaker_I_ECF_nomas
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_bastionBreaker_I_ECF_Rifleman","AET_F_bastionBreaker_I_ECF_Medic","AET_F_bastionBreaker_I_ECF_AT_Specialist","AET_F_bastionBreaker_I_ECF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Marksman","AET_F_bastionBreaker_I_ECF_Machine_Gunner","AET_F_bastionBreaker_I_ECF_UAV_Operator","AET_F_bastionBreaker_I_ECF_Squad_Leader","AET_F_bastionBreaker_I_ECF_Crewman","AET_F_bastionBreaker_I_ECF_Officer","AET_F_bastionBreaker_I_ECF_Skimmer_Drone_Man","AET_F_bastionBreaker_I_ECF_SF_Sniper","AET_F_bastionBreaker_I_ECF_SF_Spotter","AET_F_bastionBreaker_I_ECF_SF_Team_Leader","AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG","AET_F_bastionBreaker_I_ECF_SF_Rifleman","AET_F_bastionBreaker_I_ECF_SF_Marksman","AET_F_bastionBreaker_I_ECF_SF_AT_Specialist","AET_F_bastionBreaker_I_ECF_SF_Medic","AET_F_bastionBreaker_I_ECF_SF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Helicopter_Pilot","AET_F_bastionBreaker_I_ECF_Pilot","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_SHORAD","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_APC","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_FSV","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_IFV","AET_F_bastionBreaker_I_ECF_AH_44_A_Dragonfly","AET_F_bastionBreaker_I_ECF_AH_44_S_Dragonfly","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_A","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_M","AET_F_bastionBreaker_I_ECF_G10_MRAP","AET_F_bastionBreaker_I_ECF_G10_MRAP_A","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Armed","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Closed","AET_F_bastionBreaker_I_ECF_G12_Transport_Open","AET_F_bastionBreaker_I_ECF_UT_53_I_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_UT_53_V_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_T_100X_Futura","AET_F_bastionBreaker_I_ECF_MQ_12_Falcon","AET_F_bastionBreaker_I_ECF_UGV_Stomper_RCWS"};
+    units[]={"AET_F_bastionBreaker_I_ECF_Rifleman","AET_F_bastionBreaker_I_ECF_Medic","AET_F_bastionBreaker_I_ECF_AT_Specialist","AET_F_bastionBreaker_I_ECF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Marksman","AET_F_bastionBreaker_I_ECF_Machine_Gunner","AET_F_bastionBreaker_I_ECF_UAV_Operator","AET_F_bastionBreaker_I_ECF_Squad_Leader","AET_F_bastionBreaker_I_ECF_Crewman","AET_F_bastionBreaker_I_ECF_Officer","AET_F_bastionBreaker_I_ECF_Skimmer_Drone_Man","AET_F_bastionBreaker_I_ECF_SF_Sniper","AET_F_bastionBreaker_I_ECF_SF_Spotter","AET_F_bastionBreaker_I_ECF_SF_Team_Leader","AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG","AET_F_bastionBreaker_I_ECF_SF_Rifleman","AET_F_bastionBreaker_I_ECF_SF_Marksman","AET_F_bastionBreaker_I_ECF_SF_AT_Specialist","AET_F_bastionBreaker_I_ECF_SF_Medic","AET_F_bastionBreaker_I_ECF_SF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Helicopter_Pilot","AET_F_bastionBreaker_I_ECF_Pilot","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_SHORAD","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_APC","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_FSV","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_IFV","AET_F_bastionBreaker_I_ECF_AH_44_A_Dragonfly","AET_F_bastionBreaker_I_ECF_AH_44_S_Dragonfly","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_A","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_M","AET_F_bastionBreaker_I_ECF_G10_MRAP","AET_F_bastionBreaker_I_ECF_G10_MRAP_A","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Armed","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Closed","AET_F_bastionBreaker_I_ECF_G12_Transport_Open","AET_F_bastionBreaker_I_ECF_UT_53_I_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_UT_53_V_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_T_100X_Futura","AET_F_bastionBreaker_I_ECF_MQ_12_Falcon","AET_F_bastionBreaker_I_ECF_UGV_Stomper_RCWS","AET_F_bastionBreaker_I_ECF_Paladin_APC","AET_F_bastionBreaker_I_ECF_Paladin_IFV","AET_F_bastionBreaker_I_ECF_Paladin_IFV_XLR","AET_F_bastionBreaker_I_ECF_Paladin_SPAAG","AET_F_bastionBreaker_I_ECF_Paladin_SPG"};
     weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightSC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP_optic_SRS","AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_SkimmerDroneGun","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_fbipod_01_F_blk"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","A3_Weapons_F","sc_weapons","screborn_uniforms","A3_Characters_F","A3_Weapons_F_Items","A3_Weapons_F_Enoch_Launchers_Titan","SC_RebornUnits_Earth_Colonies_Federation","A3_Drones_F_Weapons_F_Gamma_Items","SC_Scion_Empire_Metro_Police_Scion_Empire_Metro_Police","sc_newequipment","SC_newequipment2","A3_Weapons_F_Enoch_Rifles_MSBS"};
@@ -347,6 +347,11 @@ class cfgVehicles
   class O_MBT_02_railgun_F;
   class B_T_UAV_03_dynamicLoadout_F;
   class B_T_UGV_01_rcws_olive_F;
+  class UCNFA_G_APC_U;
+  class UCNFA_G_APC_A;
+  class UCNFA_G_APC_AX;
+  class UCNFA_G_APC_AA;
+  class UCNFA_G_APC_Art;
 
   class AET_F_bastionBreaker_I_ECF_Rifleman: I_soldier_F
   {
@@ -922,6 +927,55 @@ class cfgVehicles
     typicalCargo[]={"B_Soldier_I"};
   };
 
+  class AET_F_bastionBreaker_I_ECF_Paladin_APC: UCNFA_G_APC_U
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="Paladin APC";
+    hiddenSelectionsTextures[]={"tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_baseblack_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_Paladin_IFV: UCNFA_G_APC_A
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="Paladin IFV";
+    hiddenSelectionsTextures[]={"tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_baseblack_co.paa","tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_40mmblack_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_Paladin_IFV_XLR: UCNFA_G_APC_AX
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="Paladin IFV XLR";
+    hiddenSelectionsTextures[]={"tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_baseblack_co.paa","tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_40mmblack_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_Paladin_SPAAG: UCNFA_G_APC_AA
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="Paladin SPAAG";
+    hiddenSelectionsTextures[]={"tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_baseblack_co.paa","tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_mortarblack_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
+
+  class AET_F_bastionBreaker_I_ECF_Paladin_SPG: UCNFA_G_APC_Art
+  {
+    faction="AET_F_bastionBreaker_I_ECF_nomas";
+    side=2;
+    displayName="Paladin SPG";
+    hiddenSelectionsTextures[]={"tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_baseblack_co.paa","tke_kuiper_engagements\tke_wheeled\data\textures\tke_ucnapc_mortarblack_co.paa"};
+    crew="AET_F_bastionBreaker_I_ECF_Crewman";
+    typicalCargo[]={"AET_F_bastionBreaker_I_ECF_Crewman"};
+  };
 
   class AET_F_bastionBreaker_I_ECF_Medic_pack: SC_PTC
   {
