@@ -15,7 +15,7 @@ class cfgFactionClasses
   class AET_F_mapleSyrup_I_VLF_nomas
   {
     icon="";
-    displayName="Virolahti Liberation Front - Maple Syrup";
+    displayName="VLF - Maple Syrup";
     side=2;
     priority=1;
   };
