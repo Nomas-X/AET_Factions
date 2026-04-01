@@ -1,0 +1,4071 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=9;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
+	class ItemIDProvider
+	{
+		nextID=843;
+	};
+	class LayerIndexProvider
+	{
+		nextID=28;
+	};
+	class Camera
+	{
+		pos[]={4160.5254,10.564586,4328.4126};
+		dir[]={0.021152943,-0.34891763,-0.93705243};
+		up[]={0.007877076,0.93715,-0.34887874};
+		aside[]={-0.99984127,-6.2557956e-07,-0.0225698};
+	};
+};
+binarizationWanted=0;
+sourceName="catapult_nfi_faction";
+addons[]=
+{
+	"A3_Characters_F",
+	"OPTRE_Weapons_SMG",
+	"OPTRE_ACE_Compat",
+	"TCF_Weapons",
+	"OPTRE_Weapons_Ammo",
+	"OPTRE_Weapons_M6G",
+	"OPTRE_Weapons_Pistol",
+	"OPTRE_Weapons_Items",
+	"A3_Weapons_F",
+	"OPTRE_UNSC_Units_Army",
+	"tfar_external_intercom",
+	"ace_goggles",
+	"ace_hearing",
+	"TCF_OPFOR_Frieden",
+	"A3_Weapons_F_Items",
+	"ace_medical_treatment",
+	"OPTRE_Weapons_AR",
+	"TCF_Shemaghs",
+	"OPTRE_UNSC_Units_NVGs",
+	"OPTRE_Weapons_MG_M247a1",
+	"OPTRE_Weapons_MG",
+	"V_FZ_Armor",
+	"OPTRE_Weapons_DMR",
+	"OPTRE_Weapons_BR",
+	"A3_Characters_F_Enoch_Facewear",
+	"OPTRE_Weapons_AT_M44_Lykoi",
+	"TCF_OPFOR_Seccessionist",
+	"OPTRE_Weapons_Shotgun",
+	"OPTRE_Weapons_Charges",
+	"OPTRE_ACE_Compat_Explosives",
+	"ace_explosives",
+	"OPTRE_Vehicles_Bison",
+	"optre_catfish",
+	"OPTRE_Vehicles_Warthog",
+	"OPTRE_Vehicles_Mongoose",
+	"OPTRE_Vehicles_Hornet",
+	"OPTRE_Vehicles_Pelican",
+	"OPTRE_Vehicles_M494",
+	"OPTRE_Weapons_Turrets_AIE_486H_Static_MMG",
+	"OPTRE_Weapons_StaticTurret",
+	"OPTRE_AU_44_Mortar",
+	"OPTRE_Weapons_FG75",
+	"TCF_OPFOR_Frieden_Vehicles",
+	"OPTRE_Vehicles_Scorpion",
+	"drongosconfiggenerator",
+	"OPTRE_Weapons_Sniper",
+	"ace_rangecard",
+	"ace_kestrel4500"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=25;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="OPTRE_Core";
+			name="OPTRE_Weapons_SMG";
+			author="Article 2 Studios";
+		};
+		class Item2
+		{
+			className="OPTRE_ACE_Compat";
+			name="OPTRE_ACE_Compat";
+			author="Article 2 Studios";
+		};
+		class Item3
+		{
+			className="TCF_Weaponry";
+			name="TheCarverFindings";
+			author="TCF";
+		};
+		class Item4
+		{
+			className="OPTRE_Weapons_Pistol";
+			name="OPTRE_Weapons_M6G";
+			author="Article 2 Studios";
+		};
+		class Item5
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="OPTRE_UNSC_Units";
+			name="OPTRE_UNSC_Units_Army";
+			author="Article 2 Studios";
+		};
+		class Item7
+		{
+			className="tfar_external_intercom";
+			name="TFAR - Intercom Phone";
+			author="Task Force Arrowhead Radio Team";
+		};
+		class Item8
+		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item9
+		{
+			className="ace_hearing";
+			name="ACE3 - Hearing";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item10
+		{
+			className="TCF_OPFOR";
+			name="TCF_OPFOR";
+			author="TCF";
+		};
+		class Item11
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item12
+		{
+			className="TCF_Shemaghs";
+			name="TCF_Shemaghs";
+		};
+		class Item13
+		{
+			className="OPTRE_UNSC_Units_NVGs";
+			name="OPTRE_UNSC_Units_NVGs";
+		};
+		class Item14
+		{
+			className="OPTRE_Weapons_MG";
+			name="OPTRE_Weapons_MG_M247a1";
+			author="Article 2 Studios";
+		};
+		class Item15
+		{
+			className="V_FZ_Armor";
+			name="A2D: Fireteam Zulu";
+			author="Fireteam Zulu";
+			url="https://discord.gg/fa7Cguk";
+		};
+		class Item16
+		{
+			className="A3_Characters_F_Enoch";
+			name="Arma 3 Contact Platform - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item17
+		{
+			className="OPTRE_Weapons_AT";
+			name="OPTRE_Weapons_AT_M44_Lykoi";
+			author="Article 2 Studios";
+		};
+		class Item18
+		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item19
+		{
+			className="OPTRE_Vehicles";
+			name="OPTRE_Vehicles_Bison";
+			author="Article 2 Studios";
+		};
+		class Item20
+		{
+			className="OPTRE_Vehicles_Air";
+			name="OPTRE_Vehicles_Hornet";
+			author="Article 2 Studios";
+		};
+		class Item21
+		{
+			className="OPTRE_Vehicles_Tracked";
+			name="OPTRE_Vehicles_M494";
+			author="Article 2 Studios";
+		};
+		class Item22
+		{
+			className="DrongosConfigGenerator";
+			name="Drongo's Config Generator";
+			author="Drongo";
+		};
+		class Item23
+		{
+			className="ace_rangecard";
+			name="ACE3 - Range Card";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item24
+		{
+			className="ace_kestrel4500";
+			name="ACE3 - Kestrel 4500";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+	};
+};
+dlcs[]=
+{
+	"TCF",
+	"OPTRE",
+	"Zulu"
+};
+randomSeed=12238028;
+class ScenarioData
+{
+	author="Redwan S.";
+};
+class CustomAttributes
+{
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=46;
+		class Item0
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4164.7778,5.0014391,4321.1147};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="MAJOR";
+						name="Helicopter_Pilot";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M7";
+								firemode="OPTRE_M7:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_48Rnd_5x23mm_Mag";
+									ammoLeft=48;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Rig";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_48Rnd_5x23mm_Mag";
+										count=4;
+										ammoLeft=48;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							hmd="OPTRE_NVG";
+							headgear="H_CrewHelmetHeli_B";
+						};
+					};
+					id=562;
+					type="O_helipilot_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=561;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.3872,5.0014391,4321.1787};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Squad_Leader";
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5AGL";
+								firemode="OPTRE_MA5AGL:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+								class secondaryMuzzleMag
+								{
+									name="1Rnd_HE_Grenade_shell";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest_UP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=10;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+									class Item2
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="1Rnd_Smoke_Grenade_shell";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="1Rnd_SmokeRed_Grenade_shell";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="1Rnd_SmokeBlue_Grenade_shell";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="OPTRE_M2_Smoke_Red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item7
+									{
+										name="OPTRE_M2_Smoke_Blue";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item8
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item9
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="TCF_ANPRC_560_Black";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG_UAB_UL";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=564;
+					type="O_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=563;
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.3062,5.0014391,4318.8228};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Team_Leader";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest_UP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke_Red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M2_Smoke_Blue";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG_UAB";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=566;
+					type="O_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=565;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.2871,5.0014391,4316.957};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Medic";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest_UP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="TCF_RUCKSACK_UNSC_URB_MED_F";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+									class Item1
+									{
+										name="FirstAidKit";
+										count=10;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_Shemagh";
+							hmd="OPTRE_NVG_UA";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=568;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=567;
+		};
+		class Item4
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.2769,5.0014391,4314.9756};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Machine_Gunner";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M247A1";
+								firemode="OPTRE_M247A1:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
+									ammoLeft=200;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
+										count=4;
+										ammoLeft=200;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="TCF_wnato_kitbag";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
+										count=5;
+										ammoLeft=200;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="VES_HUD_Balaclava_G_Black";
+							hmd="OPTRE_NVG";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=570;
+					type="O_Soldier_AR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=569;
+		};
+		class Item5
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.3428,5.0014391,4313.2456};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Marksman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M295_BMR";
+								optics="OPTRE_BMR_Scope";
+								firemode="OPTRE_M295_BMR:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_25Rnd_762x51_AP_Mag";
+									ammoLeft=25;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_25Rnd_762x51_AP_Mag";
+										count=1;
+										ammoLeft=25;
+									};
+									class Item4
+									{
+										name="OPTRE_25Rnd_762x51_Mag";
+										count=8;
+										ammoLeft=25;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Bandanna_blk";
+							hmd="OPTRE_NVG";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=572;
+					type="O_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=571;
+		};
+		class Item6
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.2261,5.0014391,4311.2578};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Anti_Tank_Specialist";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_M44_Lykoi_HEAT_mag";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="VES_HUD_Balaclava_Black";
+							hmd="OPTRE_NVG_UAB";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=574;
+					type="O_Soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=573;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.311,5.0014391,4309.2666};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Anti_Air_Specialist";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_M44_Lykoi_AA_mag";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="VES_HUD_Balaclava_Black";
+							hmd="OPTRE_NVG_UAB";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=576;
+					type="O_Soldier_AA_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=575;
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.3662,5.0014391,4305.2329};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Rifleman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest_UP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG_UAB";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=578;
+					type="O_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=577;
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.4302,5.0014391,4303.6846};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Rifleman_Light";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG";
+							headgear="TCF_MC_Regular";
+						};
+					};
+					id=580;
+					type="O_Soldier_lite_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=579;
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4166.4541,5.0014391,4320.8359};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="CAPTAIN";
+						name="Crewman";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M7";
+								firemode="OPTRE_M7:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_48Rnd_5x23mm_Mag";
+									ammoLeft=48;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Rig";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_48Rnd_5x23mm_Mag";
+										count=4;
+										ammoLeft=48;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							hmd="OPTRE_NVG";
+							headgear="TCF_SU_Sniper";
+						};
+					};
+					id=582;
+					type="O_crew_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=581;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.4722,5.0014391,4302.0327};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Officer";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG";
+							headgear="Frieden_Grey_beret";
+						};
+					};
+					id=584;
+					type="O_officer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=583;
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.5229,5.0014391,4307.3789};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Breacher";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M45E";
+								firemode="OPTRE_M45E:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_6Rnd_8Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest_UP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_6Rnd_8Gauge_Pellets";
+										count=9;
+										ammoLeft=6;
+									};
+									class Item4
+									{
+										name="C7_Remote_Mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="ACE_Clacker";
+										count=1;
+									};
+									class Item1
+									{
+										name="ACE_DefusalKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="VES_HUD_Balaclava_G_Joker";
+							hmd="OPTRE_NVG_UAB";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=633;
+					type="O_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=632;
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4148.3135,7.6089907,4312.9932};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M413_Bison_MGS";
+				textures="InnieWdl";
+			};
+			id=634;
+			type="OPTRE_M413_MGS_INS";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InnieWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=10;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showBags";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetHull";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetTurret";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item6
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showSLATHull";
+												};
+											};
+											class Item7
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item8
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showSLATTurret";
+												};
+											};
+											class Item9
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4139.4722,7.6089907,4313.25};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M412_Bison_IFV";
+				textures="InnieWdl";
+			};
+			id=635;
+			type="OPTRE_M412_IFV_INS";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InnieWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=10;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showBags";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetHull";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetTurret";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item6
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showSLATHull";
+												};
+											};
+											class Item7
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item8
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showSLATTurret";
+												};
+											};
+											class Item9
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4161.8521,6.9831805,4351.019};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M112_Wet_Patrol_Craft_LAAG";
+			};
+			id=637;
+			type="optre_catfish_ins_mg_f";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4154.1191,6.3816681,4351.1401};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M112_Wet_Patrol_Craft_Unarmed";
+			};
+			id=638;
+			type="optre_catfish_ins_unarmed_f";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4168.0181,7.1173472,4334.0581};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12_APC";
+			};
+			id=643;
+			type="OPTRE_M12_ins_APC";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4150.8672,7.1297226,4334.7251};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12_LRV_LAAG";
+			};
+			id=644;
+			type="OPTRE_M12_LRV_ins";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4163.7397,6.5550489,4334.4297};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12_TD";
+			};
+			id=646;
+			type="OPTRE_M12_TD_ins";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4172.8398,7.1175094,4333.7461};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12_APC_VBIED";
+			};
+			id=647;
+			type="OPTRE_M12_VBIED_Big";
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4176.7388,6.955905,4334.041};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12_FAV_VBIED";
+			};
+			id=648;
+			type="OPTRE_M12_VBIED";
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4146.4019,6.955905,4334.9194};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12_FAV";
+			};
+			id=649;
+			type="OPTRE_M12_FAV_ins";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4154.8579,6.7283449,4334.5972};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12A1_LRV_Rocket";
+			};
+			id=650;
+			type="OPTRE_M12A1_LRV_ins";
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4159.1709,7.5268183,4334.4448};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M12R_AA";
+			};
+			id=651;
+			type="OPTRE_M12R_AA_ins";
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4158.2505,6.5931463,4342.6499};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M274R_Mongoose";
+			};
+			id=652;
+			type="OPTRE_M274_ATV_Ins";
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4140.103,7.1105547,4282.3677};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AV_14_Hornet";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=657;
+			type="OPTRE_UNSC_hornet_ins";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4183.1509,9.1497412,4277.5254};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="D77H_TCI_Pelican";
+				textures="InnieWdl";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=658;
+			type="OPTRE_Pelican_unarmed_ins";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InnieWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="cargoDoors";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4161.4761,9.1497412,4278.6602};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="D77H_TCI_AV_Pelican";
+				textures="InnieWdl";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=659;
+			type="OPTRE_Pelican_armed_ins";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InnieWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="cargoDoors";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4143.3193,4.97679,4300.9751};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M493_APC_Oryx_M37_RCWS";
+				textures="InsWdl";
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=670;
+			type="OPTRE_M493_M37_RCWS_Ins";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InsWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=6;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Hide_Shield";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Hide_Rail";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showera";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4136.6128,7.3127823,4301.6611};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M494_Oryx_IFV";
+				textures="InsWdl";
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=671;
+			type="OPTRE_M494_INS";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InsWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=12;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetHull";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetTurret";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showCamonetgun";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item6
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showBags";
+												};
+											};
+											class Item7
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item8
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showBagsTurret";
+												};
+											};
+											class Item9
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item10
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showera";
+												};
+											};
+											class Item11
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4198.5283,6.3932543,4310.7163};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AIE_486H_MMG_Low";
+			};
+			id=675;
+			type="OPTRE_AIE_486H_Low_Static_HMG_Innie";
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4200.0293,6.6077895,4310.8149};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AIE_486H_MMG";
+			};
+			id=676;
+			type="OPTRE_AIE_486H_Static_HMG_Innie";
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4189.9893,4.9970956,4310.6133};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AT_Rocket_Turret";
+			};
+			id=678;
+			type="OPTRE_Static_ATGM_Ins";
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4181.917,5.0000396,4309.8315};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="AU_44";
+			};
+			id=679;
+			type="OPTRE_AU_44_INS_Mortar";
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4186.9355,6.1200209,4311.1309};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="FG75_Anti_Tank_Gun";
+			};
+			id=680;
+			type="OPTRE_Static_FG75";
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4195.9766,4.9970956,4310.6509};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M41_LAAG_Turret";
+			};
+			id=684;
+			type="OPTRE_Static_M41_Ins";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4193.0396,4.9970956,4310.624};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M79_AA_Turret";
+			};
+			id=689;
+			type="OPTRE_Static_AA_Ins";
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4183.9331,4.984056,4311.1094};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="LAU_65D_SGM_151";
+			};
+			id=722;
+			type="TCF_FRI_LAU";
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4201.4912,6.6504846,4311.1714};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M247H_Shield";
+			};
+			id=723;
+			type="TCF_M247H_FRI";
+		};
+		class Item40
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4166.457,5.0014391,4318.8579};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						name="Crewman_Light";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA5A";
+								firemode="OPTRE_MA5A:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=6;
+										ammoLeft=32;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=741;
+					type="O_Soldier_lite_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=740;
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4151.2251,4.97679,4300.4199};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M493_APC_Oryx_M37";
+				textures="InsWdl";
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=669;
+			type="OPTRE_M493_M37_Ins";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="InsWdl";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=6;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Hide_Shield";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Hide_Rail";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													singleType="STRING";
+													value="showera";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4143.7393,7.5736799,4322.9478};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="M808B_Scorpion_MBT";
+			};
+			id=800;
+			type="OPTRE_M808B_INS";
+		};
+		class Item43
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4174.0371,5,4313.748};
+			};
+			id=814;
+			type="DCG_Core";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="DCG_Core_DCG_ModuleTag";
+					expression="_this setVariable ['DCG_ModuleTag',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="AET_F_catapult_O_NFI";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="DCG_Core_DCG_ModuleFactionName";
+					expression="_this setVariable ['DCG_ModuleFactionName',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="nomas";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="DCG_Core_DCG_ModuleGenerateWeapons";
+					expression="_this setVariable ['DCG_ModuleGenerateWeapons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="TRUE";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="DCG_Core_DCG_ModuleFactionSide";
+					expression="_this setVariable ['DCG_ModuleFactionSide',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item44
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.4829,5.0014391,4300.1846};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Sniper";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_SRS99C";
+								optics="OPTRE_SRS99C_Scope";
+								firemode="OPTRE_SRS99C:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_4Rnd_145x114_APFSDS_Mag";
+									ammoLeft=4;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Smartfinder";
+								class primaryMuzzleMag
+								{
+									name="Laserbatteries";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+									class Item1
+									{
+										name="ACE_RangeCard";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACE_Kestrel4500";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_4Rnd_145x114_APFSDS_Mag";
+										count=11;
+										ammoLeft=4;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_URB_UP_Shemagh";
+							hmd="OPTRE_NVG_MVI";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=832;
+					type="O_sniper_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=831;
+		};
+		class Item45
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4163.4302,5.0014391,4298.2646};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="Spotter";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M295_BMR";
+								optics="OPTRE_BMR_Scope";
+								firemode="OPTRE_M295_BMR:Single";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_25Rnd_762x51_AP_Mag";
+									ammoLeft=25;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6G";
+								optics="OPTRE_M6G_Scope";
+								flashlight="OPTRE_M6G_Laser";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Smartfinder";
+								class primaryMuzzleMag
+								{
+									name="Laserbatteries";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="TCF_FRI_uni_Base";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+									class Item1
+									{
+										name="ACE_RangeCard";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACE_Kestrel4500";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_FRI_Vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_25Rnd_762x51_AP_Mag";
+										count=1;
+										ammoLeft=25;
+									};
+									class Item4
+									{
+										name="OPTRE_25Rnd_762x51_Mag";
+										count=8;
+										ammoLeft=25;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Bandanna_blk";
+							hmd="OPTRE_NVG_MVI";
+							headgear="TCF_Frihelm";
+						};
+					};
+					id=834;
+					type="O_spotter_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=833;
+		};
+	};
+};

@@ -103,3 +103,30 @@ mission = "Maple_Syrup_VLA_FACTION.VR"
 [mapleSyrupGroups]
 extends = "mapleSyrupFaction"
 mission = "Maple_Syrup_VLA_GROUPS.VR"
+
+[catapultFaction]
+workshop = [
+	"623475643", # 3den Enhanced
+	"463939057", # ace
+	"3499977893", # Advanced Developer Tools
+	"450814997", # CBA_A3
+	"894678801", # Task Force Arrowhead Radio (BETA!!!)
+	"1779063631", # Zeus Enhanced
+	"1771335720", # Drongos Config Generator
+	"769440155", # Operation TREBUCHET
+	"1572627279", # Operation TREBUCHET First Contact
+	"1659590037", # A2 Declassified: Fireteam Zulu
+	"2598549968", # The Carver Findings
+]
+parameters = [
+    "-noPause",
+    "-noPauseAudio",
+	"-debug",
+	"-showScriptErrors",
+]
+dlc = []
+mission = "Catapult_NFI_FACTION.VR"
+
+[catapultGroups]
+extends = "catapultFaction"
+mission = "Catapult_NFI_GROUPS.VR"
