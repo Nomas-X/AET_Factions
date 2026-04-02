@@ -144,9 +144,8 @@ class cfgVehicles
   class TCF_ANPRC_560_Black;
   class O_Soldier_TL_F;
   class O_medic_F;
-  class TCF_RUCKSACK_UNSC_URB_MED_F;
-  class O_Soldier_AR_F;
   class TCF_wnato_kitbag;
+  class O_Soldier_AR_F;
   class O_soldier_M_F;
   class O_Soldier_AT_F;
   class O_Soldier_AA_F;
@@ -783,7 +782,7 @@ class cfgVehicles
   };
 
 
-  class AET_F_catapult_O_NFI_Medic_pack: TCF_RUCKSACK_UNSC_URB_MED_F
+  class AET_F_catapult_O_NFI_Medic_pack: TCF_wnato_kitbag
   {
     scope=1;
     class TransportMagazines{};
