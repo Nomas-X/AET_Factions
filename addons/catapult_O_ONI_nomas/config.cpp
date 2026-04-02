@@ -185,7 +185,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Squad Leader";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
@@ -202,7 +202,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Medic";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel"};
@@ -219,7 +219,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Rifleman";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
@@ -236,7 +236,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Rifleman Light";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
@@ -253,7 +253,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Sniper";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","ACE_RangeCard","ACE_Kestrel4500"};
@@ -270,7 +270,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Spotter";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45_OPTRE_BMR_LaserOPTRE_BR45_ScopeOPTRE_BR45Grip","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45_OPTRE_BMR_LaserOPTRE_BR45_ScopeOPTRE_BR45Grip","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
@@ -287,7 +287,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Team Leader";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
@@ -304,7 +304,7 @@ class cfgVehicles
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;
     displayName="Officer";
-    uniformClass="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+    uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};

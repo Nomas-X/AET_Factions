@@ -392,7 +392,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -554,7 +554,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -729,7 +729,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -874,7 +874,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1088,7 +1088,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1249,7 +1249,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -2020,7 +2020,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -2177,7 +2177,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="OPTRE_UNSC_Army_Uniform_BLK_SlimLeg";
+								typeName="OPTRE_UNSC_ODST_Uniform";
 								isBackpack=0;
 								class ItemCargo
 								{
