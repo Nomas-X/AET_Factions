@@ -104,7 +104,7 @@ mission = "Maple_Syrup_VLA_FACTION.VR"
 extends = "mapleSyrupFaction"
 mission = "Maple_Syrup_VLA_GROUPS.VR"
 
-[catapultFaction]
+[catapultFactionNFI]
 workshop = [
 	"623475643", # 3den Enhanced
 	"463939057", # ace
@@ -127,6 +127,14 @@ parameters = [
 dlc = []
 mission = "Catapult_NFI_FACTION.VR"
 
-[catapultGroups]
-extends = "catapultFaction"
+[catapultGroupsNFI]
+extends = "catapultFactionNFI"
 mission = "Catapult_NFI_GROUPS.VR"
+
+[catapultFactionONI]
+extends = "catapultFactionNFI"
+mission = "Catapult_ONI_FACTION.VR"
+
+[catapultGroupsONI]
+extends = "catapultFactionONI"
+mission = "Catapult_ONI_GROUPS.VR"

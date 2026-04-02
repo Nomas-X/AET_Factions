@@ -260,8 +260,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
     respawnMagazines[]={"OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UA","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UA"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UA","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UA"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UAB"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UAB"};
     backpack="AET_F_catapult_O_NFI_Medic_pack";
   };
 
@@ -277,8 +277,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box"};
     respawnMagazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box","OPTRE_200Rnd_762x51_M118_M247A1_Box"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest","VES_HUD_Balaclava_G_Black","OPTRE_NVG"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest","VES_HUD_Balaclava_G_Black","OPTRE_NVG"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UAB"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UAB"};
     backpack="AET_F_catapult_O_NFI_Machine_Gunner_pack";
   };
 
@@ -294,8 +294,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_25Rnd_762x51_AP_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag"};
     respawnMagazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_25Rnd_762x51_AP_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag","OPTRE_25Rnd_762x51_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest","G_Bandanna_blk","OPTRE_NVG"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest","G_Bandanna_blk","OPTRE_NVG"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UAB"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest_UP","TCF_URB_Shemagh","OPTRE_NVG_UAB"};
     backpack="";
   };
 

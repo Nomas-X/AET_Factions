@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=843;
+		nextID=849;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4160.5254,10.564586,4328.4126};
-		dir[]={0.021152943,-0.34891763,-0.93705243};
-		up[]={0.007877076,0.93715,-0.34887874};
-		aside[]={-0.99984127,-6.2557956e-07,-0.0225698};
+		pos[]={4149.9937,60.153133,4391.3779};
+		dir[]={0.060544506,-0.54561728,-0.83601379};
+		up[]={0.039412022,0.83806771,-0.54420775};
+		aside[]={-0.99745113,4.8603397e-09,-0.072235435};
 	};
 };
 binarizationWanted=0;
@@ -879,7 +879,7 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="TCF_URB_Shemagh";
-							hmd="OPTRE_NVG_UA";
+							hmd="OPTRE_NVG_UAB";
 							headgear="TCF_Frihelm";
 						};
 					};
@@ -1036,7 +1036,7 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="VES_HUD_Balaclava_G_Black";
-							hmd="OPTRE_NVG";
+							hmd="OPTRE_NVG_UAB";
 							headgear="TCF_Frihelm";
 						};
 					};
@@ -1091,7 +1091,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4163.3428,5.0014391,4313.2456};
+						position[]={4163.2661,5.0014391,4313.2134};
 					};
 					side="East";
 					flags=7;
@@ -1185,7 +1185,7 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Bandanna_blk";
-							hmd="OPTRE_NVG";
+							hmd="OPTRE_NVG_UAB";
 							headgear="TCF_Frihelm";
 						};
 					};
@@ -2110,7 +2110,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4163.5229,5.0014391,4307.3789};
+						position[]={4163.25,5.0014391,4307.3809};
 					};
 					side="East";
 					flags=7;
