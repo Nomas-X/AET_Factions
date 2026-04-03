@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1113;
+		nextID=1133;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3910.8584,74.706894,4154.9248};
-		dir[]={0.52305156,-0.71230513,-0.46802974};
-		up[]={0.5308212,0.70186722,-0.47498235};
-		aside[]={-0.66682762,-1.1059456e-07,-0.74521971};
+		pos[]={3944.6072,20.467052,4042.6194};
+		dir[]={0.22331508,-0.49738526,0.83830124};
+		up[]={0.12803482,0.86752921,0.4806281};
+		aside[]={0.96630758,-1.8067658e-07,-0.25741541};
 	};
 };
 binarizationWanted=0;
@@ -59,6 +59,9 @@ randomSeed=12238028;
 class ScenarioData
 {
 	author="Redwan S.";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -262,7 +265,7 @@ class Mission
 					{
 					};
 					id=858;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 				class Item2
 				{
@@ -607,7 +610,7 @@ class Mission
 					{
 					};
 					id=889;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 				class Item5
 				{
@@ -757,7 +760,7 @@ class Mission
 					{
 					};
 					id=898;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 				class Item5
 				{
@@ -968,7 +971,7 @@ class Mission
 					{
 					};
 					id=907;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 				class Item5
 				{
@@ -1148,7 +1151,7 @@ class Mission
 					{
 					};
 					id=918;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 				class Item5
 				{
@@ -1312,7 +1315,7 @@ class Mission
 					{
 					};
 					id=985;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 					atlOffset=2.1173472;
 				};
 				class Item2
@@ -1463,7 +1466,7 @@ class Mission
 					{
 					};
 					id=1109;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 			};
 			class Attributes
@@ -1761,7 +1764,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=1100;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 			};
 			class Attributes
@@ -2059,7 +2062,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=1091;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 			};
 			class Attributes
@@ -2357,7 +2360,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=1082;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 			};
 			class Attributes
@@ -2657,7 +2660,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=1073;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 			};
 			class Attributes
@@ -2878,7 +2881,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=1064;
-					type="AET_F_catapult_O_NFI_Machine_Gunner";
+					type="AET_F_catapult_O_NFI_Autorifleman";
 				};
 				class Item7
 				{

@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=9;
+	toggles=1;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=860;
+		nextID=877;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4087.9783,131.97197,4288.7192};
-		dir[]={0.67340618,-0.73309797,0.096795298};
-		up[]={0.72562397,0.68019539,0.10430209};
-		aside[]={0.14228523,4.2383908e-07,-0.98988605};
+		pos[]={4162.1177,6.5150504,4313.6733};
+		dir[]={0.91458541,-0.3935557,-0.093103938};
+		up[]={0.39153859,0.91930056,-0.039858453};
+		aside[]={-0.10127694,3.7856807e-07,-0.99487019};
 	};
 };
 binarizationWanted=0;
@@ -46,22 +46,18 @@ addons[]=
 	"TCF_OPFOR_Frieden",
 	"A3_Weapons_F_Items",
 	"ace_medical_treatment",
-	"OPTRE_Weapons_AR",
+	"OPTRE_Weapons_MG_M26",
 	"TCF_Shemaghs",
 	"OPTRE_UNSC_Units_NVGs",
-	"1st_MEU_patch_gear_nvgs",
-	"OPTRE_Weapons_MG_M247a1",
-	"OPTRE_Weapons_MG",
 	"V_FZ_Armor",
 	"OPTRE_Weapons_DMR",
 	"OPTRE_Weapons_BR",
 	"A3_Characters_F_Enoch_Facewear",
 	"OPTRE_Weapons_AT_M44_Lykoi",
 	"TCF_OPFOR_Seccessionist",
-	"OPTRE_Weapons_Shotgun",
+	"OPTRE_Weapons_CQS48_Bulldog",
 	"OPTRE_Weapons_Charges",
 	"OPTRE_ACE_Compat_Explosives",
-	"1st_MEU_patch_weapons_meu_explosives",
 	"ace_explosives",
 	"OPTRE_Vehicles_Bison",
 	"optre_catfish",
@@ -78,7 +74,6 @@ addons[]=
 	"OPTRE_Vehicles_Scorpion",
 	"drongosconfiggenerator",
 	"OPTRE_Weapons_Sniper",
-	"1st_MEU_patch_weapon_specord_seperation_145_114",
 	"ace_rangecard",
 	"ace_kestrel4500"
 };
@@ -86,7 +81,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=25;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -166,91 +161,79 @@ class AddonsMetaData
 		};
 		class Item12
 		{
+			className="OPTRE_Weapons_MG";
+			name="OPTRE_Weapons_MG_M26";
+			author="Article 2 Studios";
+		};
+		class Item13
+		{
 			className="TCF_Shemaghs";
 			name="TCF_Shemaghs";
 		};
-		class Item13
+		class Item14
 		{
 			className="OPTRE_UNSC_Units_NVGs";
 			name="OPTRE_UNSC_Units_NVGs";
 		};
-		class Item14
-		{
-			className="1st_MEU_patch_gear";
-			name="1st_MEU_patch_gear_nvgs";
-			author="1st MEU Mod Team";
-		};
 		class Item15
-		{
-			className="OPTRE_Weapons_MG";
-			name="OPTRE_Weapons_MG_M247a1";
-			author="Article 2 Studios";
-		};
-		class Item16
 		{
 			className="V_FZ_Armor";
 			name="A2D: Fireteam Zulu";
 			author="Fireteam Zulu";
 			url="https://discord.gg/fa7Cguk";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="OPTRE_Weapons_AT";
 			name="OPTRE_Weapons_AT_M44_Lykoi";
 			author="Article 2 Studios";
 		};
-		class Item19
-		{
-			className="1st_MEU_patch_weapons";
-			name="1st_MEU_patch_weapons_meu_explosives";
-			author="1st MEU Mod Team";
-		};
-		class Item20
+		class Item18
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
+		class Item19
 		{
 			className="OPTRE_Vehicles";
 			name="OPTRE_Vehicles_Bison";
 			author="Article 2 Studios";
 		};
-		class Item22
+		class Item20
 		{
 			className="OPTRE_Vehicles_Air";
 			name="OPTRE_Vehicles_Hornet";
 			author="Article 2 Studios";
 		};
-		class Item23
+		class Item21
 		{
 			className="OPTRE_Vehicles_Tracked";
 			name="OPTRE_Vehicles_M494";
 			author="Article 2 Studios";
 		};
-		class Item24
+		class Item22
 		{
 			className="DrongosConfigGenerator";
 			name="Drongo's Config Generator";
 			author="Drongo";
 		};
-		class Item25
+		class Item23
 		{
 			className="ace_rangecard";
 			name="ACE3 - Range Card";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item26
+		class Item24
 		{
 			className="ace_kestrel4500";
 			name="ACE3 - Kestrel 4500";
@@ -263,12 +246,16 @@ dlcs[]=
 {
 	"TCF",
 	"OPTRE",
+	"Mark",
 	"Zulu"
 };
 randomSeed=12238028;
 class ScenarioData
 {
 	author="Redwan S.";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -306,7 +293,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4164.7778,5.0014391,4321.1147};
+						position[]={4164.9668,5.0014391,4321.2935};
 					};
 					side="East";
 					flags=7;
@@ -460,8 +447,9 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5AGL";
-								firemode="OPTRE_MA5AGL:Single";
+								name="OPTRE_M26_GL_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								firemode="OPTRE_M26_GL_F:FullAuto";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
@@ -508,65 +496,53 @@ class Mission
 								isBackpack=0;
 								class MagazineCargo
 								{
-									items=10;
+									items=8;
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
-									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
-										ammoLeft=32;
-									};
-									class Item2
-									{
-										name="1Rnd_HE_Grenade_shell";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="1Rnd_Smoke_Grenade_shell";
-										count=3;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="1Rnd_SmokeRed_Grenade_shell";
-										count=3;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="1Rnd_SmokeBlue_Grenade_shell";
-										count=3;
-										ammoLeft=1;
-									};
-									class Item6
 									{
 										name="OPTRE_M2_Smoke_Red";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item7
+									class Item2
 									{
 										name="OPTRE_M2_Smoke_Blue";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item8
+									class Item3
 									{
 										name="OPTRE_M2_Smoke";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item9
+									class Item4
 									{
 										name="OPTRE_M9_Frag";
 										count=2;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+										count=7;
+										ammoLeft=32;
+									};
+									class Item6
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=5;
+										ammoLeft=1;
+									};
+									class Item7
+									{
+										name="1Rnd_Smoke_Grenade_shell";
+										count=5;
 										ammoLeft=1;
 									};
 								};
@@ -648,8 +624,10 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
@@ -695,7 +673,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -725,7 +703,7 @@ class Mission
 									class Item5
 									{
 										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										count=7;
 										ammoLeft=32;
 									};
 								};
@@ -802,8 +780,10 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_32Rnd_762x51_Mag";
@@ -845,7 +825,7 @@ class Mission
 								isBackpack=0;
 								class MagazineCargo
 								{
-									items=3;
+									items=4;
 									class Item0
 									{
 										name="OPTRE_M2_Smoke";
@@ -863,6 +843,12 @@ class Mission
 										name="OPTRE_32Rnd_762x51_Mag";
 										count=10;
 										ammoLeft=32;
+									};
+									class Item3
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=2;
+										ammoLeft=8;
 									};
 								};
 							};
@@ -952,17 +938,19 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						name="Machine_Gunner";
+						name="Autorifleman";
 						class Inventory
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_M247A1";
-								firemode="OPTRE_M247A1:FullAuto";
+								name="OPTRE_M26_LMG_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_LMG_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
-									ammoLeft=200;
+									name="OPTRE_80Rnd_762x51_Mag";
+									ammoLeft=80;
 								};
 							};
 							class handgun
@@ -1021,9 +1009,9 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
-										count=4;
-										ammoLeft=200;
+										name="OPTRE_80Rnd_762x51_Mag";
+										count=6;
+										ammoLeft=80;
 									};
 								};
 							};
@@ -1036,9 +1024,9 @@ class Mission
 									items=1;
 									class Item0
 									{
-										name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
-										count=5;
-										ammoLeft=200;
+										name="OPTRE_80Rnd_762x51_Mag";
+										count=10;
+										ammoLeft=80;
 									};
 								};
 							};
@@ -1263,11 +1251,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									name="OPTRE_32Rnd_762x51_Mag";
 									ammoLeft=32;
 								};
 							};
@@ -1319,7 +1309,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -1336,8 +1326,8 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
 										ammoLeft=32;
 									};
 								};
@@ -1414,11 +1404,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									name="OPTRE_32Rnd_762x51_Mag";
 									ammoLeft=32;
 								};
 							};
@@ -1470,7 +1462,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -1487,8 +1479,8 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
 										ammoLeft=32;
 									};
 								};
@@ -1565,11 +1557,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									name="OPTRE_32Rnd_762x51_Mag";
 									ammoLeft=32;
 								};
 							};
@@ -1604,7 +1598,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="TCF_FRI_Vest_UP";
+								typeName="TCF_FRI_Vest";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1612,7 +1606,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -1629,8 +1623,8 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
 										ammoLeft=32;
 									};
 								};
@@ -1707,11 +1701,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									name="OPTRE_32Rnd_762x51_Mag";
 									ammoLeft=32;
 								};
 							};
@@ -1754,7 +1750,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -1771,8 +1767,8 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
 										ammoLeft=32;
 									};
 								};
@@ -1838,7 +1834,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4166.4541,5.0014391,4320.8359};
+						position[]={4166.54,5.0014391,4321.2222};
 					};
 					side="East";
 					flags=7;
@@ -1991,11 +1987,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									name="OPTRE_32Rnd_762x51_Mag";
 									ammoLeft=32;
 								};
 							};
@@ -2038,7 +2036,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -2055,8 +2053,8 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
 										ammoLeft=32;
 									};
 								};
@@ -2133,12 +2131,18 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_M45E";
-								firemode="OPTRE_M45E:Single";
+								name="OPTRE_M26_Shotgun_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								firemode="OPTRE_M26_Shotgun_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_6Rnd_8Gauge_Pellets";
-									ammoLeft=6;
+									name="OPTRE_32Rnd_762x51_Mag";
+									ammoLeft=32;
+								};
+								class secondaryMuzzleMag
+								{
+									name="OPTRE_12Rnd_12Gauge_Pellets";
+									ammoLeft=12;
 								};
 							};
 							class handgun
@@ -2176,11 +2180,11 @@ class Mission
 								isBackpack=0;
 								class MagazineCargo
 								{
-									items=5;
+									items=6;
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -2197,15 +2201,21 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_6Rnd_8Gauge_Pellets";
-										count=9;
-										ammoLeft=6;
-									};
-									class Item4
-									{
 										name="C7_Remote_Mag";
 										count=2;
 										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=7;
+										ammoLeft=32;
+									};
+									class Item5
+									{
+										name="OPTRE_12Rnd_12Gauge_Pellets";
+										count=4;
+										ammoLeft=12;
 									};
 								};
 								class ItemCargo
@@ -2587,7 +2597,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4161.8521,6.9831805,4351.019};
+				position[]={4167.7402,6.9831805,4341.1987};
 			};
 			side="Empty";
 			flags=4;
@@ -2603,7 +2613,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4154.1191,6.3816681,4351.1401};
+				position[]={4159.7632,6.3816681,4341.1592};
 			};
 			side="Empty";
 			flags=4;
@@ -2619,7 +2629,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4168.0181,7.1173472,4334.0581};
+				position[]={4168.7329,7.1173472,4330.7583};
 			};
 			side="Empty";
 			flags=4;
@@ -2635,7 +2645,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4150.8672,7.1297226,4334.7251};
+				position[]={4154.0718,7.1297226,4331.1699};
 			};
 			side="Empty";
 			flags=4;
@@ -2651,7 +2661,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4163.7397,6.5550489,4334.4297};
+				position[]={4165.1255,6.5550489,4331.2778};
 			};
 			side="Empty";
 			flags=4;
@@ -2667,7 +2677,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4172.8398,7.1175094,4333.7461};
+				position[]={4172.2314,7.1175094,4330.7275};
 			};
 			side="Empty";
 			flags=4;
@@ -2683,7 +2693,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4176.7388,6.955905,4334.041};
+				position[]={4175.8145,6.955905,4331.0322};
 			};
 			side="Empty";
 			flags=4;
@@ -2699,7 +2709,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4146.4019,6.955905,4334.9194};
+				position[]={4150.3521,6.955905,4331.1465};
 			};
 			side="Empty";
 			flags=4;
@@ -2715,7 +2725,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4154.8579,6.7283449,4334.5972};
+				position[]={4157.8682,6.7283449,4331.1133};
 			};
 			side="Empty";
 			flags=4;
@@ -2731,7 +2741,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4159.1709,7.5268183,4334.4448};
+				position[]={4161.4785,7.5268183,4331.0566};
 			};
 			side="Empty";
 			flags=4;
@@ -2747,7 +2757,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4158.2505,6.5931463,4342.6499};
+				position[]={4163.9634,6.5931463,4336.3564};
 			};
 			side="Empty";
 			flags=4;
@@ -2763,7 +2773,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4140.103,7.1105547,4282.3677};
+				position[]={4143.4653,7.1105547,4290.0679};
 			};
 			side="Empty";
 			flags=4;
@@ -2876,7 +2886,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4161.4761,9.1497412,4278.6602};
+				position[]={4162.8921,9.1497412,4277.5186};
 			};
 			side="Empty";
 			flags=4;
@@ -3268,7 +3278,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4198.5283,6.3932543,4310.7163};
+				position[]={4189.6572,6.3932543,4304.1001};
 			};
 			side="Empty";
 			flags=4;
@@ -3284,7 +3294,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4200.0293,6.6077895,4310.8149};
+				position[]={4191.73,6.6077895,4303.9648};
 			};
 			side="Empty";
 			flags=4;
@@ -3300,7 +3310,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4189.9893,4.9970956,4310.6133};
+				position[]={4177.6162,4.9970956,4304.4517};
 			};
 			side="Empty";
 			flags=4;
@@ -3316,7 +3326,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4181.917,5.0000396,4309.8315};
+				position[]={4168.4282,5.0000396,4303.7715};
 			};
 			side="Empty";
 			flags=4;
@@ -3332,7 +3342,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4186.9355,6.1200209,4311.1309};
+				position[]={4173.5781,6.1200209,4304.3013};
 			};
 			side="Empty";
 			flags=4;
@@ -3348,7 +3358,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4195.9766,4.9970956,4310.6509};
+				position[]={4185.5332,4.9970956,4304.4751};
 			};
 			side="Empty";
 			flags=4;
@@ -3364,7 +3374,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4193.0396,4.9970956,4310.624};
+				position[]={4181.4404,4.9970956,4304.4956};
 			};
 			side="Empty";
 			flags=4;
@@ -3380,7 +3390,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4183.9331,4.984056,4311.1094};
+				position[]={4170.8823,4.984056,4304.1807};
 			};
 			side="Empty";
 			flags=4;
@@ -3396,7 +3406,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4201.4912,6.6504846,4311.1714};
+				position[]={4193.5713,6.6504846,4304.3462};
 			};
 			side="Empty";
 			flags=4;
@@ -3419,7 +3429,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4166.457,5.0014391,4318.8579};
+						position[]={4166.7041,5.0014391,4319.1377};
 					};
 					side="East";
 					flags=7;
@@ -3431,11 +3441,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="OPTRE_MA5A";
-								firemode="OPTRE_MA5A:Single";
+								name="OPTRE_M26_F";
+								muzzle="OPTRE_M26_LMG_Comp";
+								underBarrel="OPTRE_M26_Grippod_Bipod";
+								firemode="OPTRE_M26_F:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+									name="OPTRE_32Rnd_762x51_Mag";
 									ammoLeft=32;
 								};
 							};
@@ -3478,7 +3490,7 @@ class Mission
 									class Item0
 									{
 										name="OPTRE_8Rnd_127x40_Mag";
-										count=1;
+										count=2;
 										ammoLeft=8;
 									};
 									class Item1
@@ -3495,8 +3507,8 @@ class Mission
 									};
 									class Item3
 									{
-										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
-										count=6;
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=10;
 										ammoLeft=32;
 									};
 								};
@@ -3507,7 +3519,7 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="TCF_URB_UP_Shemagh";
-							hmd="OPTRE_NVG";
+							hmd="OPTRE_NVG_UAB";
 							headgear="TCF_Frihelm";
 						};
 					};
