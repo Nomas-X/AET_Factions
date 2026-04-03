@@ -136,5 +136,13 @@ extends = "catapultFactionNFI"
 mission = "Catapult_ONI_FACTION.VR"
 
 [catapultGroupsONI]
-extends = "catapultFactionONI"
+extends = "catapultFactionNFI"
 mission = "Catapult_ONI_GROUPS.VR"
+
+[catapultFactionCMA]
+extends = "catapultFactionNFI"
+mission = "Catapult_CMA_FACTION.VR"
+
+[catapultGroupsCMA]
+extends = "catapultFactionNFI"
+mission = "Catapult_CMA_GROUPS.VR"
