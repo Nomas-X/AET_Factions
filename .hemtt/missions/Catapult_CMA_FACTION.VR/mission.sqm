@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4112.1196,22.298386,4327.605};
-		dir[]={0.95343566,-0.29773751,0.049251962};
-		up[]={0.29736441,0.95464951,0.015361546};
-		aside[]={0.05158909,-8.1560574e-07,-0.99871969};
+		pos[]={4148.832,6.8492551,4339.3584};
+		dir[]={0.93771279,-0.29545429,0.18342398};
+		up[]={0.290007,0.95537019,0.056729328};
+		aside[]={0.19198716,-1.5019905e-06,-0.98150784};
 	};
 };
 binarizationWanted=0;
@@ -188,6 +188,9 @@ randomSeed=12238028;
 class ScenarioData
 {
 	author="Redwan S.";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -1090,7 +1093,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1104,7 +1107,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="TCF_ACTV_CGC_VEST_UP";
+								typeName="TCF_ACTV_CGC_VEST";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1703,7 +1706,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="TCF_ACTV_CGC_VEST_UP";
+								typeName="TCF_ACTV_CGC_VEST";
 								isBackpack=0;
 								class MagazineCargo
 								{

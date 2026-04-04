@@ -342,15 +342,15 @@ class cfgVehicles
     editorCategory="AET_CMA_Category";
     side=2;
     displayName="Medic";
-    uniformClass="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
+    uniformClass="AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_I_CMA_OPTRE_MA5A","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_I_CMA_OPTRE_MA5A","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
     respawnMagazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230_MD","TCF_ACTV_CGC_VEST_UP","TCF_Shemagheye","OPTRE_NVG"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230_MD","TCF_ACTV_CGC_VEST_UP","TCF_Shemagheye","OPTRE_NVG"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230_MD","TCF_ACTV_CGC_VEST","TCF_Shemagheye","OPTRE_NVG"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230_MD","TCF_ACTV_CGC_VEST","TCF_Shemagheye","OPTRE_NVG"};
     backpack="AET_F_catapult_I_CMA_Medic_pack";
   };
 
@@ -421,8 +421,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
     respawnMagazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230","TCF_ACTV_CGC_VEST_UP","TCF_UP_Shemagheye","OPTRE_NVG"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230","TCF_ACTV_CGC_VEST_UP","TCF_UP_Shemagheye","OPTRE_NVG"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230","TCF_ACTV_CGC_VEST","TCF_UP_Shemagheye","OPTRE_NVG"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG","OPTRE_Binoculars","TCF_CGC_CH230","TCF_ACTV_CGC_VEST","TCF_UP_Shemagheye","OPTRE_NVG"};
     backpack="";
   };
 
