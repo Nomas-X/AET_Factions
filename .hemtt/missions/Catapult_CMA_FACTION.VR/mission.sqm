@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1404;
+		nextID=1542;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4138.1543,13.707168,4351.4019};
-		dir[]={0.47384146,-0.36421746,-0.80176836};
-		up[]={0.18530914,0.93131292,-0.31355393};
-		aside[]={-0.86089873,-1.4383113e-07,-0.50878805};
+		pos[]={4112.1196,22.298386,4327.605};
+		dir[]={0.95343566,-0.29773751,0.049251962};
+		up[]={0.29736441,0.95464951,0.015361546};
+		aside[]={0.05158909,-8.1560574e-07,-0.99871969};
 	};
 };
 binarizationWanted=0;
@@ -35,19 +35,21 @@ addons[]=
 	"TCF_UNSCA_Vehicles",
 	"TCF_INDFOR_Sedran_Vehicles",
 	"A3_Characters_F",
-	"OPTRE_Weapons_AR",
+	"OPTRE_Weapons_SMG",
+	"OPTRE_ACE_Compat",
 	"TCF_Weapons",
 	"OPTRE_Weapons_Ammo",
-	"A3_Weapons_F",
 	"OPTRE_Weapons_M6D",
 	"OPTRE_Weapons_Pistol",
 	"OPTRE_Weapons_Items",
+	"A3_Weapons_F",
 	"TCF_Shemaghs",
 	"OPTRE_UNSC_Units_Army",
-	"OPTRE_ACE_Compat",
-	"TCF_INDFOR_CMA",
+	"AET_F_catapult_I_CMA_nomas",
 	"A3_Weapons_F_Items",
 	"ace_medical_treatment",
+	"TCF_INDFOR_CMA",
+	"OPTRE_Weapons_AR",
 	"OPTRE_Weapons_MG_M247a1",
 	"OPTRE_Weapons_MG",
 	"OPTRE_Weapons_DMR",
@@ -55,14 +57,13 @@ addons[]=
 	"ace_explosives",
 	"OPTRE_Weapons_Sniper",
 	"ace_rangecard",
-	"ace_kestrel4500",
-	"OPTRE_Weapons_SMG"
+	"ace_kestrel4500"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			className="DrongosConfigGenerator";
@@ -91,21 +92,20 @@ class AddonsMetaData
 		class Item4
 		{
 			className="OPTRE_Core";
-			name="OPTRE_Weapons_AR";
+			name="OPTRE_Weapons_SMG";
 			author="Article 2 Studios";
 		};
 		class Item5
 		{
-			className="TCF_Weaponry";
-			name="TheCarverFindings";
-			author="TCF";
+			className="OPTRE_ACE_Compat";
+			name="OPTRE_ACE_Compat";
+			author="Article 2 Studios";
 		};
 		class Item6
 		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			className="TCF_Weaponry";
+			name="TheCarverFindings";
+			author="TCF";
 		};
 		class Item7
 		{
@@ -115,55 +115,61 @@ class AddonsMetaData
 		};
 		class Item8
 		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
 			className="TCF_Shemaghs";
 			name="TCF_Shemaghs";
 		};
-		class Item9
+		class Item10
 		{
 			className="OPTRE_UNSC_Units";
 			name="OPTRE_UNSC_Units_Army";
 			author="Article 2 Studios";
 		};
-		class Item10
-		{
-			className="OPTRE_ACE_Compat";
-			name="OPTRE_ACE_Compat";
-			author="Article 2 Studios";
-		};
 		class Item11
+		{
+			className="AET_F_catapult_I_CMA_nomas";
+			name="AET_F_catapult_I_CMA_nomas";
+		};
+		class Item12
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item12
+		class Item13
 		{
 			className="OPTRE_Weapons_MG";
 			name="OPTRE_Weapons_MG_M247a1";
 			author="Article 2 Studios";
 		};
-		class Item13
+		class Item14
 		{
 			className="OPTRE_Weapons_AT";
 			name="OPTRE_Weapons_AT_M44_Lykoi";
 			author="Article 2 Studios";
 		};
-		class Item14
+		class Item15
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item15
+		class Item16
 		{
 			className="ace_rangecard";
 			name="ACE3 - Range Card";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_kestrel4500";
 			name="ACE3 - Kestrel 4500";
@@ -182,9 +188,6 @@ randomSeed=12238028;
 class ScenarioData
 {
 	author="Redwan S.";
-};
-class CustomAttributes
-{
 };
 class Mission
 {
@@ -230,7 +233,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="AET_F_catapult_B_CMA";
+							value="AET_F_catapult_I_CMA";
 						};
 					};
 				};
@@ -269,7 +272,7 @@ class Mission
 						class data
 						{
 							singleType="SCALAR";
-							value=1;
+							value=2;
 						};
 					};
 				};
@@ -429,7 +432,7 @@ class Mission
 		class Item10
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -438,9 +441,150 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.6465,5.0014391,4342.6523};
+						position[]={4152.2969,5.0014391,4342.7119};
 					};
-					side="West";
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						rank="MAJOR";
+						name="Helicopter_Pilot";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M7";
+								firemode="OPTRE_M7:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_48Rnd_5x23mm_Mag";
+									ammoLeft=48;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6D_Jungle";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_ACTV_CGC_VEST";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=2;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_48Rnd_5x23mm_Mag";
+										count=5;
+										ammoLeft=48;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_UP_Shemagheye";
+							hmd="OPTRE_NVG";
+							headgear="OPTRE_UNSC_VX16_Helmet_Mask_oli";
+						};
+					};
+					id=1454;
+					type="I_helipilot_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1453;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4150.5962,5.0014391,4342.7749};
+					};
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -478,7 +622,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -562,8 +706,8 @@ class Mission
 							headgear="TCF_CGC_CH230_CIG_SL";
 						};
 					};
-					id=1270;
-					type="B_Soldier_SL_F";
+					id=1456;
+					type="I_Soldier_SL_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -575,7 +719,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male03ENG";
+									value="Male01GRE";
 								};
 							};
 						};
@@ -588,7 +732,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=1.04;
+									value=1;
 								};
 							};
 						};
@@ -599,12 +743,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1269;
+			id=1455;
 		};
-		class Item11
+		class Item12
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -613,9 +757,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.5928,5.0014391,4340.9126};
+						position[]={4150.7451,5.0014391,4340.8535};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -647,7 +791,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_SS_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -720,8 +864,8 @@ class Mission
 							headgear="TCF_CGC_CH230_CIG_SL";
 						};
 					};
-					id=1271;
-					type="B_Soldier_TL_F";
+					id=1458;
+					type="I_Soldier_TL_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -733,7 +877,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male07ENG";
+									value="Male04GRE";
 								};
 							};
 						};
@@ -746,7 +890,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=0.98000002;
+									value=0.99000001;
 								};
 							};
 						};
@@ -757,12 +901,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1272;
+			id=1457;
 		};
-		class Item12
+		class Item13
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -771,9 +915,150 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.5122,5.0014391,4339.1597};
+						position[]={4150.519,5.0014391,4337.168};
 					};
-					side="West";
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="Machine_Gunner";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M247A1";
+								underBarrel="OPTRE_M247A1_Bipod";
+								firemode="OPTRE_M247A1:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
+									ammoLeft=200;
+								};
+							};
+							class handgun
+							{
+								name="OPTRE_M6D_Jungle";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_8Rnd_127x40_Mag";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Binoculars";
+							};
+							class uniform
+							{
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TCF_ACTV_CGC_VEST";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=2;
+										ammoLeft=8;
+									};
+									class Item1
+									{
+										name="OPTRE_M2_Smoke";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
+										count=4;
+										ammoLeft=200;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="TCF_Shemagheye";
+							hmd="OPTRE_NVG";
+							headgear="TCF_CGC_CH230_Bull_MG";
+						};
+					};
+					id=1462;
+					type="I_Soldier_AR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1461;
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4150.6777,5.0014391,4339.0508};
+					};
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -805,7 +1090,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_SS_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -879,8 +1164,8 @@ class Mission
 							headgear="TCF_CGC_CH230_MD";
 						};
 					};
-					id=1280;
-					type="B_medic_F";
+					id=1459;
+					type="I_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -892,7 +1177,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male09ENG";
+									value="Male02GRE";
 								};
 							};
 						};
@@ -905,7 +1190,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=1.01;
+									value=1.02;
 								};
 							};
 						};
@@ -916,12 +1201,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1279;
+			id=1460;
 		};
-		class Item13
+		class Item15
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -930,150 +1215,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.7349,5.0014391,4336.8926};
+						position[]={4150.6079,5.0014391,4335.0737};
 					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						name="Machine_GUnner";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="OPTRE_M247A1";
-								underBarrel="OPTRE_M247A1_Bipod";
-								firemode="OPTRE_M247A1:FullAuto";
-								class primaryMuzzleMag
-								{
-									name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
-									ammoLeft=200;
-								};
-							};
-							class handgun
-							{
-								name="OPTRE_M6D_Jungle";
-								class primaryMuzzleMag
-								{
-									name="OPTRE_8Rnd_127x40_Mag";
-									ammoLeft=8;
-								};
-							};
-							class binocular
-							{
-								name="OPTRE_Binoculars";
-							};
-							class uniform
-							{
-								typeName="TCF_CGC_uni_Top_Base";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=2;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="TCF_ACTV_CGC_VEST";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="OPTRE_8Rnd_127x40_Mag";
-										count=2;
-										ammoLeft=8;
-									};
-									class Item1
-									{
-										name="OPTRE_M2_Smoke";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="OPTRE_M9_Frag";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="OPTRE_200Rnd_762x51_M118_M247A1_Box";
-										count=4;
-										ammoLeft=200;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="TCF_Shemagheye";
-							hmd="OPTRE_NVG";
-							headgear="TCF_CGC_CH230_Bull_MG";
-						};
-					};
-					id=1282;
-					type="B_soldier_AR_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male02ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1281;
-		};
-		class Item14
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4150.6812,5.0014391,4335.042};
-					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1106,7 +1250,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_SS_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1161,8 +1305,8 @@ class Mission
 							headgear="TCF_CGC_CH230_Bull_CAM";
 						};
 					};
-					id=1284;
-					type="B_soldier_M_F";
+					id=1464;
+					type="I_Soldier_M_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1174,7 +1318,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male06ENG";
+									value="Male04GRE";
 								};
 							};
 						};
@@ -1187,7 +1331,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=0.94999999;
+									value=0.99000001;
 								};
 							};
 						};
@@ -1198,12 +1342,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1283;
+			id=1463;
 		};
-		class Item15
+		class Item16
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -1212,9 +1356,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.6006,5.0014391,4333.2329};
+						position[]={4150.4258,5.0014391,4333.458};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1255,7 +1399,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1310,8 +1454,8 @@ class Mission
 							headgear="TCF_CGC_CH230_CIG_CH";
 						};
 					};
-					id=1286;
-					type="B_soldier_AT_F";
+					id=1466;
+					type="I_Soldier_AT_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1323,7 +1467,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male05ENG";
+									value="Male01GRE";
 								};
 							};
 						};
@@ -1336,7 +1480,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=0.94999999;
+									value=1.05;
 								};
 							};
 						};
@@ -1347,12 +1491,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1285;
+			id=1465;
 		};
-		class Item16
+		class Item17
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -1361,9 +1505,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.5542,5.0014391,4331.3911};
+						position[]={4150.3999,5.0014391,4331.3921};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1404,7 +1548,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1459,8 +1603,8 @@ class Mission
 							headgear="TCF_CGC_CH230_CIG_CH";
 						};
 					};
-					id=1288;
-					type="B_soldier_AA_F";
+					id=1468;
+					type="I_Soldier_AA_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1472,7 +1616,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male12ENG";
+									value="Male01GRE";
 								};
 							};
 						};
@@ -1485,7 +1629,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=0.94999999;
+									value=0.97000003;
 								};
 							};
 						};
@@ -1496,12 +1640,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1287;
+			id=1467;
 		};
-		class Item17
+		class Item18
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -1510,9 +1654,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.71,5.0014391,4329.0957};
+						position[]={4150.5762,5.0014391,4329.0869};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1545,7 +1689,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1600,8 +1744,8 @@ class Mission
 							headgear="TCF_CGC_CH230";
 						};
 					};
-					id=1290;
-					type="B_Soldier_F";
+					id=1470;
+					type="I_soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1613,7 +1757,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male05ENG";
+									value="Male01GRE";
 								};
 							};
 						};
@@ -1626,7 +1770,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=1.05;
+									value=1;
 								};
 							};
 						};
@@ -1637,12 +1781,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1289;
+			id=1469;
 		};
-		class Item18
+		class Item19
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -1651,9 +1795,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.813,5.0014391,4327.0356};
+						position[]={4150.6934,5.0014391,4326.8682};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1685,7 +1829,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1737,11 +1881,11 @@ class Mission
 							gps="ItemGPS";
 							goggles="TCF_Shemagh";
 							hmd="OPTRE_NVG";
-							headgear="AET_F_catapult_W_CMA_Officer_Beret";
+							headgear="AET_F_catapult_I_CMA_Officer_Beret";
 						};
 					};
-					id=1292;
-					type="B_officer_F";
+					id=1472;
+					type="I_officer_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1753,7 +1897,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male10ENG";
+									value="Male06GRE";
 								};
 							};
 						};
@@ -1766,7 +1910,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=1.04;
+									value=1.05;
 								};
 							};
 						};
@@ -1777,12 +1921,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1291;
+			id=1471;
 		};
-		class Item19
+		class Item20
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -1791,9 +1935,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.8188,5.0014391,4325.146};
+						position[]={4150.6836,5.0014391,4324.5645};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1831,7 +1975,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -1896,8 +2040,8 @@ class Mission
 							headgear="TCF_CGC_CH230_CAM";
 						};
 					};
-					id=1294;
-					type="B_sniper_F";
+					id=1474;
+					type="I_Sniper_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1909,7 +2053,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male07ENG";
+									value="Male06GRE";
 								};
 							};
 						};
@@ -1922,7 +2066,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=0.99000001;
+									value=1.01;
 								};
 							};
 						};
@@ -1933,12 +2077,12 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1293;
+			id=1473;
 		};
-		class Item20
+		class Item21
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -1947,9 +2091,9 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4150.7671,5.0014391,4323.0889};
+						position[]={4150.6099,5.0014391,4321.4507};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
@@ -1987,7 +2131,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TCF_CGC_uni_SS_Base";
+								typeName="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -2052,8 +2196,8 @@ class Mission
 							headgear="TCF_CGC_CH230_Bull_CAM";
 						};
 					};
-					id=1296;
-					type="B_spotter_F";
+					id=1476;
+					type="I_Spotter_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2065,7 +2209,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Male01ENG";
+									value="Male01GRE";
 								};
 							};
 						};
@@ -2078,7 +2222,7 @@ class Mission
 								class data
 								{
 									singleType="SCALAR";
-									value=1;
+									value=1.01;
 								};
 							};
 						};
@@ -2089,148 +2233,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=1295;
-		};
-		class Item21
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4152.7021,5.0014391,4342.7949};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="MAJOR";
-						name="Helicopter_Pilot";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="OPTRE_M7";
-								firemode="OPTRE_M7:FullAuto";
-								class primaryMuzzleMag
-								{
-									name="OPTRE_48Rnd_5x23mm_Mag";
-									ammoLeft=48;
-								};
-							};
-							class handgun
-							{
-								name="OPTRE_M6D_Jungle";
-								class primaryMuzzleMag
-								{
-									name="OPTRE_8Rnd_127x40_Mag";
-									ammoLeft=8;
-								};
-							};
-							class binocular
-							{
-								name="OPTRE_Binoculars";
-							};
-							class uniform
-							{
-								typeName="TCF_CGC_uni_Base";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=2;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="TCF_ACTV_CGC_VEST";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="OPTRE_8Rnd_127x40_Mag";
-										count=2;
-										ammoLeft=8;
-									};
-									class Item1
-									{
-										name="OPTRE_M2_Smoke";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="OPTRE_M9_Frag";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="OPTRE_48Rnd_5x23mm_Mag";
-										count=5;
-										ammoLeft=48;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="TCF_UP_Shemagheye";
-							hmd="OPTRE_NVG";
-							headgear="OPTRE_UNSC_VX16_Helmet_Mask_oli";
-						};
-					};
-					id=1298;
-					type="B_Helipilot_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.94999999;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1297;
+			id=1475;
 		};
 	};
 };

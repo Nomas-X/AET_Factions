@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1427;
+		nextID=1572;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3777.0984,98.929657,4091.0547};
-		dir[]={0.81987494,-0.54321909,-0.18096238};
-		up[]={0.53045869,0.83958733,-0.11708295};
-		aside[]={-0.21553558,6.2369509e-08,-0.97650653};
+		pos[]={3478.1548,294.08633,4105.3701};
+		dir[]={0.77289724,-0.6288901,-0.084573455};
+		up[]={0.62516248,0.77749157,-0.068406947};
+		aside[]={-0.1087758,1.0212098e-06,-0.99407643};
 	};
 };
 binarizationWanted=0;
@@ -31,7 +31,7 @@ sourceName="catapult_cma_groups";
 addons[]=
 {
 	"drongosconfiggenerator",
-	"AET_F_catapult_B_CMA_nomas"
+	"AET_F_catapult_I_CMA_nomas"
 };
 class AddonsMetaData
 {
@@ -46,8 +46,8 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="AET_F_catapult_B_CMA_nomas";
-			name="AET_F_catapult_B_CMA_nomas";
+			className="AET_F_catapult_I_CMA_nomas";
+			name="AET_F_catapult_I_CMA_nomas";
 		};
 	};
 };
@@ -104,7 +104,7 @@ class Mission
 						class data
 						{
 							singleType="SCALAR";
-							value=1;
+							value=2;
 						};
 					};
 				};
@@ -117,7 +117,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="AET_F_catapult_B_CMA";
+							value="AET_F_catapult_I_CMA";
 						};
 					};
 				};
@@ -140,680 +140,7 @@ class Mission
 		class Item1
 		{
 			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3904.0532,5.0014391,4067.7871};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=1250;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3904.0532,6.8333569,4067.7871};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=1251;
-					type="AET_F_catapult_B_CMA_Rifleman";
-					atlOffset=1.8319178;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3999.7371,5.0014391,4162.9316};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1321;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4025.7371,5.0014391,4142.9316};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1322;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1250;
-						item1=1249;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1251;
-						item1=1249;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=1248;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="ARV 13 Ferret";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item2
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4013.2371,6.8319178,4155.3818};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=1249;
-			type="AET_F_catapult_B_CMA_ARV_13_Ferret";
-		};
-		class Item3
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=7;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3909.8362,5.0014391,4104.0332};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=1264;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3909.8362,6.7312584,4104.0332};
-					};
-					side="West";
-					class Attributes
-					{
-					};
-					id=1265;
-					type="AET_F_catapult_B_CMA_Rifleman";
-					atlOffset=1.7298193;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4003.146,5.0014391,4208.1216};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1358;
-					type="AET_F_catapult_B_CMA_Team_Leader";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4029.146,5.0014391,4207.1216};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1359;
-					type="AET_F_catapult_B_CMA_Medic";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3998.146,5.0014391,4203.1216};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1360;
-					type="AET_F_catapult_B_CMA_Machine_GUnner";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4034.146,5.0014391,4202.1216};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1361;
-					type="AET_F_catapult_B_CMA_Marksman";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3993.146,5.0014391,4198.1216};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1362;
-					type="AET_F_catapult_B_CMA_Anti_Tank_Specialist";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1264;
-						item1=1263;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1265;
-						item1=1263;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=1262;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="M121 MG Iguana";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item4
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4015.646,6.7298193,4220.5718};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=1263;
-			type="AET_F_catapult_B_CMA_M121_MG_Iguana";
-		};
-		class Item5
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=7;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3896.03,5.0014391,4103.8052};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=1268;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4025.7805,5.0014391,4180.2764};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1334;
-					type="AET_F_catapult_B_CMA_Team_Leader";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4000.7805,5.0014391,4180.2764};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1335;
-					type="AET_F_catapult_B_CMA_Medic";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4030.7805,5.0014391,4175.2764};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1336;
-					type="AET_F_catapult_B_CMA_Machine_GUnner";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3995.7805,5.0014391,4175.2764};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1337;
-					type="AET_F_catapult_B_CMA_Marksman";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4035.7805,5.0014391,4170.2764};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1338;
-					type="AET_F_catapult_B_CMA_Anti_Tank_Specialist";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3990.7805,5.0014391,4170.2764};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1339;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=1268;
-						item1=1267;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
-			id=1266;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="M121 Iguana";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item6
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4013.2805,6.7298193,4192.7266};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=1267;
-			type="AET_F_catapult_B_CMA_M121_Iguana";
-		};
-		class Item7
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=7;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3882.7007,5.0014391,4102.8496};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=1271;
-					type="AET_F_catapult_B_CMA_Rifleman";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3882.7007,6.7312584,4102.8496};
-					};
-					side="West";
-					class Attributes
-					{
-					};
-					id=1272;
-					type="AET_F_catapult_B_CMA_Rifleman";
-					atlOffset=1.7298193;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4002.8521,5.0014391,4235.4634};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1364;
-					type="AET_F_catapult_B_CMA_Team_Leader";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4028.8521,5.0014391,4234.4634};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1365;
-					type="AET_F_catapult_B_CMA_Medic";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3997.8521,5.0014391,4230.4634};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1366;
-					type="AET_F_catapult_B_CMA_Machine_GUnner";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4033.8521,5.0014391,4229.4634};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1367;
-					type="AET_F_catapult_B_CMA_Marksman";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3992.8521,5.0014391,4225.4634};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1368;
-					type="AET_F_catapult_B_CMA_Anti_Tank_Specialist";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1271;
-						item1=1270;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1272;
-						item1=1270;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=1269;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="M121 AT Iguana";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item8
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4015.3521,6.7298193,4247.9136};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=1270;
-			type="AET_F_catapult_B_CMA_M121_AT_Iguana";
-		};
-		class Item9
-		{
-			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=8;
@@ -822,127 +149,126 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4015.613,5.0014391,4114.2632};
+						position[]={3959.9243,5.0014391,4115.9834};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
-						isPlayer=1;
 					};
-					id=1278;
-					type="AET_F_catapult_B_CMA_Squad_Leader";
+					id=1434;
+					type="AET_F_catapult_I_CMA_Squad_Leader";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4020.613,5.0014391,4109.313};
+						position[]={3964.9243,5.0014391,4111.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1279;
-					type="AET_F_catapult_B_CMA_Team_Leader";
+					id=1435;
+					type="AET_F_catapult_I_CMA_Team_Leader";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.613,5.0014391,4109.313};
+						position[]={3954.9243,5.0014391,4111.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1280;
-					type="AET_F_catapult_B_CMA_Medic";
+					id=1436;
+					type="AET_F_catapult_I_CMA_Medic";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4025.613,5.0014391,4104.313};
+						position[]={3969.9243,5.0014391,4106.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1281;
-					type="AET_F_catapult_B_CMA_Machine_GUnner";
+					id=1437;
+					type="AET_F_catapult_I_CMA_Machine_Gunner";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4005.613,5.0014391,4104.313};
+						position[]={3949.9243,5.0014391,4106.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1282;
-					type="AET_F_catapult_B_CMA_Marksman";
+					id=1438;
+					type="AET_F_catapult_I_CMA_Anti_Tank_Specialist";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4030.613,5.0014391,4099.313};
+						position[]={3974.9243,5.0014391,4101.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1283;
-					type="AET_F_catapult_B_CMA_Anti_Tank_Specialist";
+					id=1439;
+					type="AET_F_catapult_I_CMA_Marksman";
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4000.613,5.0014391,4099.313};
+						position[]={3944.9243,5.0014391,4101.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1284;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1440;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4035.613,5.0014391,4094.313};
+						position[]={3979.9243,5.0014391,4096.0332};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1285;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1441;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1277;
+			id=1433;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -954,17 +280,17 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Sqaud";
+							value="Squad";
 						};
 					};
 				};
 				nAttributes=1;
 			};
 		};
-		class Item10
+		class Item2
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=4;
@@ -973,66 +299,66 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4015.0791,5.0014391,4108.2061};
+						position[]={3959.5754,5.0014391,4107.4336};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
 					};
-					id=1296;
-					type="AET_F_catapult_B_CMA_Team_Leader";
+					id=1453;
+					type="AET_F_catapult_I_CMA_Team_Leader";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4020.0791,5.0014391,4103.2559};
+						position[]={3964.5754,5.0014391,4102.4834};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1297;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1454;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.0791,5.0014391,4103.2559};
+						position[]={3954.5754,5.0014391,4102.4834};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1298;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1455;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4025.0791,5.0014391,4098.2559};
+						position[]={3969.5754,5.0014391,4097.4834};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1299;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1456;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1295;
+			id=1452;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1051,10 +377,10 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item11
+		class Item3
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=4;
@@ -1063,66 +389,66 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4015.7996,5.0014391,4101.0479};
+						position[]={3960.3025,5.0014391,4100.6133};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
 					};
-					id=1301;
-					type="AET_F_catapult_B_CMA_Team_Leader";
+					id=1458;
+					type="AET_F_catapult_I_CMA_Team_Leader";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4020.7996,5.0014391,4096.0977};
+						position[]={3965.3025,5.0014391,4095.6631};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1302;
-					type="AET_F_catapult_B_CMA_Machine_GUnner";
+					id=1459;
+					type="AET_F_catapult_I_CMA_Machine_Gunner";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.7996,5.0014391,4096.0977};
+						position[]={3955.3025,5.0014391,4095.6631};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1303;
-					type="AET_F_catapult_B_CMA_Marksman";
+					id=1460;
+					type="AET_F_catapult_I_CMA_Marksman";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4025.7996,5.0014391,4091.0977};
+						position[]={3970.3025,5.0014391,4090.6633};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1304;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1461;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1300;
+			id=1457;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1141,10 +467,10 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item12
+		class Item4
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=2;
@@ -1153,36 +479,36 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4014.9846,5.0014391,4092.0518};
+						position[]={3960.8098,5.0014391,4093.8015};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
 					};
-					id=1306;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1463;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4019.9846,5.0014391,4087.1018};
+						position[]={3965.8098,5.0014391,4088.8516};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1307;
-					type="AET_F_catapult_B_CMA_Rifleman";
+					id=1464;
+					type="AET_F_catapult_I_CMA_Rifleman";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1305;
+			id=1462;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1201,10 +527,10 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item13
+		class Item5
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=2;
@@ -1213,70 +539,36 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4014.4045,5.0014391,4085.0005};
+						position[]={3960.1567,5.0014391,4088.6648};
 					};
-					side="West";
+					side="Independent";
 					flags=7;
 					class Attributes
 					{
 					};
-					id=1309;
-					type="AET_F_catapult_B_CMA_Sniper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male12ENG";
-								};
-							};
-						};
-						nAttributes=1;
-					};
+					id=1466;
+					type="AET_F_catapult_I_CMA_Sniper";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4019.4045,5.0014391,4080.0505};
+						position[]={3963.7415,5.0014391,4084.7131};
 					};
-					side="West";
+					side="Independent";
 					flags=5;
 					class Attributes
 					{
 					};
-					id=1310;
-					type="AET_F_catapult_B_CMA_Spotter";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male12ENG";
-								};
-							};
-						};
-						nAttributes=1;
-					};
+					id=1467;
+					type="AET_F_catapult_I_CMA_Spotter";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1308;
+			id=1465;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1294,6 +586,679 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item6
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3957.6438,5.0014391,4145.2432};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=1470;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3957.6438,6.8333569,4145.2432};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+					};
+					id=1471;
+					type="AET_F_catapult_I_CMA_Rifleman";
+					atlOffset=1.8319178;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3947.8113,5.0014391,4153.8257};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1484;
+					type="AET_F_catapult_I_CMA_Sniper";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3973.8113,5.0014391,4133.8257};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1485;
+					type="AET_F_catapult_I_CMA_Spotter";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=1470;
+						item1=1469;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=1471;
+						item1=1469;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=1468;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="ARV 13 Ferret";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3961.3113,6.8319178,4146.2759};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=1469;
+			type="AET_F_catapult_I_CMA_ARV_13_Ferret";
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3957.322,5.0014391,4173.6025};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=1474;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3957.322,6.7312584,4173.6025};
+					};
+					side="Independent";
+					class Attributes
+					{
+					};
+					id=1475;
+					type="AET_F_catapult_I_CMA_Rifleman";
+					atlOffset=1.7298193;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3945.2361,5.0014391,4159.8052};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1488;
+					type="AET_F_catapult_I_CMA_Team_Leader";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3971.2361,5.0014391,4158.8052};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1489;
+					type="AET_F_catapult_I_CMA_Medic";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3940.2361,5.0014391,4154.8052};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1490;
+					type="AET_F_catapult_I_CMA_Machine_Gunner";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3976.2361,5.0014391,4153.8052};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1491;
+					type="AET_F_catapult_I_CMA_Anti_Tank_Specialist";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3981.2361,5.0014391,4148.8052};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1493;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=1474;
+						item1=1473;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=1475;
+						item1=1473;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=1472;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="M121 AT Iguana";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3957.7361,6.7298193,4172.2554};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=1473;
+			type="AET_F_catapult_I_CMA_M121_AT_Iguana";
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3957.499,5.0014391,4200.6538};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=1478;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3969.7659,5.0014391,4176.6499};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1497;
+					type="AET_F_catapult_I_CMA_Team_Leader";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3944.7659,5.0014391,4176.6499};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1498;
+					type="AET_F_catapult_I_CMA_Medic";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3974.7659,5.0014391,4171.6499};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1499;
+					type="AET_F_catapult_I_CMA_Machine_Gunner";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3939.7659,5.0014391,4171.6499};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1500;
+					type="AET_F_catapult_I_CMA_Anti_Tank_Specialist";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3979.7659,5.0014391,4166.6499};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1501;
+					type="AET_F_catapult_I_CMA_Marksman";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3934.7659,5.0014391,4166.6499};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1502;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=1478;
+						item1=1477;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=1476;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="M121 Iguana";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3957.2659,6.7298193,4189.1001};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=1477;
+			type="AET_F_catapult_I_CMA_M121_Iguana";
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3956.4177,5.0014391,4243.7358};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=1481;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3956.4177,6.7312584,4243.7358};
+					};
+					side="Independent";
+					class Attributes
+					{
+					};
+					id=1482;
+					type="AET_F_catapult_I_CMA_Rifleman";
+					atlOffset=1.7298193;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3943.2368,5.0014391,4193.5347};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1506;
+					type="AET_F_catapult_I_CMA_Team_Leader";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3969.2368,5.0014391,4192.5347};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1507;
+					type="AET_F_catapult_I_CMA_Medic";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3938.2368,5.0014391,4188.5347};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1508;
+					type="AET_F_catapult_I_CMA_Machine_Gunner";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3974.2368,5.0014391,4187.5347};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1509;
+					type="AET_F_catapult_I_CMA_Anti_Tank_Specialist";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3933.2368,5.0014391,4183.5347};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=1511;
+					type="AET_F_catapult_I_CMA_Rifleman";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=1481;
+						item1=1480;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=1482;
+						item1=1480;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=1479;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="M121 MG Iguana";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3955.7368,6.7298193,4205.9849};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=1480;
+			type="AET_F_catapult_I_CMA_M121_MG_Iguana";
 		};
 	};
 };
