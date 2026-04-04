@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4148.832,6.8492551,4339.3584};
-		dir[]={0.93771279,-0.29545429,0.18342398};
-		up[]={0.290007,0.95537019,0.056729328};
-		aside[]={0.19198716,-1.5019905e-06,-0.98150784};
+		pos[]={4144.4121,9.4083223,4329.0537};
+		dir[]={0.83976752,-0.42023253,-0.3441512};
+		up[]={0.38887793,0.9074319,-0.15936683};
+		aside[]={-0.37925297,-9.5623545e-07,-0.92541182};
 	};
 };
 binarizationWanted=0;
@@ -1882,7 +1882,7 @@ class Mission
 							watch="ItemWatch";
 							radio="ItemRadio";
 							gps="ItemGPS";
-							goggles="TCF_Shemagh";
+							goggles="TCF_UP_Shemagh";
 							hmd="OPTRE_NVG";
 							headgear="AET_F_catapult_I_CMA_Officer_Beret";
 						};
