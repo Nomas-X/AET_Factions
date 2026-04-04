@@ -995,68 +995,6 @@ class cfgGroups
             position[]={0,-5,0};
           };
         };
-        class AET_F_catapult_O_NFI_O_Rifle_Squad_Urban
-        {
-          name="Rifle Squad Urban";
-          faction="AET_F_catapult_O_NFI_nomas";
-          side=0;
-          class Unit0
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Squad_Leader";
-            rank="PRIVATE";
-            position[]={0,-0,0};
-          };
-          class Unit1
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Team_Leader";
-            rank="PRIVATE";
-            position[]={0,-5,0};
-          };
-          class Unit2
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Medic";
-            rank="PRIVATE";
-            position[]={0,-10,0};
-          };
-          class Unit3
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Rifleman";
-            rank="PRIVATE";
-            position[]={0,-15,0};
-          };
-          class Unit4
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Autorifleman";
-            rank="PRIVATE";
-            position[]={0,-20,0};
-          };
-          class Unit5
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Marksman";
-            rank="PRIVATE";
-            position[]={0,-25,0};
-          };
-          class Unit6
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Breacher";
-            rank="PRIVATE";
-            position[]={0,-30,0};
-          };
-          class Unit7
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Rifleman";
-            rank="PRIVATE";
-            position[]={0,-35,0};
-          };
-        };
         class AET_F_catapult_O_NFI_O_Rifle_Squad
         {
           name="Rifle Squad";
@@ -1107,68 +1045,6 @@ class cfgGroups
           class Unit6
           {
             side=0;
-            vehicle="AET_F_catapult_O_NFI_Rifleman";
-            rank="PRIVATE";
-            position[]={0,-30,0};
-          };
-          class Unit7
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Rifleman";
-            rank="PRIVATE";
-            position[]={0,-35,0};
-          };
-        };
-        class AET_F_catapult_O_NFI_O_Weapons_Squad_Urban
-        {
-          name="Weapons Squad Urban";
-          faction="AET_F_catapult_O_NFI_nomas";
-          side=0;
-          class Unit0
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Squad_Leader";
-            rank="PRIVATE";
-            position[]={0,-0,0};
-          };
-          class Unit1
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Team_Leader";
-            rank="PRIVATE";
-            position[]={0,-5,0};
-          };
-          class Unit2
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Medic";
-            rank="PRIVATE";
-            position[]={0,-10,0};
-          };
-          class Unit3
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Rifleman";
-            rank="PRIVATE";
-            position[]={0,-15,0};
-          };
-          class Unit4
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Autorifleman";
-            rank="PRIVATE";
-            position[]={0,-20,0};
-          };
-          class Unit5
-          {
-            side=0;
-            vehicle="AET_F_catapult_O_NFI_Marksman";
-            rank="PRIVATE";
-            position[]={0,-25,0};
-          };
-          class Unit6
-          {
-            side=0;
             vehicle="AET_F_catapult_O_NFI_Breacher";
             rank="PRIVATE";
             position[]={0,-30,0};
@@ -1176,7 +1052,7 @@ class cfgGroups
           class Unit7
           {
             side=0;
-            vehicle="AET_F_catapult_O_NFI_Anti_Tank_Specialist";
+            vehicle="AET_F_catapult_O_NFI_Rifleman";
             rank="PRIVATE";
             position[]={0,-35,0};
           };
@@ -1231,14 +1107,14 @@ class cfgGroups
           class Unit6
           {
             side=0;
-            vehicle="AET_F_catapult_O_NFI_Anti_Tank_Specialist";
+            vehicle="AET_F_catapult_O_NFI_Breacher";
             rank="PRIVATE";
             position[]={0,-30,0};
           };
           class Unit7
           {
             side=0;
-            vehicle="AET_F_catapult_O_NFI_Rifleman";
+            vehicle="AET_F_catapult_O_NFI_Anti_Tank_Specialist";
             rank="PRIVATE";
             position[]={0,-35,0};
           };
@@ -1689,3 +1565,4 @@ class cfgGroups
     };
   };
 };
+
