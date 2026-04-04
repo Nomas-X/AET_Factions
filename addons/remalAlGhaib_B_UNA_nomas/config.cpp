@@ -6,7 +6,7 @@ class cfgPatches
     units[]={"AET_F_remalAlGhaib_B_UNA_Squad_Leader","AET_F_remalAlGhaib_B_UNA_Grenadeir","AET_F_remalAlGhaib_B_UNA_Medic","AET_F_remalAlGhaib_B_UNA_Machine_Gunner","AET_F_remalAlGhaib_B_UNA_Autorifleman","AET_F_remalAlGhaib_B_UNA_AT_Specialist","AET_F_remalAlGhaib_B_UNA_Vehicle_Crew","AET_F_remalAlGhaib_B_UNA_Rifleman","AET_F_remalAlGhaib_B_UNA_MATV","AET_F_remalAlGhaib_B_UNA_Offroad","AET_F_remalAlGhaib_B_UNA_Offroad_UP","AET_F_remalAlGhaib_B_UNA_Ram_1500","AET_F_remalAlGhaib_B_UNA_Ram_1500_MMG"};
     weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS"};
     requiredVersion=0.1;
-    requiredAddons[]={"ace_medical_treatment","A3_Weapons_F","A3_Weapons_F_Pistols_ACPC2","Characters_f_lxWS","Characters_f_lxWS_headgear","A3_Weapons_F_Items","Weapons_1_F_lxWS_Rifles_Velko","characters_1_F_lxWS","Weapons_F_lxWS_Rifles","A3_Weapons_F_Machineguns_M200","Weapons_1_F_lxWS_Launchers_rpg32"};
+    requiredAddons[]={"A3_Weapons_F","A3_Weapons_F_Pistols_ACPC2","Characters_f_lxWS","Characters_f_lxWS_headgear","A3_Weapons_F_Items","Weapons_1_F_lxWS_Rifles_Velko","characters_1_F_lxWS","Weapons_F_lxWS_Rifles","A3_Weapons_F_Machineguns_M200","Weapons_1_F_lxWS_Launchers_rpg32"};
   };
 };
 
@@ -163,8 +163,8 @@ class cfgVehicles
     uniformClass="U_lxWS_UN_Camo3";
     weapons[]={"Binocular","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     respawnWeapons[]={"Binocular","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    items[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
-    respawnItems[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
+    items[]={"FirstAidKit"};
+    respawnItems[]={"FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","SmokeShellBlue","SmokeShellOrange","Chemlight_green","Chemlight_green"};
     respawnMagazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","SmokeShellBlue","SmokeShellOrange","Chemlight_green","Chemlight_green"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","Binocular","lxWS_H_PASGT_goggles_UN_F","V_lxWS_UN_Vest_F"};

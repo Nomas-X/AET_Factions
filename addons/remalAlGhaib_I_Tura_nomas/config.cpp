@@ -6,7 +6,7 @@ class cfgPatches
     units[]={"AET_F_remalAlGhaib_I_Tura_Squad_Leader","AET_F_remalAlGhaib_I_Tura_Medic","AET_F_remalAlGhaib_I_Tura_Rifleman_2","AET_F_remalAlGhaib_I_Tura_Vehicle_Crew","AET_F_remalAlGhaib_I_Tura_Marksman","AET_F_remalAlGhaib_I_Tura_AT_Specialist","AET_F_remalAlGhaib_I_Tura_Grenadier","AET_F_remalAlGhaib_I_Tura_IED_Specialist","AET_F_remalAlGhaib_I_Tura_Rifleman_1","AET_F_remalAlGhaib_I_Tura_Machine_Gunner","AET_F_remalAlGhaib_I_Tura_Ram_1500","AET_F_remalAlGhaib_I_Tura_Ram_1500_HMG","AET_F_remalAlGhaib_I_Tura_Ram_1500_Rocket","AET_F_remalAlGhaib_I_Tura_Offroad_UP","AET_F_remalAlGhaib_I_Tura_Offroad_UP_HMG","AET_F_remalAlGhaib_I_Tura_KamAZ_ZU"};
     weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_Galat_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_Galat_worn_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS_optic_DMS_weathered_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_lxWS","AET_F_remalAlGhaib_I_Tura_launch_RPG7_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_GL_lxWS","AET_F_remalAlGhaib_I_Tura_LMG_S77_Desert_lxWS"};
     requiredVersion=0.1;
-    requiredAddons[]={"ace_medical_treatment","A3_Weapons_F","Weapons_F_lxWS_Rifles","Characters_f_lxWS","A3_Weapons_F_Items","Weapons_1_F_lxWS_Rifles_Galat","A3_Characters_F","A3_Weapons_F_Exp_Launchers_RPG7","Weapons_1_F_lxWS_Machineguns_S77","Characters_1_f_lxWS_uniform","characters_1_F_lxWS"};
+    requiredAddons[]={"A3_Weapons_F","Weapons_F_lxWS_Rifles","Characters_f_lxWS","A3_Weapons_F_Items","Weapons_1_F_lxWS_Rifles_Galat","A3_Characters_F","A3_Weapons_F_Exp_Launchers_RPG7","Weapons_1_F_lxWS_Machineguns_S77","Characters_1_f_lxWS_uniform","characters_1_F_lxWS"};
   };
 };
 
@@ -129,8 +129,8 @@ class cfgVehicles
     uniformClass="U_lxWS_Djella_02_Grey";
     weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_Galat_lxWS","Put","Throw"};
     respawnWeapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_Galat_lxWS","Put","Throw"};
-    items[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
-    respawnItems[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
+    items[]={"FirstAidKit"};
+    respawnItems[]={"FirstAidKit"};
     magazines[]={"75Rnd_762x39_Mag_F","75Rnd_762x39_Mag_F","75Rnd_762x39_Mag_F","MiniGrenade","MiniGrenade"};
     respawnMagazines[]={"75Rnd_762x39_Mag_F","75Rnd_762x39_Mag_F","75Rnd_762x39_Mag_F","MiniGrenade","MiniGrenade"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","lxWS_H_turban_02_sand_bandit","V_lxWS_HarnessO_oli"};
