@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=294;
+		nextID=320;
 	};
 	class Camera
 	{
-		pos[]={3652.1421,54.397652,5635.4834};
-		dir[]={0.41307321,-0.60835129,-0.67773193};
-		up[]={0.31661499,0.79366255,-0.51947093};
-		aside[]={-0.85390681,1.3713725e-07,-0.52045202};
+		pos[]={3719.8037,11.037985,5544.1592};
+		dir[]={0.057848588,-0.44137216,-0.89553404};
+		up[]={0.028454769,0.89730906,-0.44049048};
+		aside[]={-0.99797904,5.0821836e-07,-0.064468779};
 	};
 };
 binarizationWanted=0;
@@ -2796,7 +2796,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						name="SF_Rifleman_SG";
+						name="SF_Rifleman";
 						class Inventory
 						{
 							class primaryWeapon
@@ -2970,7 +2970,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						name="SF_Rifleman";
+						name="SF_Rifleman_SG";
 						class Inventory
 						{
 							class primaryWeapon

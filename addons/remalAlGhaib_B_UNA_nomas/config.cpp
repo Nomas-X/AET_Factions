@@ -4,7 +4,7 @@ class cfgPatches
   {
 	skipWhenMissingDependencies = 1;
     units[]={"AET_F_remalAlGhaib_B_UNA_Squad_Leader","AET_F_remalAlGhaib_B_UNA_Grenadeir","AET_F_remalAlGhaib_B_UNA_Medic","AET_F_remalAlGhaib_B_UNA_Machine_Gunner","AET_F_remalAlGhaib_B_UNA_Autorifleman","AET_F_remalAlGhaib_B_UNA_AT_Specialist","AET_F_remalAlGhaib_B_UNA_Vehicle_Crew","AET_F_remalAlGhaib_B_UNA_Rifleman","AET_F_remalAlGhaib_B_UNA_MATV","AET_F_remalAlGhaib_B_UNA_Offroad","AET_F_remalAlGhaib_B_UNA_Offroad_UP","AET_F_remalAlGhaib_B_UNA_Ram_1500","AET_F_remalAlGhaib_B_UNA_Ram_1500_MMG"};
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS","AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS","AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F","A3_Weapons_F_Pistols_ACPC2","Characters_f_lxWS","Characters_f_lxWS_headgear","A3_Weapons_F_Items","Weapons_1_F_lxWS_Rifles_Velko","characters_1_F_lxWS","Weapons_F_lxWS_Rifles","A3_Weapons_F_Machineguns_M200","Weapons_1_F_lxWS_Launchers_rpg32"};
   };
@@ -33,7 +33,7 @@ class cfgWeapons
   class arifle_Velko_50rnd_ACO_lxWS;
   class launch_RPG32_tan_lxWS;
 
-  class AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS: arifle_Velko_50rnd_MRCO_lxWS
+  class AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS: arifle_Velko_50rnd_MRCO_lxWS
   {
     displayName="Vektor R4";
     scope=1;
@@ -56,7 +56,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS_saber_light_lxWS: arifle_VelkoR5_GL_lxWS
+  class AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS: arifle_VelkoR5_GL_lxWS
   {
     displayName="Vektor R5 Carbine GL";
     scope=1;
@@ -70,7 +70,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS_saber_light_lxWS: arifle_Velko_lxWS
+  class AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS: arifle_Velko_lxWS
   {
     displayName="Vektor R4";
     scope=1;
@@ -84,7 +84,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS_saber_light_lxWS: LMG_S77_Compact_MRCO_lxWS
+  class AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS: LMG_S77_Compact_MRCO_lxWS
   {
     displayName="Vektor SS-77 Compact";
     scope=1;
@@ -98,7 +98,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F_saber_light_lxWS: LMG_Mk200_F
+  class AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F: LMG_Mk200_F
   {
     displayName="Stoner 99 LMG";
     scope=1;
@@ -112,7 +112,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS: arifle_Velko_50rnd_ACO_lxWS
+  class AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS: arifle_Velko_50rnd_ACO_lxWS
   {
     displayName="Vektor R4";
     scope=1;
@@ -161,8 +161,8 @@ class cfgVehicles
     side=1;
     displayName="Squad Leader";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"Binocular","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"Binocular","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_MRCO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","SmokeShellBlue","SmokeShellOrange","Chemlight_green","Chemlight_green"};
@@ -178,8 +178,8 @@ class cfgVehicles
     side=1;
     displayName="Grenadeir";
     uniformClass="U_lxWS_UN_Camo2";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_VelkoR5_GL_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","1Rnd_SmokeOrange_Grenade_shell","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell"};
@@ -195,8 +195,8 @@ class cfgVehicles
     side=1;
     displayName="Medic";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShellGreen","SmokeShellBlue","SmokeShellOrange","Chemlight_green","Chemlight_green"};
@@ -212,8 +212,8 @@ class cfgVehicles
     side=1;
     displayName="Machine Gunner";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_S77_Compact_MRCO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"Chemlight_green","HandGrenade","SmokeShellGreen","100Rnd_762x51_S77_Red_lxWS","100Rnd_762x51_S77_Red_lxWS","100Rnd_762x51_S77_Red_Tracer_lxWS","9Rnd_45ACP_Mag","SmokeShell","Chemlight_green"};
@@ -229,8 +229,8 @@ class cfgVehicles
     side=1;
     displayName="Autorifleman";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_LMG_Mk200_F","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","HandGrenade","SmokeShell","SmokeShellGreen","200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box","Chemlight_green","Chemlight_green"};
@@ -246,8 +246,8 @@ class cfgVehicles
     side=1;
     displayName="AT Specialist";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_launch_RPG32_tan_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","RPG32_F","RPG32_F","RPG32_HE_F","RPG32_HE_F"};
@@ -263,8 +263,8 @@ class cfgVehicles
     side=1;
     displayName="Vehicle Crew";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","HandGrenade","HandGrenade"};
@@ -280,8 +280,8 @@ class cfgVehicles
     side=1;
     displayName="Rifleman";
     uniformClass="U_lxWS_UN_Camo3";
-    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS_saber_light_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_B_UNA_arifle_Velko_50rnd_ACO_lxWS","AET_F_remalAlGhaib_B_UNA_hgun_ACPC2_F","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","35Rnd_556x45_Velko_reload_tracer_red_lxWS","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green","HandGrenade","HandGrenade"};

@@ -4,7 +4,7 @@ class cfgPatches
   {
 	skipWhenMissingDependencies = 1;
     units[]={"AET_F_catapult_O_ONI_Helicopter_Pilot","AET_F_catapult_O_ONI_Squad_Leader","AET_F_catapult_O_ONI_Medic","AET_F_catapult_O_ONI_Rifleman","AET_F_catapult_O_ONI_Rifleman_Light","AET_F_catapult_O_ONI_Sniper","AET_F_catapult_O_ONI_Spotter","AET_F_catapult_O_ONI_Team_Leader","AET_F_catapult_O_ONI_Officer","AET_F_catapult_O_ONI_D77H_TCI_Pelican","AET_F_catapult_O_ONI_D77H_TCI_SOCOM_Pelican","AET_F_catapult_O_ONI_D77H_TCI_AV_Pelican","AET_F_catapult_O_ONI_M12_APC","AET_F_catapult_O_ONI_M12_LRV_LAAG","AET_F_catapult_O_ONI_M12_FAV","AET_F_catapult_O_ONI_M831_Troop_Transport","AET_F_catapult_O_ONI_Medical_Falcon","AET_F_catapult_O_ONI_MH_144_Falcon","AET_F_catapult_O_ONI_QQ_38_Wren_Drone","AET_F_catapult_O_ONI_QQ_40_Minibee_Black"};
-    weapons[]={"AET_F_catapult_O_ONI_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","AET_F_catapult_O_ONI_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_O_ONI_OPTRE_BR45_OPTRE_BMR_LaserOPTRE_BR45_ScopeOPTRE_BR45Grip"};
+    weapons[]={"AET_F_catapult_O_ONI_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","AET_F_catapult_O_ONI_OPTRE_SRS99C","AET_F_catapult_O_ONI_OPTRE_BR45"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","OPTRE_Weapons_SMG","OPTRE_UNSC_Units_Army","A3_Characters_F","CuratorOnly_Characters_F_OPFOR","tfar_handhelds","OPTRE_Weapons_M6C","OPTRE_Weapons_Items","ace_rangecard","ace_kestrel4500","OPTRE_Weapons_Sniper","OPTRE_Weapons_BR","OPTRE_Vehicles_Wren", "OPTRE_Vehicles_OQ40_Minibee"};
   };
@@ -38,7 +38,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight: OPTRE_M7
+  class AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7: OPTRE_M7
   {
     displayName="M7 Caseless SMG";
     scope=1;
@@ -62,7 +62,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope: OPTRE_M6C
+  class AET_F_catapult_O_ONI_OPTRE_M6C: OPTRE_M6C
   {
     displayName="M6C/SOCOM Magnum";
     scope=1;
@@ -86,7 +86,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_catapult_O_ONI_OPTRE_SRS99C_OPTRE_SRS99C_Scope: OPTRE_SRS99C
+  class AET_F_catapult_O_ONI_OPTRE_SRS99C: OPTRE_SRS99C
   {
     displayName="SRS99C-S2 AM Sniper Rifle";
     scope=1;
@@ -100,7 +100,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_catapult_O_ONI_OPTRE_BR45_OPTRE_BMR_LaserOPTRE_BR45_ScopeOPTRE_BR45Grip: OPTRE_BR45
+  class AET_F_catapult_O_ONI_OPTRE_BR45: OPTRE_BR45
   {
     displayName="BR45B Battle Rifle";
     scope=1;
@@ -186,8 +186,8 @@ class cfgVehicles
     side=0;
     displayName="Squad Leader";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Blue","OPTRE_M2_Smoke_Blue"};
@@ -203,8 +203,8 @@ class cfgVehicles
     side=0;
     displayName="Medic";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel"};
     respawnItems[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel","OPTRE_Medigel"};
     magazines[]={"OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
@@ -220,8 +220,8 @@ class cfgVehicles
     side=0;
     displayName="Rifleman";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
@@ -237,8 +237,8 @@ class cfgVehicles
     side=0;
     displayName="Rifleman Light";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag"};
@@ -254,8 +254,8 @@ class cfgVehicles
     side=0;
     displayName="Sniper";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","ACE_RangeCard","ACE_Kestrel4500"};
     respawnItems[]={"FirstAidKit","FirstAidKit","ACE_RangeCard","ACE_Kestrel4500"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_4Rnd_145x114_APFSDS_Mag_D","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag"};
@@ -271,8 +271,8 @@ class cfgVehicles
     side=0;
     displayName="Spotter";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45_OPTRE_BMR_LaserOPTRE_BR45_ScopeOPTRE_BR45Grip","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45_OPTRE_BMR_LaserOPTRE_BR45_ScopeOPTRE_BR45Grip","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag","OPTRE_36Rnd_95x40_Mag"};
@@ -288,8 +288,8 @@ class cfgVehicles
     side=0;
     displayName="Team Leader";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Blue","OPTRE_M2_Smoke_Blue"};
@@ -305,8 +305,8 @@ class cfgVehicles
     side=0;
     displayName="Officer";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7_silencerOPTRE_M7_FlashlightOPTRE_M7_Sight","AET_F_catapult_O_ONI_OPTRE_M6C_OPTRE_M6C_compensatorOPTRE_M6C_LaserOPTRE_M6C_Scope","Put","Throw"};
+    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_48Rnd_5x23mm_FMJ_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Blue","OPTRE_M2_Smoke_Blue"};

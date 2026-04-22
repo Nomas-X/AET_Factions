@@ -4,7 +4,7 @@ class cfgPatches
   {
 	skipWhenMissingDependencies = 1;
     units[]={"AET_F_catapult_I_CMA_Helicopter_Pilot","AET_F_catapult_I_CMA_Squad_Leader","AET_F_catapult_I_CMA_Team_Leader","AET_F_catapult_I_CMA_Machine_Gunner","AET_F_catapult_I_CMA_Medic","AET_F_catapult_I_CMA_Marksman","AET_F_catapult_I_CMA_Anti_Tank_Specialist","AET_F_catapult_I_CMA_Anti_Air_Specialist","AET_F_catapult_I_CMA_Rifleman","AET_F_catapult_I_CMA_Officer","AET_F_catapult_I_CMA_Sniper","AET_F_catapult_I_CMA_Spotter","AET_F_catapult_I_CMA_M121_AT_Iguana","AET_F_catapult_I_CMA_M121_Iguana","AET_F_catapult_I_CMA_M121_MG_Iguana","AET_F_catapult_I_CMA_D77_TC_Pelican","AET_F_catapult_I_CMA_D77_TC_AV_Pelican","AET_F_catapult_I_CMA_UH_101_Eagle","AET_F_catapult_I_CMA_ARV_13_Ferret","AET_F_catapult_I_CMA_ARV_13_Ferret_M247H","AET_F_catapult_I_CMA_ARV_13_Ferret_MG460_AGL"};
-    weapons[]={"AET_F_catapult_I_CMA_Officer_Beret","AET_F_catapult_I_CMA_U_combatUniform_woodland","AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland","AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland","AET_F_catapult_I_CMA_OPTRE_M7","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","AET_F_catapult_I_CMA_OPTRE_MA5AGL","AET_F_catapult_I_CMA_OPTRE_MA5A","AET_F_catapult_I_CMA_OPTRE_M247A1_OPTRE_M247A1_Bipod","AET_F_catapult_I_CMA_OPTRE_M392_DMR_OPTRE_M392_Scope","AET_F_catapult_I_CMA_OPTRE_M44_Lykoi_Semi_Disposable_AT_Des","AET_F_catapult_I_CMA_OPTRE_SRS99C_OPTRE_SRS99C_Scope"};
+    weapons[]={"AET_F_catapult_I_CMA_Officer_Beret","AET_F_catapult_I_CMA_U_combatUniform_woodland","AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland","AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland","AET_F_catapult_I_CMA_OPTRE_M7","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","AET_F_catapult_I_CMA_OPTRE_MA5AGL","AET_F_catapult_I_CMA_OPTRE_MA5A","AET_F_catapult_I_CMA_OPTRE_M247A1_OPTRE_M247A1_Bipod","AET_F_catapult_I_CMA_OPTRE_M392_DMR_OPTRE_M392_Scope","AET_F_catapult_I_CMA_OPTRE_M44_Lykoi_Semi_Disposable_AT_Des","AET_F_catapult_I_CMA_OPTRE_SRS99C"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","OPTRE_Weapons_SMG","AET_F_catapult_I_CMA_nomas","TCF_INDFOR_CMA","OPTRE_UNSC_Units_Army","A3_Characters_F","OPTRE_Weapons_AR","OPTRE_Weapons_MG_M247a1","OPTRE_Weapons_DMR","OPTRE_Weapons_AT_M44_Lykoi","ace_rangecard","ace_kestrel4500","OPTRE_Weapons_Items","OPTRE_Weapons_Sniper"};
   };
@@ -172,7 +172,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_catapult_I_CMA_OPTRE_SRS99C_OPTRE_SRS99C_Scope: OPTRE_SRS99C
+  class AET_F_catapult_I_CMA_OPTRE_SRS99C: OPTRE_SRS99C
   {
     displayName="SRS99C-S2 AM Sniper Rifle";
     scope=1;
@@ -451,8 +451,8 @@ class cfgVehicles
     side=2;
     displayName="Sniper";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
-    weapons[]={"OPTRE_Smartfinder","AET_F_catapult_I_CMA_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_I_CMA_OPTRE_SRS99C_OPTRE_SRS99C_Scope","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","Put","Throw"};
+    weapons[]={"OPTRE_Smartfinder","AET_F_catapult_I_CMA_OPTRE_SRS99C","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","Put","Throw"};
+    respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_I_CMA_OPTRE_SRS99C","AET_F_catapult_I_CMA_OPTRE_M6D_Jungle","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","ACE_RangeCard","ACE_Kestrel4500"};
     respawnItems[]={"FirstAidKit","FirstAidKit","ACE_RangeCard","ACE_Kestrel4500"};
     magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag","OPTRE_4Rnd_145x114_APFSDS_Mag"};

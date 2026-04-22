@@ -4,7 +4,7 @@ class cfgPatches
   {
 	skipWhenMissingDependencies = 1;
     units[]={"AET_F_bastionBreaker_I_ECF_Rifleman","AET_F_bastionBreaker_I_ECF_Medic","AET_F_bastionBreaker_I_ECF_AT_Specialist","AET_F_bastionBreaker_I_ECF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Marksman","AET_F_bastionBreaker_I_ECF_Machine_Gunner","AET_F_bastionBreaker_I_ECF_UAV_Operator","AET_F_bastionBreaker_I_ECF_Squad_Leader","AET_F_bastionBreaker_I_ECF_Crewman","AET_F_bastionBreaker_I_ECF_Officer","AET_F_bastionBreaker_I_ECF_Skimmer_Drone_Man","AET_F_bastionBreaker_I_ECF_SF_Sniper","AET_F_bastionBreaker_I_ECF_SF_Spotter","AET_F_bastionBreaker_I_ECF_SF_Team_Leader","AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG","AET_F_bastionBreaker_I_ECF_SF_Rifleman","AET_F_bastionBreaker_I_ECF_SF_Marksman","AET_F_bastionBreaker_I_ECF_SF_AT_Specialist","AET_F_bastionBreaker_I_ECF_SF_Medic","AET_F_bastionBreaker_I_ECF_SF_AA_Specialist","AET_F_bastionBreaker_I_ECF_Helicopter_Pilot","AET_F_bastionBreaker_I_ECF_Pilot","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_SHORAD","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_APC","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_FSV","AET_F_bastionBreaker_I_ECF_TC_15_Bearcat_IFV","AET_F_bastionBreaker_I_ECF_AH_44_A_Dragonfly","AET_F_bastionBreaker_I_ECF_AH_44_S_Dragonfly","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_A","AET_F_bastionBreaker_I_ECF_General_Utility_Shuttle_M","AET_F_bastionBreaker_I_ECF_G10_MRAP","AET_F_bastionBreaker_I_ECF_G10_MRAP_A","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Armed","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Closed","AET_F_bastionBreaker_I_ECF_G12_Truck_Transport_Open","AET_F_bastionBreaker_I_ECF_UT_53_I_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_UT_53_V_Comanche_Dropship","AET_F_bastionBreaker_I_ECF_T_100X_Futura","AET_F_bastionBreaker_I_ECF_MQ_12_Falcon","AET_F_bastionBreaker_I_ECF_UGV_Stomper_RCWS","AET_F_bastionBreaker_I_ECF_Paladin_APC","AET_F_bastionBreaker_I_ECF_Paladin_IFV","AET_F_bastionBreaker_I_ECF_Paladin_IFV_XLR","AET_F_bastionBreaker_I_ECF_Paladin_SPAAG","AET_F_bastionBreaker_I_ECF_Paladin_SPG"};
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightSC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP_optic_SRS","AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_SkimmerDroneGun","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_fbipod_01_F_blk"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_MPML","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_SC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP","AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_SkimmerDroneGun","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F","sc_weapons","screborn_uniforms","A3_Characters_F","A3_Weapons_F_Items","A3_Weapons_F_Enoch_Launchers_Titan","SC_RebornUnits_Earth_Colonies_Federation","A3_Drones_F_Weapons_F_Gamma_Items","SC_Scion_Empire_Metro_Police_Scion_Empire_Metro_Police","sc_newequipment","SC_newequipment2","A3_Weapons_F_Enoch_Rifles_MSBS"};
   };
@@ -39,10 +39,10 @@ class cfgWeapons
   class arifle_MSBS65_UBS_black_F;
   class arifle_MSBS65_Mark_black_F;
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS: SC_Rifle_AR12
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12: SC_Rifle_AR12
   {
     displayName="AR12";
-    scope=1;
+    scope=2;
     class LinkedItems
     {
       class LinkedItemsOptic
@@ -67,7 +67,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS: SC_Rifle_AR12C
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C: SC_Rifle_AR12C
   {
     displayName="AR12C";
     scope=1;
@@ -86,7 +86,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope: SC_MPML
+  class AET_F_bastionBreaker_I_ECF_SC_MPML: SC_MPML
   {
     displayName="MPML";
     scope=1;
@@ -105,10 +105,10 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightSC_TSO55: SC_Rifle_AR12
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_SC_TSO55: SC_Rifle_AR12
   {
     displayName="AR12";
-    scope=1;
+    scope=2;
     class LinkedItems
     {
       class LinkedItemsOptic
@@ -124,7 +124,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP_optic_SRS: SC_Rifle_PKMP
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP: SC_Rifle_PKMP
   {
     displayName="PKMP";
     scope=1;
@@ -138,7 +138,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris: SC_Rifle_Ghoul
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul: SC_Rifle_Ghoul
   {
     displayName="Kodiak Ghoul-M3";
     scope=1;
@@ -166,7 +166,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55_SC_TSO55bipod_01_F_blk: SC_Rifle_SSR55
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55: SC_Rifle_SSR55
   {
     displayName="SSR-55";
     scope=1;
@@ -185,7 +185,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C_SC_TSO55bipod_01_F_blk: SC_Rifle_SSR55C
+  class AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C: SC_Rifle_SSR55C
   {
     displayName="SSR-55 Compact";
     scope=1;
@@ -204,7 +204,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f: arifle_MSBS65_GL_black_F
+  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F: arifle_MSBS65_GL_black_F
   {
     displayName="MSBS Grot GL (Black)";
     scope=1;
@@ -228,7 +228,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f: arifle_MSBS65_black_F
+  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F: arifle_MSBS65_black_F
   {
     displayName="MSBS Grot (Black)";
     scope=1;
@@ -252,7 +252,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f: arifle_MSBS65_UBS_black_F
+  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F: arifle_MSBS65_UBS_black_F
   {
     displayName="MSBS Grot SG (Black)";
     scope=1;
@@ -276,7 +276,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_fbipod_01_F_blk: arifle_MSBS65_Mark_black_F
+  class AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F: arifle_MSBS65_Mark_black_F
   {
     displayName="MSBS Grot MR (Black)";
     scope=1;
@@ -359,8 +359,8 @@ class cfgVehicles
     side=2;
     displayName="Rifleman";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
@@ -376,8 +376,8 @@ class cfgVehicles
     side=2;
     displayName="Medic";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag"};
@@ -393,8 +393,8 @@ class cfgVehicles
     side=2;
     displayName="AT Specialist";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_MPML","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_MPML","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_MPML_M_AT","SC_MPML_M_AT","SC_MPML_M_HE"};
@@ -410,8 +410,8 @@ class cfgVehicles
     side=2;
     displayName="AA Specialist";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
@@ -427,8 +427,8 @@ class cfgVehicles
     side=2;
     displayName="Marksman";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightSC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightSC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_SC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_SC_TSO55","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
@@ -444,8 +444,8 @@ class cfgVehicles
     side=2;
     displayName="Machine Gunner";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP_optic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP_optic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_PKMP","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_200Rnd_338_Mag","SC_200Rnd_338_Mag","SC_200Rnd_338_Mag","SC_200Rnd_338_Mag","SC_200Rnd_338_Mag"};
@@ -461,8 +461,8 @@ class cfgVehicles
     side=2;
     displayName="UAV Operator";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag"};
@@ -478,8 +478,8 @@ class cfgVehicles
     side=2;
     displayName="Squad Leader";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellPurple","SmokeShellPurple","SmokeShellYellow","SmokeShellYellow"};
@@ -495,8 +495,8 @@ class cfgVehicles
     side=2;
     displayName="Crewman";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag"};
@@ -512,8 +512,8 @@ class cfgVehicles
     side=2;
     displayName="Officer";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_AR12C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag","SC_35Rnd_762x51_Mag"};
@@ -546,8 +546,8 @@ class cfgVehicles
     side=2;
     displayName="SF Sniper";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","sc_trojanrespirator"};
     respawnItems[]={"FirstAidKit","FirstAidKit","sc_trojanrespirator"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag"};
@@ -563,8 +563,8 @@ class cfgVehicles
     side=2;
     displayName="SF Spotter";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C_SC_TSO55bipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Rangefinder","AET_F_bastionBreaker_I_ECF_SC_Rifle_SSR55C","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","sc_trojanrespirator"};
     respawnItems[]={"FirstAidKit","FirstAidKit","sc_trojanrespirator"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag","SC_5Rnd_50HV_Mag"};
@@ -580,8 +580,8 @@ class cfgVehicles
     side=2;
     displayName="SF Team Leader";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_GL_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","SmokeShellPurple","SmokeShellPurple","SmokeShellYellow","SmokeShellYellow","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareRed_F","UGL_FlareRed_F","UGL_FlareRed_F","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell"};
@@ -591,14 +591,14 @@ class cfgVehicles
     backpack="AET_F_bastionBreaker_I_ECF_SF_Team_Leader_pack";
   };
 
-  class AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG: I_soldier_F
+  class AET_F_bastionBreaker_I_ECF_SF_Rifleman: I_soldier_F
   {
     faction="AET_F_bastionBreaker_I_ECF_nomas";
     side=2;
-    displayName="SF Rifleman SG";
+    displayName="SF Rifleman";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer"};
@@ -608,14 +608,14 @@ class cfgVehicles
     backpack="";
   };
 
-  class AET_F_bastionBreaker_I_ECF_SF_Rifleman: I_soldier_F
+  class AET_F_bastionBreaker_I_ECF_SF_Rifleman_SG: I_soldier_F
   {
     faction="AET_F_bastionBreaker_I_ECF_nomas";
     side=2;
-    displayName="SF Rifleman";
+    displayName="SF Rifleman SG";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets"};
@@ -631,8 +631,8 @@ class cfgVehicles
     side=2;
     displayName="SF Marksman";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_fbipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_fbipod_01_F_blk","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_Mark_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer"};
@@ -648,8 +648,8 @@ class cfgVehicles
     side=2;
     displayName="SF AT Specialist";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_SC_MPML","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_SC_MPML","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AT","SC_MPML_M_AT","SC_MPML_M_HE"};
@@ -665,8 +665,8 @@ class cfgVehicles
     side=2;
     displayName="SF Medic";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_black_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs","Medikit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer"};
@@ -682,8 +682,8 @@ class cfgVehicles
     side=2;
     displayName="SF AA Specialist";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets"};
@@ -699,8 +699,8 @@ class cfgVehicles
     side=2;
     displayName="Helicopter Pilot";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag"};
@@ -716,8 +716,8 @@ class cfgVehicles
     side=2;
     displayName="Pilot";
     uniformClass="U_I_pilotCoveralls";
-    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul_acc_flashlightoptic_Yorris","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_SC_Rifle_Ghoul","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag","RD_45Rnd_45HP_Mag"};

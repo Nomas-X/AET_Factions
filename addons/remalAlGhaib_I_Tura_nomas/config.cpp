@@ -4,7 +4,7 @@ class cfgPatches
   {
 	skipWhenMissingDependencies = 1;
     units[]={"AET_F_remalAlGhaib_I_Tura_Squad_Leader","AET_F_remalAlGhaib_I_Tura_Medic","AET_F_remalAlGhaib_I_Tura_Rifleman_2","AET_F_remalAlGhaib_I_Tura_Vehicle_Crew","AET_F_remalAlGhaib_I_Tura_Marksman","AET_F_remalAlGhaib_I_Tura_AT_Specialist","AET_F_remalAlGhaib_I_Tura_Grenadier","AET_F_remalAlGhaib_I_Tura_IED_Specialist","AET_F_remalAlGhaib_I_Tura_Rifleman_1","AET_F_remalAlGhaib_I_Tura_Machine_Gunner","AET_F_remalAlGhaib_I_Tura_Ram_1500","AET_F_remalAlGhaib_I_Tura_Ram_1500_HMG","AET_F_remalAlGhaib_I_Tura_Ram_1500_Rocket","AET_F_remalAlGhaib_I_Tura_Offroad_UP","AET_F_remalAlGhaib_I_Tura_Offroad_UP_HMG","AET_F_remalAlGhaib_I_Tura_KamAZ_ZU"};
-    weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_Galat_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_Galat_worn_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS_optic_DMS_weathered_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_lxWS","AET_F_remalAlGhaib_I_Tura_launch_RPG7_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_GL_lxWS","AET_F_remalAlGhaib_I_Tura_LMG_S77_Desert_lxWS"};
+    weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_Galat_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_Galat_worn_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS","AET_F_remalAlGhaib_I_Tura_arifle_SLR_lxWS","AET_F_remalAlGhaib_I_Tura_launch_RPG7_F","AET_F_remalAlGhaib_I_Tura_arifle_SLR_GL_lxWS","AET_F_remalAlGhaib_I_Tura_LMG_S77_Desert_lxWS"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F","Weapons_F_lxWS_Rifles","Characters_f_lxWS","A3_Weapons_F_Items","Weapons_1_F_lxWS_Rifles_Galat","A3_Characters_F","A3_Weapons_F_Exp_Launchers_RPG7","Weapons_1_F_lxWS_Machineguns_S77","Characters_1_f_lxWS_uniform","characters_1_F_lxWS"};
   };
@@ -50,7 +50,7 @@ class cfgWeapons
     };
   };
 
-  class AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS_optic_DMS_weathered_F: arifle_SLR_D_KHS_old_lxWS
+  class AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS: arifle_SLR_D_KHS_old_lxWS
   {
     displayName="FN FAL 50.00 (Desert)";
     scope=1;
@@ -199,8 +199,8 @@ class cfgVehicles
     side=2;
     displayName="Marksman";
     uniformClass="U_lxWS_Djella_02_Sand";
-    weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS_optic_DMS_weathered_F","Put","Throw"};
-    respawnWeapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS_optic_DMS_weathered_F","Put","Throw"};
+    weapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS","Put","Throw"};
+    respawnWeapons[]={"AET_F_remalAlGhaib_I_Tura_arifle_SLR_D_KHS_old_lxWS","Put","Throw"};
     items[]={"FirstAidKit"};
     respawnItems[]={"FirstAidKit"};
     magazines[]={"20Rnd_762x51_slr_lxWS","20Rnd_762x51_slr_lxWS","20Rnd_762x51_slr_lxWS","20Rnd_762x51_slr_lxWS","MiniGrenade","MiniGrenade"};
