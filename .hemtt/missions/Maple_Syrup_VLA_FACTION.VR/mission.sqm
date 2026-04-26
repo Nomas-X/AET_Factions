@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1315;
+		nextID=1381;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=70;
+		nextID=71;
 	};
 	class Camera
 	{
-		pos[]={14952.3,48.180454,15890.55};
-		dir[]={0.52386832,-0.4612619,-0.71629244};
-		up[]={0.27230898,0.88726914,-0.3723343};
-		aside[]={-0.80723685,5.6502176e-07,-0.59038097};
+		pos[]={14968.426,45.757828,15915.503};
+		dir[]={0.44755235,-0.56823683,-0.69070965};
+		up[]={0.30900052,0.82290947,-0.47688365};
+		aside[]={-0.83927554,2.0136358e-06,-0.5438236};
 	};
 };
 binarizationWanted=0;
@@ -300,7 +300,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -6315,39 +6315,6 @@ class Mission
 		};
 		class Item27
 		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={15025.728,5,15834.192};
-			};
-			title="Ural and KamAZ need the following textures set to """"";
-			description="KamAZ selection 9" \n "Ural selection 7" \n "" \n "Also something like:" \n "" \n " textureList[]={""AET_F_mapleSyrup_I_VLF_Ural_4320_Texture"", 1}; " \n " class textureSources " \n " { " \n "  // This texture source will be available for every defined factions " \n "  class AET_F_mapleSyrup_I_VLF_Ural_4320_Texture " \n "  { " \n "   // Display name of the texture " \n "   displayName = ""Olive (No Symbol)""; " \n "   // Author of the texture " \n "   author = ""RHS""; " \n "   // Paths to the texture files, in the same order as the hidden selections " \n "   textures[] = {""rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_khk_co.paa"",""rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_co.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\7_ca.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\6_ca.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\2_ca.paa"",""rhsafrf\addons\rhs_decals\data\labels\platoon\18th_msv_ca.paa"","""","""",""""}; " \n "   // This source should be available for the following factions " \n "   factions[] = {}; " \n "  }; " \n " }; " \n " class EventHandlers " \n " { " \n "  init = """"; " \n " };";
-			id=409;
-		};
-		class Item28
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={14994.338,5,15828.22};
-			};
-			title="T-55 hidden selections must be set to";
-			description="Almost all vehicles had to have their textures set via:" \n "" \n "textureList[]={""FDF"", 1};" \n "" \n "otherwise they will default to their original";
-			id=421;
-		};
-		class Item29
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={14985.217,5,15823.724};
-			};
-			title="Mi-8 hidden selections must be set to";
-			description="[""uk3cb_factions\addons\uk3cb_factions_vehicles\air\uk3cb_factions_vehicles_mi8\data\grey_mi8_body_co.paa"",""uk3cb_factions\addons\uk3cb_factions_vehicles\air\uk3cb_factions_vehicles_mi8\data\grey_mi8_det_co.paa"","""","""","""","""",""""]" \n "" \n "also:" \n " textureList[]={""GREY"", 1};";
-			id=422;
-		};
-		class Item30
-		{
 			dataType="Group";
 			side="Independent";
 			class Entities
@@ -6480,38 +6447,7 @@ class Mission
 			};
 			id=452;
 		};
-		class Item31
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={14990.195,5,15873.57};
-			};
-			title="Medic NOTE";
-			description="I had to remove the ""MEDKIT"" from his respawn items and item since it is added by backpack.";
-			id=493;
-		};
-		class Item32
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={14983.43,5,15878.787};
-			};
-			title="Add PCML ammo in code";
-			id=494;
-		};
-		class Item33
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={14983.452,5,15877.175};
-			};
-			title="Add Igla ammo in code";
-			id=495;
-		};
-		class Item34
+		class Item28
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6947,7 +6883,7 @@ class Mission
 				nAttributes=25;
 			};
 		};
-		class Item35
+		class Item29
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6982,7 +6918,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item36
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6999,7 +6935,7 @@ class Mission
 			id=503;
 			type="rhs_Igla_AA_pod_msv";
 		};
-		class Item37
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7016,7 +6952,7 @@ class Mission
 			id=504;
 			type="rhs_KORD_MSV";
 		};
-		class Item38
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7033,7 +6969,7 @@ class Mission
 			id=505;
 			type="rhs_KORD_high_MSV";
 		};
-		class Item39
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7050,7 +6986,7 @@ class Mission
 			id=583;
 			type="RHS_ZU23_MSV";
 		};
-		class Item40
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7110,7 +7046,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item41
+		class Item35
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7127,7 +7063,7 @@ class Mission
 			id=1133;
 			type="rhsgref_ins_DSHKM";
 		};
-		class Item42
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7144,7 +7080,7 @@ class Mission
 			id=1134;
 			type="rhsgref_ins_DSHKM_Mini_TriPod";
 		};
-		class Item43
+		class Item37
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7235,6 +7171,70 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item38
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={15025.728,5,15834.192};
+			};
+			title="Ural and KamAZ need the following textures set to """"";
+			description="KamAZ selection 9" \n "Ural selection 7" \n "" \n "Also something like:" \n "" \n " textureList[]={""AET_F_mapleSyrup_I_VLF_Ural_4320_Texture"", 1}; " \n " class textureSources " \n " { " \n "  // This texture source will be available for every defined factions " \n "  class AET_F_mapleSyrup_I_VLF_Ural_4320_Texture " \n "  { " \n "   // Display name of the texture " \n "   displayName = ""Olive (No Symbol)""; " \n "   // Author of the texture " \n "   author = ""RHS""; " \n "   // Paths to the texture files, in the same order as the hidden selections " \n "   textures[] = {""rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_khk_co.paa"",""rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_co.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\7_ca.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\6_ca.paa"",""rhsafrf\addons\rhs_decals\data\numbers\default\2_ca.paa"",""rhsafrf\addons\rhs_decals\data\labels\platoon\18th_msv_ca.paa"","""","""",""""}; " \n "   // This source should be available for the following factions " \n "   factions[] = {}; " \n "  }; " \n " }; " \n " class EventHandlers " \n " { " \n "  init = """"; " \n " };";
+			id=409;
+		};
+		class Item39
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14994.338,5,15828.22};
+			};
+			title="T-55 hidden selections must be set to";
+			description="Almost all vehicles had to have their textures set via:" \n "" \n "textureList[]={""FDF"", 1};" \n "" \n "otherwise they will default to their original";
+			id=421;
+		};
+		class Item40
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14985.217,5,15823.724};
+			};
+			title="Mi-8 hidden selections must be set to";
+			description="[""uk3cb_factions\addons\uk3cb_factions_vehicles\air\uk3cb_factions_vehicles_mi8\data\grey_mi8_body_co.paa"",""uk3cb_factions\addons\uk3cb_factions_vehicles\air\uk3cb_factions_vehicles_mi8\data\grey_mi8_det_co.paa"","""","""","""","""",""""]" \n "" \n "also:" \n " textureList[]={""GREY"", 1};";
+			id=422;
+		};
+		class Item41
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14990.195,5,15873.57};
+			};
+			title="Medic NOTE";
+			description="I had to remove the ""MEDKIT"" from his respawn items and item since it is added by backpack.";
+			id=493;
+		};
+		class Item42
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14983.452,5,15877.175};
+			};
+			title="Add Igla ammo in code";
+			id=495;
+		};
+		class Item43
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14983.43,5,15878.787};
+			};
+			title="Add PCML ammo in code";
+			id=494;
 		};
 	};
 };
