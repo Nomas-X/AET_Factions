@@ -858,7 +858,7 @@ class cfgGroups
     name="Independent";
     class AET_F_mapleSyrup_I_VLF_F
     {
-      name="Virolahti Liberation Front - Maple Syrup";
+      name="VLF - Maple Syrup";
 
       class Infantry
       {
