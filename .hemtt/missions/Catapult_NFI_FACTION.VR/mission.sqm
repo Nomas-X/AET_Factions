@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=877;
+		nextID=880;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4151.6406,12.028508,4312.4688};
-		dir[]={0.83993196,-0.52920914,0.1203376};
-		up[]={0.52386606,0.8484903,0.075054437};
-		aside[]={0.14182444,3.920868e-07,-0.98990715};
+		pos[]={4152.7627,9.8436537,4316.6655};
+		dir[]={0.73230219,-0.40125123,-0.5503599};
+		up[]={0.32080117,0.91595548,-0.24109663};
+		aside[]={-0.60083598,-1.3257959e-06,-0.79946047};
 	};
 };
 binarizationWanted=0;
@@ -35,7 +35,7 @@ addons[]=
 	"OPTRE_ACE_Compat",
 	"TCF_Weapons",
 	"OPTRE_Weapons_Ammo",
-	"OPTRE_Weapons_M6G",
+	"OPTRE_Weapons_M6B",
 	"OPTRE_Weapons_Pistol",
 	"OPTRE_Weapons_Items",
 	"A3_Weapons_F",
@@ -110,7 +110,7 @@ class AddonsMetaData
 		class Item4
 		{
 			className="OPTRE_Weapons_Pistol";
-			name="OPTRE_Weapons_M6G";
+			name="OPTRE_Weapons_M6B";
 			author="Article 2 Studios";
 		};
 		class Item5
@@ -277,7 +277,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=46;
+		items=47;
 		class Item0
 		{
 			dataType="Group";
@@ -312,9 +312,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -460,9 +458,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -496,51 +492,51 @@ class Mission
 									items=8;
 									class Item0
 									{
-										name="OPTRE_8Rnd_127x40_Mag";
-										count=2;
-										ammoLeft=8;
-									};
-									class Item1
-									{
 										name="OPTRE_M2_Smoke_Red";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item2
+									class Item1
 									{
 										name="OPTRE_M2_Smoke_Blue";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item2
 									{
 										name="OPTRE_M2_Smoke";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item3
 									{
 										name="OPTRE_M9_Frag";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item5
+									class Item4
 									{
 										name="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
 										count=7;
 										ammoLeft=32;
 									};
-									class Item6
+									class Item5
 									{
 										name="1Rnd_HE_Grenade_shell";
 										count=5;
 										ammoLeft=1;
 									};
-									class Item7
+									class Item6
 									{
 										name="1Rnd_Smoke_Grenade_shell";
 										count=5;
 										ammoLeft=1;
+									};
+									class Item7
+									{
+										name="OPTRE_8Rnd_127x40_Mag";
+										count=2;
+										ammoLeft=8;
 									};
 								};
 							};
@@ -554,7 +550,7 @@ class Mission
 							watch="ItemWatch";
 							radio="ItemRadio";
 							gps="ItemGPS";
-							goggles="TCF_URB_UP_Shemagh";
+							goggles="TCF_URB_UP_Shemagheye";
 							hmd="OPTRE_NVG_UAB_UL";
 							headgear="TCF_Frihelm";
 						};
@@ -633,9 +629,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -710,7 +704,7 @@ class Mission
 							watch="ItemWatch";
 							radio="ItemRadio";
 							gps="ItemGPS";
-							goggles="TCF_URB_UP_Shemagh";
+							goggles="TCF_URB_UP_Shemagheye";
 							hmd="OPTRE_NVG_UAB";
 							headgear="TCF_Frihelm";
 						};
@@ -789,9 +783,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -952,9 +944,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1110,9 +1100,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1269,9 +1257,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1422,9 +1408,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1566,9 +1550,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1710,9 +1692,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1853,9 +1833,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -1996,9 +1974,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -2144,9 +2120,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -3450,9 +3424,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -3800,9 +3772,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -3958,9 +3928,7 @@ class Mission
 							};
 							class handgun
 							{
-								name="OPTRE_M6G";
-								optics="OPTRE_M6G_Scope";
-								flashlight="OPTRE_M6G_Laser";
+								name="OPTRE_M6B";
 								class primaryMuzzleMag
 								{
 									name="OPTRE_8Rnd_127x40_Mag";
@@ -4087,6 +4055,16 @@ class Mission
 			{
 			};
 			id=833;
+		};
+		class Item46
+		{
+			dataType="Group";
+			side="East";
+			class Attributes
+			{
+			};
+			id=877;
+			atlOffset=-5;
 		};
 	};
 };
