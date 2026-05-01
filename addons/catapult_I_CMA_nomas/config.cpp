@@ -260,9 +260,9 @@ class cfgVehicles
   class TCF_D77_U_CGC;
   class TCF_D77_A_CGC;
   class TCF_UH101_CGC;
-  class TCF_ARV_AR_WDL;
-  class TCF_ARV_AR_HMG_WDL;
-  class TCF_ARV_AR_GMG_WDL;
+  class TCF_ARV_CMA_AR_WDL;
+  class TCF_ARV_CMA_AR_HMG_WDL;
+  class TCF_ARV_CMA_AR_GMG_WDL;
 
   class AET_F_catapult_I_CMA_Helicopter_Pilot: I_helipilot_F
   {
@@ -550,93 +550,47 @@ class cfgVehicles
 	class TransportBackpacks {};
   };
 
-  class AET_F_catapult_I_CMA_ARV_13_Ferret: TCF_ARV_AR_WDL
+  class AET_F_catapult_I_CMA_ARV_13_Ferret: TCF_ARV_CMA_AR_WDL
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
     side=2;
     displayName="ARV 13 Ferret";
-    hiddenSelectionsTextures[]={"z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_cma.paa","z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_mg.paa"};
+    hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\arv_cma.paa","tcf_indfor\sedran\vehicles\data\arv\arv_mg.paa"};
     crew="AET_F_catapult_I_CMA_Rifleman";
     typicalCargo[]={"AET_F_catapult_I_CMA_Rifleman"};
-	textureList[]={"AET_F_catapult_I_CMA_ARV_13_Ferret_Texture", 1};
-	class textureSources
-	{
-		// This texture source will be available for every defined factions
-		class AET_F_catapult_I_CMA_ARV_13_Ferret_Texture
-		{
-			// Display name of the texture
-			displayName = "Colonial Military Authority";
-			// Author of the texture
-			author = "OPCAN";
-			// Paths to the texture files, in the same order as the hidden selections
-			textures[] = {"z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_cma.paa","z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_mg.paa"};
-			// This source should be available for the following factions
-			factions[] = {};
-		};
-	};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
 	class TransportBackpacks {};
   };
 
-  class AET_F_catapult_I_CMA_ARV_13_Ferret_M247H: TCF_ARV_AR_HMG_WDL
+  class AET_F_catapult_I_CMA_ARV_13_Ferret_M247H: TCF_ARV_CMA_AR_HMG_WDL
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
     side=2;
     displayName="ARV 13 Ferret M247H";
-    hiddenSelectionsTextures[]={"z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_cma.paa","z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_mg.paa"};
+    hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\arv_cma.paa","tcf_indfor\sedran\vehicles\data\arv\arv_mg.paa"};
     crew="AET_F_catapult_I_CMA_Rifleman";
     typicalCargo[]={"AET_F_catapult_I_CMA_Rifleman"};
 	textureList[]={"AET_F_catapult_I_CMA_ARV_13_Ferret_Texture", 1};
-	class textureSources
-	{
-		// This texture source will be available for every defined factions
-		class AET_F_catapult_I_CMA_ARV_13_Ferret_Texture
-		{
-			// Display name of the texture
-			displayName = "Colonial Military Authority";
-			// Author of the texture
-			author = "OPCAN";
-			// Paths to the texture files, in the same order as the hidden selections
-			textures[] = {"z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_cma.paa","z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_mg.paa"};
-			// This source should be available for the following factions
-			factions[] = {};
-		};
-	};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
 	class TransportBackpacks {};
   };
 
-  class AET_F_catapult_I_CMA_ARV_13_Ferret_MG460_AGL: TCF_ARV_AR_GMG_WDL
+  class AET_F_catapult_I_CMA_ARV_13_Ferret_MG460_AGL: TCF_ARV_CMA_AR_GMG_WDL
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
     side=2;
     displayName="ARV 13 Ferret MG460 AGL";
-    hiddenSelectionsTextures[]={"z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_cma.paa","z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_mg.paa"};
+    hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\arv_cma.paa","tcf_indfor\sedran\vehicles\data\arv\arv_mg.paa"};
     crew="AET_F_catapult_I_CMA_Rifleman";
     typicalCargo[]={"AET_F_catapult_I_CMA_Rifleman"};
 	textureList[]={"AET_F_catapult_I_CMA_ARV_13_Ferret_Texture", 1};
-	class textureSources
-	{
-		// This texture source will be available for every defined factions
-		class AET_F_catapult_I_CMA_ARV_13_Ferret_Texture
-		{
-			// Display name of the texture
-			displayName = "Colonial Military Authority";
-			// Author of the texture
-			author = "OPCAN";
-			// Paths to the texture files, in the same order as the hidden selections
-			textures[] = {"z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_cma.paa","z\aet_f\addons\catapult_I_CMA_nomas\textures\arv_mg.paa"};
-			// This source should be available for the following factions
-			factions[] = {};
-		};
-	};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
