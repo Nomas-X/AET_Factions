@@ -71,7 +71,7 @@ mission = "Bastion_Breaker_ECF_FACTION.VR"
 extends = "bastionBreakerFaction"
 mission = "Bastion_Breaker_ECF_GROUPS.VR"
 
-[mapleSyrupFaction]
+[mapleSyrupFactionVLF]
 workshop = [
 	"1673456286", # 3CB Factions
 	"623475643", # 3den Enhanced
@@ -100,9 +100,13 @@ parameters = [
 dlc = []
 mission = "Maple_Syrup_VLA_FACTION.VR"
 
-[mapleSyrupGroups]
-extends = "mapleSyrupFaction"
+[mapleSyrupGroupsVLF]
+extends = "mapleSyrupFactionVLF"
 mission = "Maple_Syrup_VLA_GROUPS.VR"
+
+[mapleSyrupFactionFDF]
+extends = "mapleSyrupFactionVLF"
+mission = "Maple_Syrup_FDF_FACTION.VR"
 
 [catapultFactionNFI]
 workshop = [
