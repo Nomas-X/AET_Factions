@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=71;
+		nextID=73;
 	};
 	class Camera
 	{
-		pos[]={14968.426,45.757828,15915.503};
-		dir[]={0.44755235,-0.56823683,-0.69070965};
-		up[]={0.30900052,0.82290947,-0.47688365};
-		aside[]={-0.83927554,2.0136358e-06,-0.5438236};
+		pos[]={14982.422,10.70704,15878.691};
+		dir[]={0.34141791,-0.60445815,-0.71977568};
+		up[]={0.25905412,0.79663634,-0.54613566};
+		aside[]={-0.90351307,-6.8743248e-08,-0.4285731};
 	};
 };
 binarizationWanted=0;
@@ -44,6 +44,7 @@ addons[]=
 	"A3_Weapons_F",
 	"tfar_handhelds",
 	"A3_Characters_F",
+	"UK3CB_Factions_Facegear",
 	"rhs_c_troops",
 	"UK3CB_Factions_CHD_W_B",
 	"A3_Weapons_F_Items",
@@ -71,7 +72,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=31;
+		items=32;
 		class Item0
 		{
 			className="UK3CB_Factions_NAP";
@@ -143,140 +144,147 @@ class AddonsMetaData
 		};
 		class Item10
 		{
+			className="UK3CB_Factions_Equipment2";
+			name="3CB Factions - Equipment2";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item11
+		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item11
+		class Item12
 		{
 			className="UK3CB_Factions_CHD_W";
 			name="3CB Factions - CHD_W";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item13
+		class Item14
 		{
 			className="UK3CB_Factions_LSM";
 			name="3CB Factions - LSM";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item14
+		class Item15
 		{
 			className="rhsgref_c_troops";
 			name="GREF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item15
+		class Item16
 		{
 			className="UK3CB_Factions_Weapons";
 			name="3CB Factions - Weapons";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_compat_rhs_afrf3_scopes";
 			name="ACE3 - RHS AFRF Compatibility - Scopes";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
+		class Item18
 		{
 			className="UK3CB_Factions_Vehicles_Common";
 			name="3CB Factions - Vehicles";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_disposable";
 			name="ACE3 - Disposable";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item19
+		class Item20
 		{
 			className="ace_realisticweights";
 			name="ACE3 - Realistic Weights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item21
 		{
 			className="ace_nlaw";
 			name="ACE3 - NLAW";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
+		class Item22
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item22
+		class Item23
 		{
 			className="UK3CB_Factions_Vehicles_MTLB";
 			name="UK3CB_Factions_Vehicles_MTLB";
 		};
-		class Item23
+		class Item24
 		{
 			className="UK3CB_Factions_CHD";
 			name="3CB Factions - CHD";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="rhsgref_c_vehicles_ret";
 			name="GREF Vehicle Retextures";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item25
+		class Item26
 		{
 			className="rhs_c_a2port_car";
 			name="A2 ported cars";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item26
+		class Item27
 		{
 			className="DrongosConfigGenerator";
 			name="Drongo's Config Generator";
 			author="Drongo";
 		};
-		class Item27
+		class Item28
 		{
 			className="rhs_c_2s1";
 			name="2S1 SPG";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item28
+		class Item29
 		{
 			className="AET_F_mapleSyrup_I_VLF_nomas";
 			name="AET_F_mapleSyrup_I_VLF_nomas";
 		};
-		class Item29
+		class Item30
 		{
 			className="rhs_c_a2port_armor";
 			name="A2 ported armor";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item30
+		class Item31
 		{
 			className="rhs_c_heavyweapons";
 			name="Heavy weapons pack";
@@ -1106,6 +1114,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhs_beanie_green";
 						};
 					};
@@ -1255,6 +1264,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Balaclava_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="UK3CB_LSM_B_H_SSh68_OLI";
 						};
 					};
@@ -1403,6 +1413,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="rhs_scarf";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhsgref_hat_M1951";
 						};
 					};
@@ -1457,7 +1468,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14984.74,5.0014391,15874.02};
+						position[]={14984.642,5.0014391,15873.944};
 					};
 					side="Independent";
 					flags=7;
@@ -1522,6 +1533,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhs_zsh7a_mike_green_alt";
 						};
 					};
@@ -1672,6 +1684,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Balaclava_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="H_Booniehat_oli";
 						};
 					};
@@ -1815,6 +1828,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="UK3CB_LSM_B_H_SSh68_OLI";
 						};
 					};
@@ -1958,6 +1972,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="rhs_balaclava";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhsgref_helmet_pasgt_olive";
 						};
 					};
@@ -2092,6 +2107,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhs_beanie_green";
 						};
 					};
@@ -2230,6 +2246,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhsgref_helmet_pasgt_olive";
 						};
 					};
@@ -2394,6 +2411,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="rhs_balaclava";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="UK3CB_LSM_B_H_SSh68_OLI";
 						};
 					};
@@ -2529,6 +2547,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Balaclava_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="UK3CB_LSM_B_H_SSh68_OLI";
 						};
 					};
@@ -2678,6 +2697,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="UK3CB_LSM_B_H_SSh68_OLI";
 						};
 					};
@@ -2813,6 +2833,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhs_tsh4_ess";
 						};
 					};
@@ -6119,6 +6140,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="G_Bandanna_oli";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="UK3CB_LSM_B_H_SSh68_OLI";
 						};
 					};
@@ -6405,6 +6427,7 @@ class Mission
 							watch="ItemWatch";
 							radio="TFAR_anprc154";
 							goggles="rhs_scarf";
+							hmd="UK3CB_Gloves_green_NVG";
 							headgear="rhsgref_hat_M1951";
 						};
 					};
