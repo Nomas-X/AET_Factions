@@ -6,7 +6,7 @@ class cfgPatches
     units[]={"AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Machine_Gunner","AET_F_mapleSyrup_I_VLF_Medic","AET_F_mapleSyrup_I_VLF_Helicopter_Pilot","AET_F_mapleSyrup_I_VLF_Marksman","AET_F_mapleSyrup_I_VLF_Anti_Air","AET_F_mapleSyrup_I_VLF_Anti_Tank_NLAW","AET_F_mapleSyrup_I_VLF_rifleman_1","AET_F_mapleSyrup_I_VLF_Rifleman_AT","AET_F_mapleSyrup_I_VLF_Anti_Tank_RPG","AET_F_mapleSyrup_I_VLF_Squad_Leader","AET_F_mapleSyrup_I_VLF_Anti_Air_Assistant","AET_F_mapleSyrup_I_VLF_Crewman","AET_F_mapleSyrup_I_VLF_Crewman_Light","AET_F_mapleSyrup_I_VLF_rifleman_2","AET_F_mapleSyrup_I_VLF_MT_LB_ZU_23","AET_F_mapleSyrup_I_VLF_MT_LB_PKT","AET_F_mapleSyrup_I_VLF_BMP_2","AET_F_mapleSyrup_I_VLF_BMP_1","AET_F_mapleSyrup_I_VLF_BTR_60","AET_F_mapleSyrup_I_VLF_GAZ_66","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Closed","AET_F_mapleSyrup_I_VLF_Land_Rover_Transport_Open","AET_F_mapleSyrup_I_VLF_Land_Rover_Opentop_9K38_AA","AET_F_mapleSyrup_I_VLF_Land_Rover_WMIK_DShKM","AET_F_mapleSyrup_I_VLF_Ural_4320","AET_F_mapleSyrup_I_VLF_T_55A","AET_F_mapleSyrup_I_VLF_T_72A","AET_F_mapleSyrup_I_VLF_Mil_Mi_8_Transport","AET_F_mapleSyrup_I_VLF_KamAZ_5350","AET_F_mapleSyrup_I_VLF_2S1","AET_F_mapleSyrup_I_VLF_9K38_Djigit","AET_F_mapleSyrup_I_VLF_ZSU_23_4V","AET_F_mapleSyrup_I_VLF_KORD_6T7","AET_F_mapleSyrup_I_VLF_KORD_6U16","AET_F_mapleSyrup_I_VLF_ZU_23_2","AET_F_mapleSyrup_I_VLF_2B14_1_Podnos","AET_F_mapleSyrup_I_VLF_DSHkM_Minitripod","AET_F_mapleSyrup_I_VLF_DShKM"};
     weapons[]={"AET_F_mapleSyrup_I_VLF_UK3CB_RK62","AET_F_mapleSyrup_I_VLF_rhs_weap_makarov_pm","AET_F_mapleSyrup_I_VLF_rhs_weap_pkm","AET_F_mapleSyrup_I_VLF_UK3CB_SVD_OLD","AET_F_mapleSyrup_I_VLF_rhs_weap_igla","AET_F_mapleSyrup_I_VLF_ACE_launch_NLAW_ready_F","AET_F_mapleSyrup_I_VLF_rhs_weap_m72a7","AET_F_mapleSyrup_I_VLF_rhs_weap_rpg7"};
     requiredVersion=0.1;
-    requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","tfar_handhelds","UK3CB_Factions_Weapons2_RK62","rhs_c_weapons","UK3CB_Factions_CHD_W_B","rhs_c_troops","A3_Characters_F_Enoch","UK3CB_Factions_LSM_B","rhsgref_c_troops","UK3CB_Factions_Weapons_SVD_OLD","UK3CB_Factions_CW_SOV_O_LATE","A3_Characters_F","ace_disposable","rhsusf_c_weapons"};
+    requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","tfar_handhelds","UK3CB_Factions_Weapons2_RK62","rhs_c_weapons","UK3CB_Factions_CHD_W_B","rhs_c_troops","A3_Characters_F_Enoch","UK3CB_Factions_LSM_B","rhsgref_c_troops","UK3CB_Factions_Weapons_SVD_OLD","UK3CB_Factions_CW_SOV_O_LATE","A3_Characters_F","ace_disposable","rhsusf_c_weapons", "UK3CB_Factions_Facegear"};
   };
 };
 
@@ -209,8 +209,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_beanie_green","rhs_6sh117_rifleman","G_Balaclava_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_beanie_green","rhs_6sh117_rifleman","G_Balaclava_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_beanie_green","rhs_6sh117_rifleman","G_Balaclava_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_beanie_green","rhs_6sh117_rifleman","G_Balaclava_oli"};
     backpack="AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner_pack";
   };
 
@@ -226,8 +226,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13"};
     respawnMagazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N13"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_mg","G_Balaclava_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_mg","G_Balaclava_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_mg","G_Balaclava_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_mg","G_Balaclava_oli"};
     backpack="AET_F_mapleSyrup_I_VLF_Machine_Gunner_pack";
   };
 
@@ -243,8 +243,8 @@ class cfgVehicles
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnItems[]={"FirstAidKit"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
     backpack="AET_F_mapleSyrup_I_VLF_Medic_pack";
   };
 
@@ -260,8 +260,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_mag_nspn_red","rhs_mag_nspn_red"};
     respawnMagazines[]={"rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_mag_nspn_red","rhs_mag_nspn_red"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_zsh7a_mike_green_alt","rhs_6sh117_rifleman"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_zsh7a_mike_green_alt","rhs_6sh117_rifleman"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_zsh7a_mike_green_alt","rhs_6sh117_rifleman"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_zsh7a_mike_green_alt","rhs_6sh117_rifleman"};
     backpack="";
   };
 
@@ -277,8 +277,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","H_Booniehat_oli","rhs_6sh117_svd","G_Balaclava_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","H_Booniehat_oli","rhs_6sh117_svd","G_Balaclava_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","H_Booniehat_oli","rhs_6sh117_svd","G_Balaclava_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","H_Booniehat_oli","rhs_6sh117_svd","G_Balaclava_oli"};
     backpack="AET_F_mapleSyrup_I_VLF_Marksman_pack";
   };
 
@@ -294,8 +294,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_mag_9k38_rocket"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_mag_9k38_rocket"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
     backpack="";
   };
 
@@ -311,8 +311,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","NLAW_F"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","NLAW_F"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","rhs_balaclava"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","rhs_balaclava"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","rhs_balaclava"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","rhs_balaclava"};
     backpack="";
   };
 
@@ -328,8 +328,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_beanie_green","rhs_6sh117_rifleman","G_Bandanna_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_beanie_green","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_beanie_green","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_beanie_green","rhs_6sh117_rifleman","G_Bandanna_oli"};
     backpack="";
   };
 
@@ -345,8 +345,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","G_Bandanna_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_helmet_pasgt_olive","rhs_6sh117_rifleman","G_Bandanna_oli"};
     backpack="";
   };
 
@@ -362,8 +362,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_rpg7_OG7V_mag","rhs_rpg7_PG7VM_mag"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","rhs_rpg7_OG7V_mag","rhs_rpg7_PG7VM_mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","rhs_balaclava"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","rhs_balaclava"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","rhs_balaclava"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","rhs_balaclava"};
     backpack="AET_F_mapleSyrup_I_VLF_Anti_Tank_RPG_pack";
   };
 
@@ -379,8 +379,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_nco","G_Balaclava_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_nco","G_Balaclava_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_nco","G_Balaclava_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_nco","G_Balaclava_oli"};
     backpack="";
   };
 
@@ -396,8 +396,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","uk3cb_mag_2Rnd_Igla"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S","uk3cb_mag_2Rnd_Igla"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
     backpack="AET_F_mapleSyrup_I_VLF_Anti_Air_Assistant_pack";
   };
 
@@ -413,8 +413,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_tsh4_ess","rhs_6sh117_rifleman","G_Bandanna_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhs_tsh4_ess","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_tsh4_ess","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhs_tsh4_ess","rhs_6sh117_rifleman","G_Bandanna_oli"};
     backpack="";
   };
 
@@ -430,8 +430,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","UK3CB_LSM_B_H_SSh68_OLI","rhs_6sh117_rifleman","G_Bandanna_oli"};
     backpack="";
   };
 
@@ -447,8 +447,8 @@ class cfgVehicles
     respawnItems[]={"FirstAidKit"};
     magazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_9x18_8_57N181S"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc154","UK3CB_Gloves_green_NVG","rhsgref_hat_M1951","rhs_6sh117_rifleman","rhs_scarf"};
     backpack="";
   };
 
