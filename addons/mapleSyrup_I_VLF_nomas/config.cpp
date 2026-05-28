@@ -669,6 +669,7 @@ class cfgVehicles
 	{
 		class MainTurret: MainTurret
 		{
+			magazines[] = {"rhs_mag_3of56_35","rhs_mag_3of56_35","rhs_mag_bk13_5","rhs_mag_bk13_5","rhs_mag_s463_2","rhs_mag_s463_2","rhs_mag_d462_2","rhs_mag_d462_2"};
 			class Turrets: Turrets
 			{
 				class CommanderOptics: CommanderOptics
