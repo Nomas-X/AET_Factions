@@ -64,7 +64,11 @@ class cfgWeapons
     scope=1;
     class LinkedItems
     {
-
+      class LinkedItemsOptic
+      {
+        slot="CowsSlot";
+        item="SC_MPML_Scope";
+      };
     };
   };
 
@@ -397,11 +401,11 @@ class cfgVehicles
     respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_arifle_Katiba_F_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
-    magazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green"};
-    respawnMagazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green"};
+    magazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","SC_MPML_M_AT"};
+    respawnMagazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","SC_MPML_M_AT"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","SC_ColonistHat","SC_ColonistRigv2","G_Balaclava_TI_blk_F"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","SC_ColonistHat","SC_ColonistRigv2","G_Balaclava_TI_blk_F"};
-    backpack="";
+    backpack="AET_F_bastionBreaker_I_ECF_AT_Specialist_pack";
   };
 
   class AET_F_bastionBreaker_I_ECF_AA_Specialist: I_Soldier_AA_F
@@ -414,8 +418,8 @@ class cfgVehicles
     respawnWeapons[]={"AET_F_bastionBreaker_I_ECF_arifle_Katiba_F_acc_flashlightoptic_SRS","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit"};
     respawnItems[]={"FirstAidKit","FirstAidKit"};
-    magazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","SC_MPML_M_AA","SC_MPML_M_AA"};
-    respawnMagazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","SC_MPML_M_AA","SC_MPML_M_AA"};
+    magazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","SC_MPML_M_AA"};
+    respawnMagazines[]={"HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","SC_MPML_M_AA"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","SC_ColonistHat","SC_ColonistRigv2","G_Balaclava_TI_blk_F"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","SC_ColonistHat","SC_ColonistRigv2","G_Balaclava_TI_blk_F"};
     backpack="AET_F_bastionBreaker_I_ECF_AA_Specialist_pack";
@@ -652,8 +656,8 @@ class cfgVehicles
     respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
-    magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AT","SC_MPML_M_AT","SC_MPML_M_HE"};
-    respawnMagazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AT","SC_MPML_M_AT","SC_MPML_M_HE"};
+    magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AT","SC_MPML_M_HE"};
+    respawnMagazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AT","SC_MPML_M_HE"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","Binocular","SC_MMPHelmetCommon","SC_WarfighterVest","SC_MMPGasmask"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","Binocular","SC_MMPHelmetCommon","SC_WarfighterVest","SC_MMPGasmask"};
     backpack="AET_F_bastionBreaker_I_ECF_SF_AT_Specialist_pack";
@@ -682,15 +686,15 @@ class cfgVehicles
     side=2;
     displayName="SF AA Specialist";
     uniformClass="SC_JumpsuitColonistColonialGuard";
-    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
-    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_launch_B_Titan_olive_F","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    weapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
+    respawnWeapons[]={"Binocular","AET_F_bastionBreaker_I_ECF_arifle_MSBS65_UBS_black_F_muzzle_snds_65_TI_blk_Facc_pointer_IRoptic_ico_01_black_f","AET_F_bastionBreaker_I_ECF_SC_MPML_SC_MPML_Scope","AET_F_bastionBreaker_I_ECF_SC_Pistol_SSP9","Put","Throw"};
     items[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
     respawnItems[]={"FirstAidKit","FirstAidKit","TKE_IntegratedNVGs"};
-    magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets"};
-    respawnMagazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets"};
+    magazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AA"};
+    respawnMagazines[]={"SC_15Rnd_45HP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","30Rnd_65x39_caseless_msbs_mag_Tracer","6Rnd_12Gauge_Slug","6Rnd_12Gauge_Pellets","6Rnd_12Gauge_Pellets","SC_MPML_M_AA"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","Binocular","SC_MMPHelmetCommon","SC_WarfighterVest","SC_MMPGasmask"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","Binocular","SC_MMPHelmetCommon","SC_WarfighterVest","SC_MMPGasmask"};
-    backpack="";
+    backpack="AET_F_bastionBreaker_I_ECF_SF_AA_Specialist_pack";
   };
 
   class AET_F_bastionBreaker_I_ECF_Helicopter_Pilot: I_pilot_F
@@ -957,12 +961,24 @@ class cfgVehicles
   };
 
 
+  class AET_F_bastionBreaker_I_ECF_AT_Specialist_pack: B_FieldPack_blk
+  {
+    scope=1;
+    class TransportMagazines
+    {
+     class _xx_SC_MPML_M_AT {count=1;magazine="SC_MPML_M_AT";};
+    };
+    class TransportItems{};
+    class TransportWeapons{};
+  };
+
+
   class AET_F_bastionBreaker_I_ECF_AA_Specialist_pack: B_FieldPack_blk
   {
     scope=1;
     class TransportMagazines
     {
-     class _xx_SC_MPML_M_AA {count=2;magazine="SC_MPML_M_AA";};
+     class _xx_SC_MPML_M_AA {count=1;magazine="SC_MPML_M_AA";};
     };
     class TransportItems{};
     class TransportWeapons{};
@@ -1033,7 +1049,7 @@ class cfgVehicles
     scope=1;
     class TransportMagazines
     {
-     class _xx_SC_MPML_M_AT {count=2;magazine="SC_MPML_M_AT";};
+     class _xx_SC_MPML_M_AT {count=1;magazine="SC_MPML_M_AT";};
      class _xx_SC_MPML_M_HE {count=1;magazine="SC_MPML_M_HE";};
     };
     class TransportItems{};
@@ -1050,6 +1066,18 @@ class cfgVehicles
      class _xx_Medikit {count=1;name="Medikit";};
      class _xx_FirstAidKit {count=10;name="FirstAidKit";};
     };
+    class TransportWeapons{};
+  };
+
+
+  class AET_F_bastionBreaker_I_ECF_SF_AA_Specialist_pack: SC_WarbotRocketRack
+  {
+    scope=1;
+    class TransportMagazines
+    {
+     class _xx_SC_MPML_M_AA {count=1;magazine="SC_MPML_M_AA";};
+    };
+    class TransportItems{};
     class TransportWeapons{};
   };
 

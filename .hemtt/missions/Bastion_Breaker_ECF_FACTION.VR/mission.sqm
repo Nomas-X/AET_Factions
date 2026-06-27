@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=8344;
+		nextID=8358;
 	};
 	class Camera
 	{
-		pos[]={3719.8296,8.7484436,5535.9365};
-		dir[]={0.10951283,-0.5249598,-0.84405333};
-		up[]={0.067545548,0.85112649,-0.52059752};
-		aside[]={-0.99169016,-1.094304e-08,-0.12866797};
+		pos[]={3717.6643,44.943855,5571.105};
+		dir[]={0.18298148,-0.79811347,-0.57425135};
+		up[]={0.24230148,0.60254103,-0.76041454};
+		aside[]={-0.95289522,1.2340024e-06,-0.30363297};
 	};
 };
 binarizationWanted=0;
@@ -67,7 +67,6 @@ addons[]=
 	"ace_laserpointer",
 	"ace_optics",
 	"TKE_MD",
-	"A3_Weapons_F_Enoch_Launchers_Titan",
 	"TKE_Ext_Core_V",
 	"ace_gforces",
 	"ace_parachute",
@@ -374,6 +373,9 @@ randomSeed=9169871;
 class ScenarioData
 {
 	author="Redwan S.";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -794,6 +796,21 @@ class Mission
 										name="30Rnd_65x39_caseless_green";
 										count=9;
 										ammoLeft=30;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_FieldPack_blk";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SC_MPML_M_AT";
+										count=2;
+										ammoLeft=1;
 									};
 								};
 							};
@@ -3325,7 +3342,7 @@ class Mission
 									class Item0
 									{
 										name="SC_MPML_M_AT";
-										count=2;
+										count=3;
 										ammoLeft=1;
 									};
 									class Item1
@@ -3644,10 +3661,11 @@ class Mission
 							};
 							class secondaryWeapon
 							{
-								name="launch_B_Titan_olive_F";
+								name="SC_MPML";
+								optics="SC_MPML_Scope";
 								class primaryMuzzleMag
 								{
-									name="Titan_AA";
+									name="SC_MPML_M_AA";
 									ammoLeft=1;
 								};
 							};
@@ -3726,6 +3744,21 @@ class Mission
 										name="6Rnd_12Gauge_Pellets";
 										count=2;
 										ammoLeft=6;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SC_WarbotRocketRack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SC_MPML_M_AA";
+										count=3;
+										ammoLeft=1;
 									};
 								};
 							};
