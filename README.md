@@ -9,7 +9,7 @@ All configs are generated using [Drongos Config Generator](https://steamcommunit
 When generating your configs the fields MUST be filled exactly as follows:
 
 ### "Your mod tag" Field
-The field must be filled using the following template `AET_F_missionName_side_faction`.
+The field must be filled using the following template `AET_F_missionName_side_Faction`.
 
 BLUFOR = B
 Independent = I
@@ -45,7 +45,7 @@ Set to `True`.
 ### Other
 1. All vehicles and units created will inherit from their base unit and vehicle they were based on, so avoid using 3CB Factions or mods known to cause issues as base units.
 
-2. Once the faction and groups are generated, find the `name` field in them where you palced your faction name and modify it to include the mission name and remove underscores. For example `name="hombre"` becomes `name="Altian Rebels - Athena's Shield"`. Addtionally in groups config rename the factions class config to `AET_F_missionName_side_faction_F`, where `class hombre` becomes `class AET_F_athenasShield_B_altianRebels_F`.
+2. Once the faction and groups are generated, find the `name` field in them where you palced your faction name and modify it to include the mission name and remove underscores. For example `name="hombre"` becomes `name="Altian Rebels - Athena's Shield"`. Addtionally in groups config rename the factions class config to `AET_F_missionName_side_Faction_F`, where `class hombre` becomes `class AET_F_athenasShield_B_AltianRebels_F`.
 
 3. You are allowed to modify your factions if you know what you're doing, [this link](https://community.bistudio.com/wiki/Arma_3:_Characters_And_Gear_Encoding_Guide#Backpack_Configuration) for example shows how to handle inventories of vehicles.
 
