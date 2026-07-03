@@ -4,7 +4,7 @@ class cfgPatches
   {
 	skipWhenMissingDependencies = 1;
     units[]={"AET_F_aboveAllElse_O_TKA_Squad_Leader","AET_F_aboveAllElse_O_TKA_Rifleman_1","AET_F_aboveAllElse_O_TKA_Team_Leader_1","AET_F_aboveAllElse_O_TKA_Autorifleman_1","AET_F_aboveAllElse_O_TKA_Rifleman_2","AET_F_aboveAllElse_O_TKA_Rifleman_4","AET_F_aboveAllElse_O_TKA_Rifleman_3","AET_F_aboveAllElse_O_TKA_Machine_Gunner","AET_F_aboveAllElse_O_TKA_Team_Leader_2","AET_F_aboveAllElse_O_TKA_Autorifleman_2","AET_F_aboveAllElse_O_TKA_Rifleman_6","AET_F_aboveAllElse_O_TKA_Rifleman_7","AET_F_aboveAllElse_O_TKA_Officer","AET_F_aboveAllElse_O_TKA_Marksman","AET_F_aboveAllElse_O_TKA_Helicopter_Pilot","AET_F_aboveAllElse_O_TKA_Medic","AET_F_aboveAllElse_O_TKA_Rifleman_5","AET_F_aboveAllElse_O_TKA_Rifleman_8","AET_F_aboveAllElse_O_TKA_Mil_Mi_8_Transport","AET_F_aboveAllElse_O_TKA_Mil_Mi_24P","AET_F_aboveAllElse_O_TKA_2A18M_D_30A","AET_F_aboveAllElse_O_TKA_Mil_Mi_24V"};
-    weapons[]={"AET_F_aboveAllElse_O_TKA_UK3CB_FNFAL_PARA_uk3cb_optic_SUIT_FNFAL","AET_F_aboveAllElse_O_TKA_rhs_weap_ak74_rhs_acc_dtk1983","AET_F_aboveAllElse_O_TKA_rhs_weap_aks74_rhs_acc_dtk1983","AET_F_aboveAllElse_O_TKA_UK3CB_RPK_74_rhs_acc_dtkrpk","AET_F_aboveAllElse_O_TKA_UK3CB_FNFAL_PARA","AET_F_aboveAllElse_O_TKA_rhs_weap_akm_rhs_acc_dtkakm","AET_F_aboveAllElse_O_TKA_rhs_weap_pkm","AET_F_aboveAllElse_O_TKA_rhs_weap_aks74_gp25_rhs_acc_dtk1983","AET_F_aboveAllElse_O_TKA_rhs_weap_akms_rhs_acc_dtkakm","AET_F_aboveAllElse_O_TKA_rhs_weap_aks74u_rhs_acc_pgs64_74u","AET_F_aboveAllElse_O_TKA_UK3CB_SVD_OLD_rhs_acc_pso1m2"};
+    weapons[]={"AET_F_aboveAllElse_O_TKA_UK3CB_FNFAL_PARA_uk3cb_optic_SUIT_FNFAL","AET_F_aboveAllElse_O_TKA_rhs_weap_ak74_rhs_acc_dtk1983","AET_F_aboveAllElse_O_TKA_rhs_weap_aks74_rhs_acc_dtk1983","AET_F_aboveAllElse_O_TKA_UK3CB_RPK_74_rhs_acc_dtkrpk","AET_F_aboveAllElse_O_TKA_UK3CB_FNFAL_PARA","AET_F_aboveAllElse_O_TKA_rhs_weap_akm_rhs_acc_dtkakm","AET_F_aboveAllElse_O_TKA_rhs_weap_pkm","AET_F_aboveAllElse_O_TKA_rhs_weap_aks74_gp25_rhs_acc_dtk1983","AET_F_aboveAllElse_O_TKA_rhs_weap_akms_rhs_acc_dtkakm","AET_F_aboveAllElse_O_TKA_rhs_weap_aks74u_rhs_acc_pgs64_74u","AET_F_aboveAllElse_O_TKA_UK3CB_SVD_OLD_rhs_acc_pso1m2","AET_F_aboveAllElse_O_TKA_U_CombatUniform_01_WDL"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","tfar_handhelds","UK3CB_Factions_Weapons_FNFAL","UK3CB_Factions_Equipment_Vests","rhs_c_troops","A3_Characters_F","CuratorOnly_Characters_F_OPFOR","rhs_c_weapons","UK3CB_Factions_ADA_B","UK3CB_Factions_ANA_B","UK3CB_Factions_Weapons_RPK","UK3CB_Factions_Headgear","ace_field_rations","UK3CB_Factions_TKA_B","UK3CB_Factions_TKA_I","UK3CB_Factions_Weapons_SVD_OLD","UK3CB_Factions_Headgear2","UK3CB_Factions_TKA_O"};
   };
@@ -24,6 +24,23 @@ class cfgFactionClasses
 
 class cfgWeapons
 {
+	class UniformItem;
+	class UK3CB_TKA_B_U_CombatUniform_01_WDL;
+
+	class AET_F_aboveAllElse_O_TKA_U_CombatUniform_01_WDL : UK3CB_TKA_B_U_CombatUniform_01_WDL
+	{
+		scope=2;
+		scopeArsenal=2;
+		weaponPoolAvailable=1;
+		class itemInfo : UniformItem
+		{
+			uniformClass= "AET_F_aboveAllElse_O_TKA_Infantry_U_01";
+			containerClass="Supply40";
+			mass=60;
+			modelSides[]={6};
+		};	
+	};
+
   class UK3CB_FNFAL_PARA;
   class rhs_weap_ak74;
   class rhs_weap_aks74;
@@ -183,6 +200,15 @@ class cfgWeapons
 
 class cfgVehicles
 {
+	class UK3CB_TKA_B_Infantry_U_01;
+
+	class AET_F_aboveAllElse_O_TKA_Infantry_U_01 : UK3CB_TKA_B_Infantry_U_01
+	{
+		scope = 1;
+		uniformClass = "AET_F_aboveAllElse_O_TKA_U_CombatUniform_01_WDL";
+		modelSides[]={6};
+	};
+
   class O_Soldier_SL_F;
   class UK3CB_UN_B_B_ASS;
   class O_Soldier_F;
@@ -409,7 +435,7 @@ class cfgVehicles
     faction="AET_F_aboveAllElse_O_TKA_yepperzz";
     side=0;
     displayName="Officer";
-    uniformClass="UK3CB_TKA_B_U_CombatUniform_01_WDL";
+    uniformClass="AET_F_aboveAllElse_O_TKA_U_CombatUniform_01_WDL";
     weapons[]={"AET_F_aboveAllElse_O_TKA_rhs_weap_aks74u_rhs_acc_pgs64_74u","Put","Throw"};
     respawnWeapons[]={"AET_F_aboveAllElse_O_TKA_rhs_weap_aks74u_rhs_acc_pgs64_74u","Put","Throw"};
     items[]={"FirstAidKit"};
