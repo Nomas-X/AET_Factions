@@ -150,3 +150,32 @@ mission = "Catapult_CMA_FACTION.VR"
 [catapultGroupsCMA]
 extends = "catapultFactionNFI"
 mission = "Catapult_CMA_GROUPS.VR"
+
+[aboveAllElseFactionTKA]
+workshop = [
+	"1673456286", # 3CB Factions
+	"623475643", # 3den Enhanced
+	"463939057", # ace
+	"3499977893", # Advanced Developer Tools
+	"450814997", # CBA_A3
+	"843425103", # RHSAFRF
+	"843593391", # RHSGREF
+	"843632231", # RHSSAF
+	"843577117", # RHSUSAF
+	"3708714592", # [PRIVATE] Chernarussian Defence Forces 2009
+	"894678801", # Task Force Arrowhead Radio (BETA!!!)
+	"1779063631", # Zeus Enhanced
+	"1771335720", # Drongos Config Generator
+]
+parameters = [
+    "-noPause",
+    "-noPauseAudio",
+	"-debug",
+	"-showScriptErrors",
+]
+dlc = []
+mission = "Above_All_Else_TKA_FACTION.VR"
+
+[aboveAllElseGroupsTKA]
+extends = "aboveAllElseFactionTKA"
+mission = "Above_All_Else_TKA_GROUPS.VR"
