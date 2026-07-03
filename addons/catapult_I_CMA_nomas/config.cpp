@@ -47,7 +47,7 @@ class cfgWeapons
 			uniformClass= "AET_F_catapult_I_CMA_combatUniform_woodland";
 			containerClass="Supply40";
 			mass=40;
-			modelSides[]={0,1,2,3};
+			modelSides[]={6};
 		};	
 	};
 	class AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland : U_I_CombatUniform_shortsleeve
@@ -61,7 +61,7 @@ class cfgWeapons
 			uniformClass= "AET_F_catapult_I_CMA_combatUniform_shortsleeve_woodland";
 			containerClass="Supply40";
 			mass=40;
-			modelSides[]={0,1,2,3};
+			modelSides[]={6};
 		};	
 	};
 	class AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland : U_I_C_Soldier_Para_4_F
@@ -75,7 +75,7 @@ class cfgWeapons
 			uniformClass= "AET_F_catapult_I_CMA_combatUniform_tankTop_woodland";
 			containerClass="Supply40";
 			mass=40;
-			modelSides[]={0,1,2,3};
+			modelSides[]={6};
 		};	
 	};
 
@@ -206,7 +206,7 @@ class cfgVehicles
 	{
 		"\TCF_INDFOR\Colonial Military Authority\Units\data\CGC.paa"
 	};
-	modelSides[]={0,1,2,3};
+	modelSides[]={6};
   };
 
   class AET_F_catapult_I_CMA_combatUniform_shortsleeve_woodland : I_Soldier_lite_F
@@ -221,7 +221,7 @@ class cfgVehicles
 	{
 		"\TCF_INDFOR\Colonial Military Authority\Units\data\CGC.paa"
 	};
-	modelSides[]={0,1,2,3};
+	modelSides[]={6};
   };
 
   class AET_F_catapult_I_CMA_combatUniform_tankTop_woodland : I_C_Soldier_Para_4_F
@@ -238,7 +238,7 @@ class cfgVehicles
 		"\TCF_INDFOR\Colonial Military Authority\Units\data\Top.paa",
 		"\TCF_INDFOR\Colonial Military Authority\Units\data\CGC.paa"
 	};
-	modelSides[]={0,1,2,3};
+	modelSides[]={6};
   };
 
   class I_helipilot_F;

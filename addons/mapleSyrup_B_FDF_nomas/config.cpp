@@ -42,7 +42,7 @@ class cfgWeapons
 			uniformClass= "AET_F_mapleSyrup_B_FDF_combatUniform_winter";
 			containerClass="Supply40";
 			mass=40;
-			modelSides[]={0,1,2,3};
+			modelSides[]={6};
 		};
 	};
 
@@ -134,7 +134,7 @@ class cfgVehicles
 			"z\aet_f\addons\mapleSyrup_B_FDF_nomas\data\fdf_s_gloves_co.paa",
 			""
 		};
-		modelSides[]={0,1,2,3};
+		modelSides[]={6};
 	};
 
   class B_Soldier_F;
