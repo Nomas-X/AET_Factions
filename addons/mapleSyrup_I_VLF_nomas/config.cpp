@@ -138,64 +138,74 @@ class cfgVehicles
   class UK3CB_CHD_I_LR_Softtop_Transport_Open;
   class UK3CB_CHD_I_LR_Opentop_Igla_Chair;
   class UK3CB_CHD_I_LR_WMIK_DSHKM;
+  
   class RHS_Ural_MSV_01;
+  class AET_F_mapleSyrup_I_VLF_Ural_4320_base_1 : RHS_Ural_MSV_01
+  {
+	scope = 0;
+	class EventHandlers;
+  };
+
   class rhs_2b14_82mm_msv;
   class UK3CB_NAP_O_T55;
   class UK3CB_CW_SOV_O_LATE_T72A;
   class UK3CB_CW_SOV_O_LATE_Mi8;
+
   class rhs_kamaz5350_msv;
+  class AET_F_mapleSyrup_I_VLF_KamAZ_5350_base_1 : rhs_kamaz5350_msv
+  {
+	scope = 0;
+	class EventHandlers;
+  };
+
   class rhsgref_ins_DSHKM;
   class rhsgref_ins_DSHKM_Mini_TriPod;
 
-    class Tank;
-    class Tank_F: Tank
-    {
-        class Turrets;
-    };
-    class rhs_2s1tank_base: Tank_F
-    {
-        class Turrets: Turrets
-        {
-            class MainTurret;
-        };
-    };
-	
-    class rhs_2s1_tv: rhs_2s1tank_base
-    {
-        class Turrets: Turrets
-        {
-            class MainTurret: MainTurret
-            {
-                class Turrets;
-            };
-        };
-    };
-    class AET_F_mapleSyrup_2S1_base: rhs_2s1_tv
-    {
-        displayName="2S1";
-        scope=0;
-        scopeCurator=0;
-        class Turrets: Turrets
-        {
-            class MainTurret: MainTurret
-            {
-                class Turrets: Turrets
-                {
-                    class CommanderOptics;
-                    class LoaderOptics;
-                };
-            };
-        };
-    };
+  class rhs_2s1_tv;
+  class AET_F_mapleSyrup_I_VLF_2S1_base_1 : rhs_2s1_tv
+  {
+	scope = 0;
+	class Turrets;
+  };
+  class AET_F_mapleSyrup_I_VLF_2S1_base_2 : AET_F_mapleSyrup_I_VLF_2S1_base_1
+  {
+	class Turrets: Turrets
+	{
+		class MainTurret;
+	};
+  };
+  class AET_F_mapleSyrup_I_VLF_2S1_base_3 : AET_F_mapleSyrup_I_VLF_2S1_base_2
+  {
+	class Turrets: Turrets
+	{
+		class MainTurret : MainTurret
+		{
+			class Turrets;
+		};
+	};	
+  };
+  class AET_F_mapleSyrup_I_VLF_2S1_base_4 : AET_F_mapleSyrup_I_VLF_2S1_base_3
+  {
+	class Turrets : Turrets
+	{
+		class MainTurret : MainTurret
+		{
+			class Turrets : Turrets
+			{
+				class CommanderOptics;
+				class LoaderOptics;
+			};
+		};
+	};	
+  };
 
-	class rhs_ZU23_base;
+  class rhs_ZU23_base;
 
 	
   class rhs_zsu234_aa;
   class rhs_Igla_AA_pod_msv;
   class rhs_KORD_MSV;
   class rhs_KORD_high_MSV;
-  class DefaultEventHandlers;
 
   class AET_F_mapleSyrup_I_VLF_Assistant_Machine_Gunner: I_E_Soldier_AAR_F
   {
@@ -562,8 +572,9 @@ class cfgVehicles
 	textureList[]={"Green", 1};
   };
 
-  class AET_F_mapleSyrup_I_VLF_Ural_4320: RHS_Ural_MSV_01
+  class AET_F_mapleSyrup_I_VLF_Ural_4320: AET_F_mapleSyrup_I_VLF_Ural_4320_base_1
   {
+	scope=2;
     faction="AET_F_mapleSyrup_I_VLF_nomas";
     side=2;
     displayName="Ural 4320";
@@ -586,7 +597,7 @@ class cfgVehicles
 			factions[] = {};
 		};
 	};
-	class EventHandlers: DefaultEventHandlers 
+	class EventHandlers : EventHandlers 
 	{
 		init = "";
 	};
@@ -625,8 +636,9 @@ class cfgVehicles
 	textureList[]={"GREY", 1};
   };
 
-  class AET_F_mapleSyrup_I_VLF_KamAZ_5350: rhs_kamaz5350_msv
+  class AET_F_mapleSyrup_I_VLF_KamAZ_5350: AET_F_mapleSyrup_I_VLF_KamAZ_5350_base_1
   {
+	scope=2;
     faction="AET_F_mapleSyrup_I_VLF_nomas";
     side=2;
     displayName="KamAZ 5350";
@@ -649,13 +661,13 @@ class cfgVehicles
 			factions[] = {};
 		};
 	};
-	class EventHandlers: DefaultEventHandlers 
+	class EventHandlers : EventHandlers 
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [""Door_LF"",0,""Door_RF"",0,""Hatch"",0,""spare_hide"",0,""bench_hide"",0,""bench_l1_fold"",0,""bench_l2_fold"",0,""bench_r1_fold"",0,""bench_r2_fold"",0,""cover_hide"",0,""back_door"",0,""cover_end_hide"",1,""side_walls_hide"",0,""ClanLogo_Hide"",0], false] call bis_fnc_initVehicle;};";
 	};
   };
 
-  class AET_F_mapleSyrup_I_VLF_2S1: AET_F_mapleSyrup_2S1_base
+  class AET_F_mapleSyrup_I_VLF_2S1: AET_F_mapleSyrup_I_VLF_2S1_base_4
   {
 	scope = 2;
 	scopeCurator=2;
@@ -665,12 +677,12 @@ class cfgVehicles
     hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_hull_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_turret_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","rhsafrf\addons\rhs_2s1\data\rhs_2s1_dirty_suspension_co.paa","","","","","","","","","","rhsafrf\addons\rhs_decals\data\numbers\default\8_ca.paa","rhsafrf\addons\rhs_decals\data\numbers\default\0_ca.paa","rhsafrf\addons\rhs_decals\data\numbers\default\7_ca.paa","","","","","","","","","","rhsafrf\addons\rhs_decals\data\labels\platoon\romb_squared_ca.paa","rhsafrf\addons\rhs_decals\data\labels\platoon\romb_squared_ca.paa","","","",""};
     crew="AET_F_mapleSyrup_I_VLF_Crewman";
     typicalCargo[]={"AET_F_mapleSyrup_I_VLF_Crewman"};
-	class Turrets: Turrets
+	class Turrets : Turrets
 	{
 		class MainTurret: MainTurret
 		{
 			magazines[] = {"rhs_mag_3of56_35","rhs_mag_3of56_35","rhs_mag_bk13_5","rhs_mag_bk13_5","rhs_mag_s463_2","rhs_mag_s463_2","rhs_mag_d462_2","rhs_mag_d462_2"};
-			class Turrets: Turrets
+			class Turrets : Turrets
 			{
 				class CommanderOptics: CommanderOptics
 				{

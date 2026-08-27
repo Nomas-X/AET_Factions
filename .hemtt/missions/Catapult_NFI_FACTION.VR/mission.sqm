@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=880;
+		nextID=984;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4152.7627,9.8436537,4316.6655};
-		dir[]={0.73230219,-0.40125123,-0.5503599};
-		up[]={0.32080117,0.91595548,-0.24109663};
-		aside[]={-0.60083598,-1.3257959e-06,-0.79946047};
+		pos[]={4081.7673,43.696419,4314.6714};
+		dir[]={0.86186898,-0.46939623,-0.19227645};
+		up[]={0.45814976,0.88298291,-0.10220893};
+		aside[]={-0.2177501,1.823355e-07,-0.97605318};
 	};
 };
 binarizationWanted=0;
@@ -277,7 +277,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=47;
+		items=46;
 		class Item0
 		{
 			dataType="Group";
@@ -1533,6 +1533,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						rank="LIEUTENANT";
 						name="Rifleman";
 						class Inventory
 						{
@@ -3390,149 +3391,6 @@ class Mission
 		};
 		class Item40
 		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4166.7041,5.0014391,4319.1377};
-					};
-					side="East";
-					flags=7;
-					class Attributes
-					{
-						rank="LIEUTENANT";
-						name="Crewman_Light";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="OPTRE_M26_F";
-								muzzle="OPTRE_M26_LMG_Comp";
-								underBarrel="OPTRE_M26_Grippod_Bipod";
-								firemode="OPTRE_M26_F:FullAuto";
-								class primaryMuzzleMag
-								{
-									name="OPTRE_32Rnd_762x51_Mag";
-									ammoLeft=32;
-								};
-							};
-							class handgun
-							{
-								name="OPTRE_M6B";
-								class primaryMuzzleMag
-								{
-									name="OPTRE_8Rnd_127x40_Mag";
-									ammoLeft=8;
-								};
-							};
-							class binocular
-							{
-								name="OPTRE_Binoculars";
-							};
-							class uniform
-							{
-								typeName="TCF_FRI_uni_Base";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=2;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="TCF_FRI_Vest";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="OPTRE_8Rnd_127x40_Mag";
-										count=2;
-										ammoLeft=8;
-									};
-									class Item1
-									{
-										name="OPTRE_M2_Smoke";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="OPTRE_M9_Frag";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="OPTRE_32Rnd_762x51_Mag";
-										count=10;
-										ammoLeft=32;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							goggles="TCF_URB_UP_Shemagh";
-							hmd="OPTRE_NVG_UAB";
-							headgear="TCF_Frihelm";
-						};
-					};
-					id=741;
-					type="O_Soldier_lite_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male01PER";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=740;
-		};
-		class Item41
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -3656,7 +3514,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item42
+		class Item41
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3672,7 +3530,7 @@ class Mission
 			id=800;
 			type="OPTRE_M808B_INS";
 		};
-		class Item43
+		class Item42
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3738,7 +3596,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item44
+		class Item43
 		{
 			dataType="Group";
 			side="East";
@@ -3894,7 +3752,7 @@ class Mission
 			};
 			id=831;
 		};
-		class Item45
+		class Item44
 		{
 			dataType="Group";
 			side="East";
@@ -4056,14 +3914,14 @@ class Mission
 			};
 			id=833;
 		};
-		class Item46
+		class Item45
 		{
 			dataType="Group";
 			side="East";
 			class Attributes
 			{
 			};
-			id=877;
+			id=977;
 			atlOffset=-5;
 		};
 	};

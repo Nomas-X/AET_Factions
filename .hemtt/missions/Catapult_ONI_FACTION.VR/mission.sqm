@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=521;
+	toggles=9;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=971;
+		nextID=977;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4144.1172,72.526138,4434.5444};
-		dir[]={-0.17526221,-0.6182456,-0.76619548};
-		up[]={-0.13785899,0.78598499,-0.60267949};
-		aside[]={-0.9748221,7.4505806e-09,0.22298419};
+		pos[]={4100.332,28.856176,4394.5547};
+		dir[]={0.5871374,-0.37821782,-0.71570516};
+		up[]={0.23988484,0.9257161,-0.29241356};
+		aside[]={-0.77313435,1.3259705e-07,-0.63425082};
 	};
 };
 binarizationWanted=0;
@@ -55,14 +55,13 @@ addons[]=
 	"OPTRE_Vehicles_SOCOM_Pelican",
 	"OPTRE_Vehicles_Warthog",
 	"OPTRE_Vehicles_Air_Falcon",
-	"V_FZ_Armor",
-	"AET_F_catapult_O_ONI_nomas"
+	"V_FZ_Armor"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=18;
+		items=17;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -170,11 +169,6 @@ class AddonsMetaData
 			name="A2D: Fireteam Zulu";
 			author="Fireteam Zulu";
 			url="https://discord.gg/fa7Cguk";
-		};
-		class Item17
-		{
-			className="AET_F_catapult_O_ONI_nomas";
-			name="AET_F_catapult_O_ONI_nomas";
 		};
 	};
 };

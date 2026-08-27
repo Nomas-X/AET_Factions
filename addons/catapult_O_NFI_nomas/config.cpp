@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_catapult_O_NFI_nomas
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_catapult_O_NFI_Helicopter_Pilot","AET_F_catapult_O_NFI_Squad_Leader","AET_F_catapult_O_NFI_Team_Leader","AET_F_catapult_O_NFI_Medic","AET_F_catapult_O_NFI_Autorifleman","AET_F_catapult_O_NFI_Marksman","AET_F_catapult_O_NFI_Anti_Tank_Specialist","AET_F_catapult_O_NFI_Anti_Air_Specialist","AET_F_catapult_O_NFI_Rifleman","AET_F_catapult_O_NFI_Rifleman_Light","AET_F_catapult_O_NFI_Crewman","AET_F_catapult_O_NFI_Officer","AET_F_catapult_O_NFI_Breacher","AET_F_catapult_O_NFI_Crewman_Light","AET_F_catapult_O_NFI_Sniper","AET_F_catapult_O_NFI_Spotter","AET_F_catapult_O_NFI_M413_Bison_MGS","AET_F_catapult_O_NFI_M412_Bison_IFV","AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_LAAG","AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_Unarmed","AET_F_catapult_O_NFI_M12_APC","AET_F_catapult_O_NFI_M12_LRV_LAAG","AET_F_catapult_O_NFI_M12_TD","AET_F_catapult_O_NFI_M12_APC_VBIED","AET_F_catapult_O_NFI_M12_FAV_VBIED","AET_F_catapult_O_NFI_M12_FAV","AET_F_catapult_O_NFI_M12A1_LRV_Rocket","AET_F_catapult_O_NFI_M12R_AA","AET_F_catapult_O_NFI_M274R_Mongoose","AET_F_catapult_O_NFI_AV_14_Hornet","AET_F_catapult_O_NFI_D77H_TCI_Pelican","AET_F_catapult_O_NFI_D77H_TCI_AV_Pelican","AET_F_catapult_O_NFI_M493_APC_Oryx_M37_RCWS","AET_F_catapult_O_NFI_M494_Oryx_IFV","AET_F_catapult_O_NFI_AIE_486H_MMG_Low","AET_F_catapult_O_NFI_AIE_486H_MMG","AET_F_catapult_O_NFI_AT_Rocket_Turret","AET_F_catapult_O_NFI_AU_44","AET_F_catapult_O_NFI_FG75_Anti_Tank_Gun","AET_F_catapult_O_NFI_M41_LAAG_Turret","AET_F_catapult_O_NFI_M79_AA_Turret","AET_F_catapult_O_NFI_LAU_65D_SGM_151","AET_F_catapult_O_NFI_M247H_Shield","AET_F_catapult_O_NFI_M493_APC_Oryx_M37","AET_F_catapult_O_NFI_M808B_Scorpion_MBT"};
+    units[]={"AET_F_catapult_O_NFI_Helicopter_Pilot","AET_F_catapult_O_NFI_Squad_Leader","AET_F_catapult_O_NFI_Team_Leader","AET_F_catapult_O_NFI_Medic","AET_F_catapult_O_NFI_Autorifleman","AET_F_catapult_O_NFI_Marksman","AET_F_catapult_O_NFI_Anti_Tank_Specialist","AET_F_catapult_O_NFI_Anti_Air_Specialist","AET_F_catapult_O_NFI_Rifleman_Light","AET_F_catapult_O_NFI_Crewman","AET_F_catapult_O_NFI_Officer","AET_F_catapult_O_NFI_Breacher","AET_F_catapult_O_NFI_Sniper","AET_F_catapult_O_NFI_Spotter","AET_F_catapult_O_NFI_M413_Bison_MGS","AET_F_catapult_O_NFI_M412_Bison_IFV","AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_LAAG","AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_Unarmed","AET_F_catapult_O_NFI_M12_APC","AET_F_catapult_O_NFI_M12_LRV_LAAG","AET_F_catapult_O_NFI_M12_TD","AET_F_catapult_O_NFI_M12_APC_VBIED","AET_F_catapult_O_NFI_M12_FAV_VBIED","AET_F_catapult_O_NFI_M12_FAV","AET_F_catapult_O_NFI_M12A1_LRV_Rocket","AET_F_catapult_O_NFI_M12R_AA","AET_F_catapult_O_NFI_M274R_Mongoose","AET_F_catapult_O_NFI_AV_14_Hornet","AET_F_catapult_O_NFI_D77H_TCI_Pelican","AET_F_catapult_O_NFI_D77H_TCI_AV_Pelican","AET_F_catapult_O_NFI_M493_APC_Oryx_M37_RCWS","AET_F_catapult_O_NFI_M494_Oryx_IFV","AET_F_catapult_O_NFI_AIE_486H_MMG_Low","AET_F_catapult_O_NFI_AIE_486H_MMG","AET_F_catapult_O_NFI_AT_Rocket_Turret","AET_F_catapult_O_NFI_AU_44","AET_F_catapult_O_NFI_FG75_Anti_Tank_Gun","AET_F_catapult_O_NFI_M41_LAAG_Turret","AET_F_catapult_O_NFI_M79_AA_Turret","AET_F_catapult_O_NFI_LAU_65D_SGM_151","AET_F_catapult_O_NFI_M247H_Shield","AET_F_catapult_O_NFI_M493_APC_Oryx_M37","AET_F_catapult_O_NFI_M808B_Scorpion_MBT"};
     weapons[]={"AET_F_catapult_O_NFI_OPTRE_M7","AET_F_catapult_O_NFI_OPTRE_M6B","AET_F_catapult_O_NFI_OPTRE_M26_GL_F","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M26_LMG_F","AET_F_catapult_O_NFI_OPTRE_M295_BMR","AET_F_catapult_O_NFI_OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey","AET_F_catapult_O_NFI_OPTRE_M26_Shotgun_F","AET_F_catapult_O_NFI_OPTRE_SRS99C"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","OPTRE_Weapons_SMG","OPTRE_Weapons_M6B","TCF_OPFOR_Frieden","A3_Characters_F","CuratorOnly_Characters_F_OPFOR","OPTRE_Weapons_MG_M26","OPTRE_Weapons_DMR","OPTRE_Weapons_AT_M44_Lykoi","TCF_OPFOR_Seccessionist","ace_explosives","ace_rangecard","ace_kestrel4500","OPTRE_Weapons_Items","OPTRE_Weapons_Sniper"};
@@ -179,18 +179,20 @@ class cfgVehicles
   class OPTRE_M412_IFV_INS;
   class optre_catfish_ins_mg_f;
   class optre_catfish_ins_unarmed_f;
-  class Car_F;
-  class OPTRE_M12_Base : Car_F
+  class OPTRE_M12_ins_APC;
+  class AET_F_catapult_O_NFI_M12_APC_base_1 : OPTRE_M12_ins_APC
   {
+	scope = 0;
 	class Turrets;
   };
-  class OPTRE_M12_ins_APC : OPTRE_M12_Base
+  class AET_F_catapult_O_NFI_M12_APC_base_2 : AET_F_catapult_O_NFI_M12_APC_base_1
   {
 	class Turrets : Turrets
 	{
 		class CargoTurret_02;
 	};
   };
+
   class OPTRE_M12_LRV_ins;
   class OPTRE_M12_TD_ins;
   class OPTRE_M12_VBIED_Big;
@@ -221,6 +223,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Helicopter Pilot";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M7","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M7","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -238,6 +242,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Squad Leader";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_GL_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_GL_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -255,6 +261,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Team Leader";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -272,6 +280,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Medic";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -289,6 +299,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Autorifleman";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_LMG_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_LMG_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -306,6 +318,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Marksman";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M295_BMR","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M295_BMR","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -323,6 +337,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Anti Tank Specialist";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -340,6 +356,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Anti Air Specialist";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M44_Lykoi_Semi_Disposable_AT_Grey","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -357,6 +375,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Rifleman";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -374,6 +394,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Rifleman Light";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -391,6 +413,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Crewman";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M7","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M7","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -408,6 +432,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Officer";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -425,6 +451,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Breacher";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_Shotgun_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_Shotgun_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -437,28 +465,13 @@ class cfgVehicles
     backpack="";
   };
 
-  class AET_F_catapult_O_NFI_Crewman_Light: O_Soldier_lite_F
-  {
-    faction="AET_F_catapult_O_NFI_nomas";
-    side=0;
-    displayName="Crewman Light";
-    uniformClass="TCF_FRI_uni_Base";
-    weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
-    respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_NFI_OPTRE_M26_F","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
-    items[]={"FirstAidKit","FirstAidKit"};
-    respawnItems[]={"FirstAidKit","FirstAidKit"};
-    magazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
-    respawnMagazines[]={"OPTRE_8Rnd_127x40_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_M2_Smoke","OPTRE_M2_Smoke","OPTRE_M9_Frag","OPTRE_M9_Frag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest","TCF_URB_UP_Shemagh","OPTRE_NVG_UAB"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_NVG_UAB","OPTRE_Binoculars","TCF_Frihelm","TCF_FRI_Vest","TCF_URB_UP_Shemagh","OPTRE_NVG_UAB"};
-    backpack="";
-  };
-
   class AET_F_catapult_O_NFI_Sniper: O_sniper_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Sniper";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_NFI_OPTRE_SRS99C","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_NFI_OPTRE_SRS99C","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -476,6 +489,8 @@ class cfgVehicles
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="Spotter";
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
+    genericNames = "EnochMen";
     uniformClass="TCF_FRI_uni_Base";
     weapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_NFI_OPTRE_M295_BMR","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
     respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_NFI_OPTRE_M295_BMR","AET_F_catapult_O_NFI_OPTRE_M6B","Put","Throw"};
@@ -494,7 +509,7 @@ class cfgVehicles
     side=0;
     displayName="M413 Bison MGS";
     hiddenSelectionsTextures[]={"optre_vehicles\bison\data\innie\bison_body_woodland_co.paa","optre_vehicles\bison\data\innie\bison_misc_woodland_co.paa","optre_vehicles\bison\data\bison_wheelscannon_co.paa","optre_vehicles\bison\data\bison_seats_co.paa","optre_vehicles\bison\data\bison_interior_co.paa","optre_vehicles\bison\data\bison_mfcdscreens_co.paa","optre_vehicles\bison\data\bison_90mm_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
+    crew="AET_F_catapult_O_NFI_Rifleman";
     typicalCargo[]={"AET_F_catapult_O_NFI_Crewman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
@@ -522,8 +537,8 @@ class cfgVehicles
     side=0;
     displayName="M112 Wet Patrol Craft LAAG";
     hiddenSelectionsTextures[]={"optre_vehicles\catfish\data\optre_catfish_boat_innie_co.paa","optre_vehicles\catfish\data\optre_catfish_interior_co.paa","optre_vehicles\catfish\data\optre_catfish_seats_co.paa","optre_vehicles\catfish\data\optre_catfish_windscreen_ca.paa","optre_vehicles\warthog\data\turrets\m12_turret_co.paa","optre_vehicles\warthog\data\turrets\sight_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_Unarmed: optre_catfish_ins_unarmed_f
@@ -532,18 +547,19 @@ class cfgVehicles
     side=0;
     displayName="M112 Wet Patrol Craft Unarmed";
     hiddenSelectionsTextures[]={"optre_vehicles\catfish\data\optre_catfish_boat_innie_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
-  class AET_F_catapult_O_NFI_M12_APC: OPTRE_M12_ins_APC
+  class AET_F_catapult_O_NFI_M12_APC: AET_F_catapult_O_NFI_M12_APC_base_2
   {
+	scope = 2;
     faction="AET_F_catapult_O_NFI_nomas";
     side=0;
     displayName="M12 APC";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\indapc_lopo_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\apc_ind_det1_lopo_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
 	class Turrets : Turrets
 	{
 		class CargoTurret_02 : CargoTurret_02
@@ -559,8 +575,8 @@ class cfgVehicles
     side=0;
     displayName="M12 LRV LAAG";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa","optre_vehicles\warthog\data\turrets\sight_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M12_TD: OPTRE_M12_TD_ins
@@ -569,8 +585,8 @@ class cfgVehicles
     side=0;
     displayName="M12 TD";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\night\transp_lopo_night_co.paa","optre_vehicles\warthog\data\night\hog_apc_night_co.paa","optre_weapons_turrets\fg75\data\cannon_co.paa","optre_weapons_turrets\fg75\data\carriage_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_weapons_turrets\fg75\data\console_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M12_APC_VBIED: OPTRE_M12_VBIED_Big
@@ -579,8 +595,8 @@ class cfgVehicles
     side=0;
     displayName="M12 APC VBIED";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\indapc_lopo_co.paa","optre_vehicles\warthog\data\apc_ind_det1_lopo_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M12_FAV_VBIED: OPTRE_M12_VBIED
@@ -589,8 +605,8 @@ class cfgVehicles
     side=0;
     displayName="M12 FAV VBIED";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M12_FAV: OPTRE_M12_FAV_ins
@@ -599,8 +615,8 @@ class cfgVehicles
     side=0;
     displayName="M12 FAV";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa",""};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M12A1_LRV_Rocket: OPTRE_M12A1_LRV_ins
@@ -609,8 +625,8 @@ class cfgVehicles
     side=0;
     displayName="M12A1 LRV Rocket";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\turrets\m39_turret_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa",""};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M12R_AA: OPTRE_M12R_AA_ins
@@ -619,8 +635,8 @@ class cfgVehicles
     side=0;
     displayName="M12R AA";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\ins\m79_turret_ins3_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa",""};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M274R_Mongoose: OPTRE_M274_ATV_Ins
@@ -629,8 +645,8 @@ class cfgVehicles
     side=0;
     displayName="M274R Mongoose";
     hiddenSelectionsTextures[]={"optre_vehicles\mongoose\data\body1_ins_co.paa","optre_vehicles\mongoose\data\body2_ins_co.paa",""};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_AV_14_Hornet: OPTRE_UNSC_hornet_ins
@@ -689,8 +705,8 @@ class cfgVehicles
     side=0;
     displayName="AIE 486H MMG Low";
     hiddenSelectionsTextures[]={"optre_weapons_turrets\aie_486h\data\innie\aie_woodland2_co.paa","optre_weapons_turrets\aie_486h\data\tripod_co.paa","optre_weapons_turrets\aie_486h\data\innie\decal1_ca.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_AIE_486H_MMG: OPTRE_AIE_486H_Static_HMG_Innie
@@ -699,8 +715,8 @@ class cfgVehicles
     side=0;
     displayName="AIE 486H MMG";
     hiddenSelectionsTextures[]={"optre_weapons_turrets\aie_486h\data\innie\aie_woodland_co.paa","optre_weapons_turrets\aie_486h\data\tripod_co.paa","optre_weapons_turrets\aie_486h\data\innie\decal2_ca.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_AT_Rocket_Turret: OPTRE_Static_ATGM_Ins
@@ -709,8 +725,8 @@ class cfgVehicles
     side=0;
     displayName="AT Rocket Turret";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_AU_44: OPTRE_AU_44_INS_Mortar
@@ -719,8 +735,8 @@ class cfgVehicles
     side=0;
     displayName="AU 44";
     hiddenSelectionsTextures[]={"optre_weapons_turrets\au_44_mortar\data\camos\innie\mortar_co.paa","optre_weapons_turrets\au_44_mortar\data\computer_screen.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_FG75_Anti_Tank_Gun: OPTRE_Static_FG75
@@ -729,8 +745,8 @@ class cfgVehicles
     side=0;
     displayName="FG75 Anti Tank Gun";
     hiddenSelectionsTextures[]={};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M41_LAAG_Turret: OPTRE_Static_M41_Ins
@@ -739,8 +755,8 @@ class cfgVehicles
     side=0;
     displayName="M41 LAAG Turret";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M79_AA_Turret: OPTRE_Static_AA_Ins
@@ -749,8 +765,8 @@ class cfgVehicles
     side=0;
     displayName="M79 AA Turret";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m79_turret_ins3_co.paa"};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_LAU_65D_SGM_151: TCF_FRI_LAU
@@ -759,8 +775,8 @@ class cfgVehicles
     side=0;
     displayName="LAU 65D SGM 151";
     hiddenSelectionsTextures[]={};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M247H_Shield: TCF_M247H_FRI
@@ -769,8 +785,8 @@ class cfgVehicles
     side=0;
     displayName="M247H Shield";
     hiddenSelectionsTextures[]={};
-    crew="AET_F_catapult_O_NFI_Crewman_Light";
-    typicalCargo[]={"AET_F_catapult_O_NFI_Crewman_Light"};
+    crew="AET_F_catapult_O_NFI_Rifleman";
+    typicalCargo[]={"AET_F_catapult_O_NFI_Rifleman"};
   };
 
   class AET_F_catapult_O_NFI_M493_APC_Oryx_M37: OPTRE_M493_M37_Ins

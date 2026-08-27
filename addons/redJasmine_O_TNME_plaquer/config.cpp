@@ -3,7 +3,7 @@ class cfgPatches
   class AET_F_redJasmine_O_TNME_plaquer
   {
 	skipWhenMissingDependencies = 1;
-    units[]={"AET_F_redJasmine_O_TNME_Squad_Leader","AET_F_redJasmine_O_TNME_Machine_Gunner_RPD","AET_F_redJasmine_O_TNME_Rifleman","AET_F_redJasmine_O_TNME_Anti_Tank_Specialist","AET_F_redJasmine_O_TNME_Grenadier","AET_F_redJasmine_O_TNME_Machine_Gunner_DP27","AET_F_redJasmine_O_TNME_Medic","AET_F_redJasmine_O_TNME_Crewman","AET_F_redJasmine_O_TNME_Sapper","AET_F_redJasmine_O_TNME_Marksman","AET_F_redJasmine_O_TNME_Anti_Air_Specialist","AET_F_redJasmine_O_TNME_Helicopter_Pilot","AET_F_redJasmine_O_TNME_Pilot","AET_F_redJasmine_O_TNME_Crewman_Light","AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS","AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP","AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2","AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS","AET_F_redJasmine_O_TNME_LVTE_1","AET_F_redJasmine_O_TNME_BTR_50PK_Transport","AET_F_redJasmine_O_TNME_Z_157_Transport_Covered","AET_F_redJasmine_O_TNME_Type_56_75mm_Recoilless_Rifle","AET_F_redJasmine_O_TNME_D44_85mm_Anti_Tank_Gun","AET_F_redJasmine_O_TNME_M274_Mule_M40A1","AET_F_redJasmine_O_TNME_M274_Mule_M134","AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB","AET_F_redJasmine_O_TNME_SGM_Low_Shield","AET_F_redJasmine_O_TNME_M1919A4_30cal_High","AET_F_redJasmine_O_TNME_ZPU_4_145mm_AA_gun","AET_F_redJasmine_O_TNME_M1919A4_30cal_Low","AET_F_redJasmine_O_TNME_PT_76B_Tank","AET_F_redJasmine_O_TNME_T_54B_Tank","AET_F_redJasmine_O_TNME_M132A1_Flamethrower","AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919","AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon"};
+    units[]={"AET_F_redJasmine_O_TNME_Squad_Leader","AET_F_redJasmine_O_TNME_Machine_Gunner_RPD","AET_F_redJasmine_O_TNME_Rifleman","AET_F_redJasmine_O_TNME_Anti_Tank_Specialist","AET_F_redJasmine_O_TNME_Grenadier","AET_F_redJasmine_O_TNME_Machine_Gunner_DP27","AET_F_redJasmine_O_TNME_Medic","AET_F_redJasmine_O_TNME_Crewman","AET_F_redJasmine_O_TNME_Sapper","AET_F_redJasmine_O_TNME_Marksman","AET_F_redJasmine_O_TNME_Anti_Air_Specialist","AET_F_redJasmine_O_TNME_Helicopter_Pilot","AET_F_redJasmine_O_TNME_Pilot","AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS","AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP","AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2","AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS","AET_F_redJasmine_O_TNME_LVTE_1","AET_F_redJasmine_O_TNME_BTR_50PK_Transport","AET_F_redJasmine_O_TNME_Z_157_Transport_Covered","AET_F_redJasmine_O_TNME_Type_56_75mm_Recoilless_Rifle","AET_F_redJasmine_O_TNME_D44_85mm_Anti_Tank_Gun","AET_F_redJasmine_O_TNME_M274_Mule_M40A1","AET_F_redJasmine_O_TNME_M274_Mule_M134","AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB","AET_F_redJasmine_O_TNME_SGM_Low_Shield","AET_F_redJasmine_O_TNME_M1919A4_30cal_High","AET_F_redJasmine_O_TNME_ZPU_4_145mm_AA_gun","AET_F_redJasmine_O_TNME_M1919A4_30cal_Low","AET_F_redJasmine_O_TNME_PT_76B_Tank","AET_F_redJasmine_O_TNME_T_54B_Tank","AET_F_redJasmine_O_TNME_M132A1_Flamethrower","AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919","AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon"};
     weapons[]={"AET_F_redJasmine_O_TNME_vn_type56","AET_F_redJasmine_O_TNME_vn_m1895","AET_F_redJasmine_O_TNME_vn_rpd","AET_F_redJasmine_O_TNME_vn_rpg7","AET_F_redJasmine_O_TNME_vn_sks_gl","AET_F_redJasmine_O_TNME_vn_dp28","AET_F_redJasmine_O_TNME_vn_type64_smg","AET_F_redJasmine_O_TNME_vn_svd_vn_o_4x_svd","AET_F_redJasmine_O_TNME_vn_sa7b","AET_F_redJasmine_O_TNME_vn_m712","AET_F_redJasmine_O_TNME_U_macv_04_19","AET_F_redJasmine_O_TNME_U_k2b_01_04"};
     requiredVersion=0.1;
     requiredAddons[]={"weapons_f_vietnam_c","characters_f_vietnam_05_c","characters_f_vietnam_c","characters_f_vietnam_03_c","ace_medical_treatment","weapons_f_vietnam_04_c","characters_f_vietnam_04_c","armor_f_vietnam_06_c","air_f_vietnam_c","air_f_vietnam_03_c","air_f_vietnam_05_c","armor_f_vietnam_02_c","armor_f_vietnam_03_c","armor_f_vietnam_06_c","wheeled_f_vietnam_c","wheeled_f_vietnam_04_c","static_f_vietnam_c","static_f_vietnam_03_c","static_f_vietnam_04_c"};
@@ -227,13 +227,13 @@ class cfgVehicles
   class vn_o_men_aircrew_07;
 
   class vn_b_air_f4b_navy_cas;
-  class AET_F_redJasmine_f4b_cas_base_1 : vn_b_air_f4b_navy_cas
+  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS_base_1 : vn_b_air_f4b_navy_cas
   {
 	scope = 0;
 	class EventHandlers;
 	class Turrets;
   };
-  class AET_F_redJasmine_f4b_cas_base_2 : AET_F_redJasmine_f4b_cas_base_1
+  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS_base_2 : AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS_base_1
   {
 	scope = 0;
 	class EventHandlers : EventHandlers
@@ -247,12 +247,12 @@ class cfgVehicles
   };
 
   class vn_b_air_f4b_navy_cap;
-  class AET_F_redJasmine_f4b_cap_base_1 : vn_b_air_f4b_navy_cap
+  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP_base_1 : vn_b_air_f4b_navy_cap
   {
 	class EventHandlers;
 	class Turrets;
   };
-  class AET_F_redJasmine_f4b_cap_base_2 : AET_F_redJasmine_f4b_cap_base_1
+  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP_base_2 : AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP_base_1
   {
 	class EventHandlers : EventHandlers
 	{
@@ -265,12 +265,12 @@ class cfgVehicles
   };
 
   class vnx_b_air_hh34_03_01;
-  class AET_F_redJasmine_hh34_base_1 : vnx_b_air_hh34_03_01
+  class AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2_base_1 : vnx_b_air_hh34_03_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_hh34_base_2 : AET_F_redJasmine_hh34_base_1
+  class AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2_base_2 : AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2_base_1
   {
 	class Turrets : Turrets
 	{
@@ -281,12 +281,12 @@ class cfgVehicles
   };
 
   class vn_b_air_ach47_04_01;
-  class AET_F_redJasmine_ach47_04_base_1 : vn_b_air_ach47_04_01
+  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS_base_1 : vn_b_air_ach47_04_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_ach47_04_base_2 : AET_F_redJasmine_ach47_04_base_1
+  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS_base_2 : AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS_base_1
   {
 	class Turrets : Turrets
 	{
@@ -300,12 +300,12 @@ class cfgVehicles
   };
 
   class vnx_b_armor_lvte1_01_usmc;
-  class AET_F_redJasmine_lvte1_base_1 : vnx_b_armor_lvte1_01_usmc
+  class AET_F_redJasmine_O_TNME_LVTE_1_base_1 : vnx_b_armor_lvte1_01_usmc
   {
     scope = 0;
     class Turrets;
   };
-  class AET_F_redJasmine_lvte1_base_2 : AET_F_redJasmine_lvte1_base_1
+  class AET_F_redJasmine_O_TNME_LVTE_1_base_2 : AET_F_redJasmine_O_TNME_LVTE_1_base_1
   {
     class EventHandlers;
     class Turrets : Turrets
@@ -316,12 +316,12 @@ class cfgVehicles
   };
   
   class vn_o_armor_btr50pk_01_nva65;
-  class AET_F_redJasmine_btr50pk_base_1 : vn_o_armor_btr50pk_01_nva65
+  class AET_F_redJasmine_O_TNME_BTR_50PK_Transport_base_1 : vn_o_armor_btr50pk_01_nva65
   {
 	scope = 1;
 	class Turrets;
   };
-  class AET_F_redJasmine_btr50pk_base_2 : AET_F_redJasmine_btr50pk_base_1
+  class AET_F_redJasmine_O_TNME_BTR_50PK_Transport_base_2 : AET_F_redJasmine_O_TNME_BTR_50PK_Transport_base_1
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -332,12 +332,12 @@ class cfgVehicles
   };
 
   class vn_o_wheeled_z157_02_nva65;
-  class AET_F_redJasmine_z157_02_base_1 : vn_o_wheeled_z157_02_nva65
+  class AET_F_redJasmine_O_TNME_Z_157_Transport_Covered_base_1 : vn_o_wheeled_z157_02_nva65
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_z157_02_base_2 : AET_F_redJasmine_z157_02_base_1
+  class AET_F_redJasmine_O_TNME_Z_157_Transport_Covered_base_2 : AET_F_redJasmine_O_TNME_Z_157_Transport_Covered_base_1
   {
 	class Turrets : Turrets
 	{
@@ -349,12 +349,12 @@ class cfgVehicles
   class vn_o_pl_static_d44;
 
   class vn_b_wheeled_m274_mg_02_01;
-  class AET_F_redJasmine_m274_mg_02_base_1 : vn_b_wheeled_m274_mg_02_01
+  class AET_F_redJasmine_O_TNME_M274_Mule_M40A1_base_1 : vn_b_wheeled_m274_mg_02_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_m274_mg_02_base_2 : AET_F_redJasmine_m274_mg_02_base_1
+  class AET_F_redJasmine_O_TNME_M274_Mule_M40A1_base_2 : AET_F_redJasmine_O_TNME_M274_Mule_M40A1_base_1
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -365,12 +365,12 @@ class cfgVehicles
   };
 
   class vn_b_wheeled_m274_mg_03_01;
-  class AET_F_redJasmine_m274_mg_03_base_1 : vn_b_wheeled_m274_mg_03_01
+  class AET_F_redJasmine_O_TNME_M274_Mule_M134_base_1 : vn_b_wheeled_m274_mg_03_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_m274_mg_03_base_2 : AET_F_redJasmine_m274_mg_03_base_1
+  class AET_F_redJasmine_O_TNME_M274_Mule_M134_base_2 : AET_F_redJasmine_O_TNME_M274_Mule_M134_base_1
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -380,12 +380,12 @@ class cfgVehicles
   };
 
   class vn_b_wheeled_m54_mg_01;
-  class AET_F_redJasmine_wheeled_m54_mg_01_base_1 : vn_b_wheeled_m54_mg_01
+  class AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB_base_1 : vn_b_wheeled_m54_mg_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_wheeled_m54_mg_01_base_2 : AET_F_redJasmine_wheeled_m54_mg_01_base_1
+  class AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB_base_2 : AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB_base_1
   {
 	class Turrets : Turrets
 	{
@@ -406,12 +406,12 @@ class cfgVehicles
   class vn_b_rok_army_static_m1919a4_low;
 
   class vn_o_armor_pt76b_01;
-  class AET_F_redJasmine_pt76b_base_1 : vn_o_armor_pt76b_01
+  class AET_F_redJasmine_O_TNME_PT_76B_Tank_base_1 : vn_o_armor_pt76b_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_pt76b_base_2 : AET_F_redJasmine_pt76b_base_1
+  class AET_F_redJasmine_O_TNME_PT_76B_Tank_base_2 : AET_F_redJasmine_O_TNME_PT_76B_Tank_base_1
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -422,19 +422,19 @@ class cfgVehicles
   };
 
   class vn_o_armor_t54b_01;
-  class AET_F_redJasmine_t54b_base_1 : vn_o_armor_t54b_01
+  class AET_F_redJasmine_O_TNME_T_54B_Tank_base_1 : vn_o_armor_t54b_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_t54b_base_2 : AET_F_redJasmine_t54b_base_1
+  class AET_F_redJasmine_O_TNME_T_54B_Tank_base_2 : AET_F_redJasmine_O_TNME_T_54B_Tank_base_1
   {
 	class Turrets : Turrets
 	{
 		class MainTurret;
 	};
   };
-  class AET_F_redJasmine_t54b_base_3 : AET_F_redJasmine_t54b_base_2
+  class AET_F_redJasmine_O_TNME_T_54B_Tank_base_3 : AET_F_redJasmine_O_TNME_T_54B_Tank_base_2
   { 
 	class Turrets : Turrets
 	{
@@ -444,7 +444,7 @@ class cfgVehicles
 		};
 	};
   };
-  class AET_F_redJasmine_t54b_base_4 : AET_F_redJasmine_t54b_base_3
+  class AET_F_redJasmine_O_TNME_T_54B_Tank_base_4 : AET_F_redJasmine_O_TNME_T_54B_Tank_base_3
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -461,12 +461,12 @@ class cfgVehicles
   };
 
   class vn_b_armor_m132_01;
-  class AET_F_redJasmine_m132_base_1 : vn_b_armor_m132_01
+  class AET_F_redJasmine_O_TNME_M132A1_Flamethrower_base_1 : vn_b_armor_m132_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_m132_base_2 : AET_F_redJasmine_m132_base_1 
+  class AET_F_redJasmine_O_TNME_M132A1_Flamethrower_base_2 : AET_F_redJasmine_O_TNME_M132A1_Flamethrower_base_1 
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -476,12 +476,12 @@ class cfgVehicles
   };
 
   class vn_b_armor_m113_acav_02;
-  class AET_F_redJasmine_m113_acav_base_1 : vn_b_armor_m113_acav_02
+  class AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919_base_1 : vn_b_armor_m113_acav_02
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_m113_acav_base_2 : AET_F_redJasmine_m113_acav_base_1
+  class AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919_base_2 : AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919_base_1
   {
 	class EventHandlers;
 	class Turrets : Turrets
@@ -493,12 +493,12 @@ class cfgVehicles
   };
 
   class vn_b_air_ach47_05_01;
-  class AET_F_redJasmine_ach47_05_base_1 : vn_b_air_ach47_05_01
+  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon_base_1 : vn_b_air_ach47_05_01
   {
 	scope = 0;
 	class Turrets;
   };
-  class AET_F_redJasmine_ach47_05_base_2 : AET_F_redJasmine_ach47_05_base_1
+  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon_base_2 : AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon_base_1
   {
 	class Turrets : Turrets
 	{
@@ -745,25 +745,7 @@ class cfgVehicles
     backpack="";
   };
 
-  class AET_F_redJasmine_O_TNME_Crewman_Light: vn_o_men_pl_06
-  {
-    faction="AET_F_redJasmine_O_TNME_plaquer";
-    editorSubcategory = "EdSubcat_Personnel";
-    side=0;
-    displayName="Crewman Light";
-    uniformClass="AET_F_redJasmine_O_TNME_U_macv_04_19";
-    weapons[]={"AET_F_redJasmine_O_TNME_vn_type56","AET_F_redJasmine_O_TNME_vn_m1895","Put","Throw"};
-    respawnWeapons[]={"AET_F_redJasmine_O_TNME_vn_type56","AET_F_redJasmine_O_TNME_vn_m1895","Put","Throw"};
-    items[]={"vn_o_item_firstaidkit","vn_o_item_firstaidkit","vn_o_item_firstaidkit"};
-    respawnItems[]={"vn_o_item_firstaidkit","vn_o_item_firstaidkit","vn_o_item_firstaidkit"};
-    magazines[]={"vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_rdg2_mag","vn_rdg2_mag","vn_rgd5_grenade_mag","vn_rgd5_grenade_mag","vn_rkg3_grenade_mag","vn_rkg3_grenade_mag"};
-    respawnMagazines[]={"vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_type56_t_mag","vn_rdg2_mag","vn_rdg2_mag","vn_rgd5_grenade_mag","vn_rgd5_grenade_mag","vn_rkg3_grenade_mag","vn_rkg3_grenade_mag"};
-    linkedItems[]={"vn_o_item_map","vn_b_item_compass","vn_b_item_watch","vn_o_item_radio_m252","vn_b_headband_03","vn_o_vest_01"};
-    respawnLinkedItems[]={"vn_o_item_map","vn_b_item_compass","vn_b_item_watch","vn_o_item_radio_m252","vn_b_headband_03","vn_o_vest_01"};
-    backpack="AET_F_redJasmine_O_TNME_Crewman_Light_pack";
-  };
-
-  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS: AET_F_redJasmine_f4b_cas_base_2
+  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS: AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAS_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -794,7 +776,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP: AET_F_redJasmine_f4b_cap_base_2
+  class AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP: AET_F_redJasmine_O_TNME_F_4B_Phantom_II_CAP_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -825,7 +807,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2: AET_F_redJasmine_hh34_base_2
+  class AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2: AET_F_redJasmine_O_TNME_HH_34J_Seahorse_M60_x2_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -856,7 +838,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS: AET_F_redJasmine_ach47_04_base_2
+  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS: AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_APERS_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -900,7 +882,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_LVTE_1: AET_F_redJasmine_lvte1_base_2
+  class AET_F_redJasmine_O_TNME_LVTE_1: AET_F_redJasmine_O_TNME_LVTE_1_base_2
   {
     scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -931,7 +913,7 @@ class cfgVehicles
     };
   };
 
-  class AET_F_redJasmine_O_TNME_BTR_50PK_Transport: AET_F_redJasmine_btr50pk_base_2
+  class AET_F_redJasmine_O_TNME_BTR_50PK_Transport: AET_F_redJasmine_O_TNME_BTR_50PK_Transport_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -962,7 +944,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_Z_157_Transport_Covered: AET_F_redJasmine_z157_02_base_2
+  class AET_F_redJasmine_O_TNME_Z_157_Transport_Covered: AET_F_redJasmine_O_TNME_Z_157_Transport_Covered_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -970,8 +952,8 @@ class cfgVehicles
     side=0;
     displayName="Z 157 Transport Covered";
     hiddenSelectionsTextures[]={"vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_main_body_co.paa","vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_main_body_2_co.paa","vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_cockpit_co.paa","vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_flatbed_co.paa","vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_flatbed_cover_co.paa","vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_main_body_mlod_co.paa","vn\wheeled_f_vietnam\z157\data\vn_wheeled_z157_flatbed_mlod_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -980,9 +962,10 @@ class cfgVehicles
 	{
 		class Codriver : Codriver
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 	};
+	animationList[] = {"user_canopy_rear_hide",0,"user_canopy_front_hide",1,"user_door_cover_left_hide",1,"user_door_cover_right_hide",1};
   };
 
   class AET_F_redJasmine_O_TNME_Type_56_75mm_Recoilless_Rifle: vn_o_kr_static_type56rr
@@ -993,8 +976,8 @@ class cfgVehicles
     side=0;
     displayName="Type 56 75mm Recoilless Rifle";
     hiddenSelectionsTextures[]={"vn\static_f_vietnam_02\type56rr\data\vn_type56_01_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -1009,15 +992,15 @@ class cfgVehicles
     side=0;
     displayName="D44 85mm Anti Tank Gun";
     hiddenSelectionsTextures[]={"vn\static_f_vietnam\d44\data\vn_o_static_d44_01_co.paa","vn\static_f_vietnam\d44\data\vn_o_static_d44_02_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
 	class TransportBackpacks {};
   };
 
-  class AET_F_redJasmine_O_TNME_M274_Mule_M40A1: AET_F_redJasmine_m274_mg_02_base_2
+  class AET_F_redJasmine_O_TNME_M274_Mule_M40A1: AET_F_redJasmine_O_TNME_M274_Mule_M40A1_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1025,8 +1008,8 @@ class cfgVehicles
     side=0;
     displayName="M274 Mule M40A1";
     hiddenSelectionsTextures[]={"vn\wheeled_f_vietnam_04\m274\data\vn_wheeled_m274_01_01_co.paa","vn\wheeled_f_vietnam_04\m274\data\vn_wheeled_m274_02_01_co.paa","vn\wheeled_f_vietnam_04\m274\data\vn_wheeled_m274_03_01_co.paa","vn\wheeled_f_vietnam_04\m274\decals\vn_wheeled_m274_decal_01_ca.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -1039,16 +1022,16 @@ class cfgVehicles
 	{
 		class cargoTurret_1 : cargoTurret_1
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class mg1_turret : mg1_turret
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_M274_Mule_M134: AET_F_redJasmine_m274_mg_03_base_2
+  class AET_F_redJasmine_O_TNME_M274_Mule_M134: AET_F_redJasmine_O_TNME_M274_Mule_M134_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1056,8 +1039,8 @@ class cfgVehicles
     side=0;
     displayName="M274 Mule M134";
     hiddenSelectionsTextures[]={"vn\wheeled_f_vietnam_04\m274\data\vn_wheeled_m274_01_01_co.paa","vn\wheeled_f_vietnam_04\m274\data\vn_wheeled_m274_02_01_co.paa","vn\wheeled_f_vietnam_04\m274\data\vn_wheeled_m274_03_01_co.paa","vn\wheeled_f_vietnam_04\m274\decals\vn_wheeled_m274_decal_01_ca.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -1070,12 +1053,12 @@ class cfgVehicles
 	{
 		class mg1_turret : mg1_turret
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB: AET_F_redJasmine_wheeled_m54_mg_01_base_2
+  class AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB: AET_F_redJasmine_O_TNME_M54_Gun_Truck_3x_M2HB_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1083,8 +1066,8 @@ class cfgVehicles
     side=0;
     displayName="M54 Gun Truck 3x M2HB";
     hiddenSelectionsTextures[]={"vn\wheeled_f_vietnam\m54\data\vn_wheeled_m54_01_01_black_co.paa","vn\wheeled_f_vietnam\m54\data\vn_wheeled_m54_01_02_black_co.paa","vn\wheeled_f_vietnam\m54\data\vn_wheeled_m54_01_04_black_co.paa","vn\wheeled_f_vietnam\m54\data\vn_wheeled_m54_mg_03_co.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	textureList[]={"army", 1};
 	class TransportWeapons {};
 	class TransportMagazines {};
@@ -1094,35 +1077,35 @@ class cfgVehicles
 	{
 		class codriver_ffv : codriver_ffv
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class guntruck_front : guntruck_front
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class guntruck_left : guntruck_left
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class guntruck_rear : guntruck_rear
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class guntruck_right : guntruck_right
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class mg1turret : mg1turret
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class mg2turret : mg2turret
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 		class mg3turret : mg3turret
 		{
-			gunnerType = "AET_F_redJasmine_O_TNME_Crewman_Light";
+			gunnerType = "AET_F_redJasmine_O_TNME_Rifleman";
 		};
 	};
   };
@@ -1135,8 +1118,8 @@ class cfgVehicles
     side=0;
     displayName="SGM Low Shield";
     hiddenSelectionsTextures[]={"vn\static_f_vietnam_03\sgm\data\vn_static_sgm_01_01_co.paa","vn\static_f_vietnam_03\sgm\data\vn_static_sgm_02_01_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -1151,8 +1134,8 @@ class cfgVehicles
     side=0;
     displayName="M1919A4 30.cal High";
     hiddenSelectionsTextures[]={"vn\static_f_vietnam\m1919\data\vn_m1919a6_01_co.paa","vn\static_f_vietnam\m2\data\vn_static_m2_high_02_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -1167,8 +1150,8 @@ class cfgVehicles
     side=0;
     displayName="ZPU 4 14.5mm AA gun";
     hiddenSelectionsTextures[]={"vn\static_f_vietnam\zpu4\data\vn_static_zpu4_01_co.paa","vn\static_f_vietnam\zpu4\data\vn_static_zpu4_02_co.paa","vn\static_f_vietnam\zpu4\data\vn_static_zpu4_04_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -1183,15 +1166,15 @@ class cfgVehicles
     side=0;
     displayName="M1919A4 30.cal Low";
     hiddenSelectionsTextures[]={"vn\static_f_vietnam\m1919\data\vn_m1919a6_01_co.paa","vn\static_f_vietnam\m2\data\vn_static_m2_low_02_co.paa"};
-    crew="AET_F_redJasmine_O_TNME_Crewman_Light";
-    typicalCargo[]={"AET_F_redJasmine_O_TNME_Crewman_Light"};
+    crew="AET_F_redJasmine_O_TNME_Rifleman";
+    typicalCargo[]={"AET_F_redJasmine_O_TNME_Rifleman"};
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
 	class TransportBackpacks {};
   };
 
-  class AET_F_redJasmine_O_TNME_PT_76B_Tank: AET_F_redJasmine_pt76b_base_2
+  class AET_F_redJasmine_O_TNME_PT_76B_Tank: AET_F_redJasmine_O_TNME_PT_76B_Tank_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1222,7 +1205,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_T_54B_Tank: AET_F_redJasmine_t54b_base_4
+  class AET_F_redJasmine_O_TNME_T_54B_Tank: AET_F_redJasmine_O_TNME_T_54B_Tank_base_4
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1260,7 +1243,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_M132A1_Flamethrower: AET_F_redJasmine_m132_base_2
+  class AET_F_redJasmine_O_TNME_M132A1_Flamethrower: AET_F_redJasmine_O_TNME_M132A1_Flamethrower_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1287,7 +1270,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919: AET_F_redJasmine_m113_acav_base_2
+  class AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919: AET_F_redJasmine_O_TNME_M113A1_ACAV_M1919_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1322,7 +1305,7 @@ class cfgVehicles
 	};
   };
 
-  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon: AET_F_redJasmine_ach47_05_base_2
+  class AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon: AET_F_redJasmine_O_TNME_ACH_47A_Guns_A_Go_Go_Cannon_base_2
   {
 	scope=2;
     faction="AET_F_redJasmine_O_TNME_plaquer";
@@ -1515,27 +1498,7 @@ class cfgVehicles
     class TransportItems{};
     class TransportWeapons{};
   };
-
-
-  class AET_F_redJasmine_O_TNME_Crewman_Light_pack: vn_o_pack_01
-  {
-    scope=1;
-    class TransportMagazines
-    {
-     class _xx_vn_type56_t_mag {count=8;magazine="vn_type56_t_mag";};
-     class _xx_vn_rdg2_mag {count=2;magazine="vn_rdg2_mag";};
-     class _xx_vn_rgd5_grenade_mag {count=2;magazine="vn_rgd5_grenade_mag";};
-     class _xx_vn_rkg3_grenade_mag {count=2;magazine="vn_rkg3_grenade_mag";};
-    };
-    class TransportItems
-    {
-     class _xx_vn_o_item_firstaidkit {count=2;name="vn_o_item_firstaidkit";};
-    };
-    class TransportWeapons{};
-  };
-
 };
-
 //////////////// Paste cfgGroups after this line //////////////// 
 class cfgGroups
 {  

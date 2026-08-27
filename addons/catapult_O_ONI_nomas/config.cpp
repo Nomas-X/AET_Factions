@@ -147,12 +147,13 @@ class cfgVehicles
   class OPTRE_M12_FAV;
   class OPTRE_M813_TT;
   class OPTRE_UNSC_falcon_medical;
-  class OPTRE_UNSC_falcon_S;
-  class OPTRE_UNSC_falcon_armed_S : OPTRE_UNSC_falcon_S
+
+  class OPTRE_UNSC_MH_144S_Falcon;
+  class AET_F_catapult_O_ONI_MH_144_Falcon_base_1 : OPTRE_UNSC_MH_144S_Falcon
   {
 	class Turrets;
   };
-  class OPTRE_UNSC_MH_144S_Falcon : OPTRE_UNSC_falcon_armed_S
+  class AET_F_catapult_O_ONI_MH_144_Falcon_base_2 : AET_F_catapult_O_ONI_MH_144_Falcon_base_1
   {
 	class Turrets : Turrets
 	{
@@ -160,6 +161,7 @@ class cfgVehicles
 		class RightDoorGun;
 	};
   };
+
   class OPTRE_OQ_38_Wren_Drone_UNSC;
   class OPTRE_OQ40_Minibee_Black_UNSC;
 
@@ -400,7 +402,7 @@ class cfgVehicles
 	class TransportBackpacks {};
   };
 
-  class AET_F_catapult_O_ONI_MH_144_Falcon: OPTRE_UNSC_MH_144S_Falcon
+  class AET_F_catapult_O_ONI_MH_144_Falcon: AET_F_catapult_O_ONI_MH_144_Falcon_base_2
   {
     faction="AET_F_catapult_O_ONI_nomas";
     side=0;

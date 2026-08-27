@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=911;
+		nextID=1013;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3348.4595,52.092304,6894.6641};
-		dir[]={0.75202626,-0.58467728,-0.30438378};
-		up[]={0.54197067,0.81126189,-0.2193639};
-		aside[]={-0.37519282,1.9121217e-07,-0.92696708};
+		pos[]={3496.8652,50.824238,6885.3071};
+		dir[]={-0.90478569,-0.4243505,-0.036545034};
+		up[]={-0.42402208,0.9054932,-0.017126802};
+		aside[]={-0.040360209,2.1648157e-07,0.9992035};
 	};
 };
 binarizationWanted=0;
@@ -261,7 +261,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=36;
+		items=35;
 		class Item0
 		{
 			dataType="Object";
@@ -2637,7 +2637,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3410.1311,5.0014391,6895.7026};
+						position[]={3412.1409,5.0014391,6895.6782};
 					};
 					side="East";
 					flags=7;
@@ -3324,7 +3324,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3408.075,5.0014391,6895.5986};
+						position[]={3410.0847,5.0014391,6895.5742};
 					};
 					side="East";
 					flags=7;
@@ -3449,7 +3449,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3406.0681,5.0014391,6895.6309};
+						position[]={3408.0779,5.0014391,6895.6064};
 					};
 					side="East";
 					flags=7;
@@ -3564,198 +3564,6 @@ class Mission
 		};
 		class Item29
 		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3412.1121,5.0014391,6895.7168};
-					};
-					side="East";
-					flags=7;
-					class Attributes
-					{
-						rank="LIEUTENANT";
-						name="Crewman_Light";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="vn_type56";
-								firemode="vn_type56:FullAuto";
-								class primaryMuzzleMag
-								{
-									name="vn_type56_t_mag";
-									ammoLeft=30;
-								};
-							};
-							class handgun
-							{
-								name="vn_m1895";
-								class primaryMuzzleMag
-								{
-									name="vn_m1895_mag";
-									ammoLeft=7;
-								};
-							};
-							class uniform
-							{
-								typeName="AET_F_redJasmine_O_TNME_U_macv_04_19";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=2;
-									class Item0
-									{
-										name="vn_type56_t_mag";
-										count=3;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="vn_m1895_mag";
-										count=1;
-										ammoLeft=7;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="vn_o_item_firstaidkit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="vn_o_vest_01";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="vn_m1895_mag";
-										count=1;
-										ammoLeft=7;
-									};
-									class Item1
-									{
-										name="vn_rdg2_mag";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="vn_rgd33_grenade_mag";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="vn_t67_grenade_mag";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="vn_o_pack_01";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="vn_type56_t_mag";
-										count=8;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="vn_rdg2_mag";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="vn_rgd5_grenade_mag";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="vn_rkg3_grenade_mag";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="vn_o_item_firstaidkit";
-										count=2;
-									};
-								};
-							};
-							map="vn_o_item_map";
-							compass="vn_b_item_compass";
-							watch="vn_b_item_watch";
-							radio="vn_o_item_radio_m252";
-							headgear="vn_b_headband_03";
-						};
-					};
-					id=254;
-					type="vn_o_men_pl_06";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="LAO";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=253;
-		};
-		class Item30
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -3771,7 +3579,7 @@ class Mission
 			id=256;
 			type="vn_b_rok_army_static_m1919a4_low";
 		};
-		class Item31
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3984,7 +3792,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item32
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4164,7 +3972,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item33
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4297,7 +4105,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item34
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4429,7 +4237,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item35
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
