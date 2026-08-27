@@ -908,7 +908,7 @@ class Mission
 					{
 					};
 					id=984;
-					type="AET_F_catapult_O_NFI_Crewman_Light";
+					type="AET_F_catapult_O_NFI_Rifleman";
 				};
 				class Item1
 				{
@@ -1464,7 +1464,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=992;
-					type="AET_F_catapult_O_NFI_Crewman_Light";
+					type="AET_F_catapult_O_NFI_Rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1510,7 +1510,7 @@ class Mission
 						rank="MAJOR";
 					};
 					id=993;
-					type="AET_F_catapult_O_NFI_Crewman_Light";
+					type="AET_F_catapult_O_NFI_Rifleman";
 					atlOffset=2.6089907;
 				};
 				class Item2
