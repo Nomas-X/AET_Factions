@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3496.8652,50.824238,6885.3071};
-		dir[]={-0.90478569,-0.4243505,-0.036545034};
-		up[]={-0.42402208,0.9054932,-0.017126802};
-		aside[]={-0.040360209,2.1648157e-07,0.9992035};
+		pos[]={3422.4666,9.2393389,6903.0493};
+		dir[]={0.24319078,-0.42632237,-0.87143373};
+		up[]={0.11460207,0.90460712,-0.41065773};
+		aside[]={-0.96325779,-5.1165116e-06,-0.26882625};
 	};
 };
 binarizationWanted=0;
@@ -237,6 +237,9 @@ randomSeed=12041461;
 class ScenarioData
 {
 	author="Plaquer";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -1586,15 +1589,25 @@ class Mission
 									class Item4
 									{
 										name="vn_rpd_125_mag";
-										count=1;
+										count=2;
 										ammoLeft=125;
 									};
 								};
 							};
 							class backpack
 							{
-								typeName="vn_o_pack_static_rpd_01";
+								typeName="vn_o_pack_01";
 								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="vn_rpd_125_mag";
+										count=4;
+										ammoLeft=125;
+									};
+								};
 							};
 							map="vn_o_item_map";
 							compass="vn_b_item_compass";
@@ -2323,7 +2336,7 @@ class Mission
 								isBackpack=0;
 								class MagazineCargo
 								{
-									items=4;
+									items=5;
 									class Item0
 									{
 										name="vn_m1895_mag";
@@ -2348,12 +2361,28 @@ class Mission
 										count=1;
 										ammoLeft=1;
 									};
+									class Item4
+									{
+										name="vn_dp28_mag";
+										count=5;
+										ammoLeft=47;
+									};
 								};
 							};
 							class backpack
 							{
-								typeName="vn_o_pack_static_dp28_01";
+								typeName="vn_o_pack_02";
 								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="vn_dp28_mag";
+										count=2;
+										ammoLeft=47;
+									};
+								};
 							};
 							map="vn_o_item_map";
 							compass="vn_b_item_compass";

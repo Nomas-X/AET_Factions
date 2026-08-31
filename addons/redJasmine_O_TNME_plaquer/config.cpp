@@ -208,14 +208,12 @@ class cfgVehicles
   class vn_o_men_pl_21;
   class vn_o_pack_04;
   class vn_o_men_pl_11;
-  class vn_o_pack_static_rpd_01;
   class vn_o_men_pl_06;
   class vn_o_pack_01;
   class vn_o_men_pl_14;
   class vn_o_pack_03;
   class vn_o_men_pl_07;
   class vn_o_men_pl_25;
-  class vn_o_pack_static_dp28_01;
   class vn_o_men_pl_28;
   class vn_o_pack_02;
   class vn_o_men_pl_18;
@@ -540,8 +538,8 @@ class cfgVehicles
     respawnWeapons[]={"AET_F_redJasmine_O_TNME_vn_rpd","AET_F_redJasmine_O_TNME_vn_m1895","Put","Throw"};
     items[]={"vn_o_item_firstaidkit"};
     respawnItems[]={"vn_o_item_firstaidkit"};
-    magazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_rpd_125_mag"};
-    respawnMagazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_rpd_125_mag"};
+    magazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag"};
+    respawnMagazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag","vn_rpd_125_mag"};
     linkedItems[]={"vn_o_item_map","vn_b_item_compass","vn_b_item_watch","vn_o_item_radio_m252","vn_o_boonie_nva_02_02","vn_o_vest_03"};
     respawnLinkedItems[]={"vn_o_item_map","vn_b_item_compass","vn_b_item_watch","vn_o_item_radio_m252","vn_o_boonie_nva_02_02","vn_o_vest_03"};
     backpack="AET_F_redJasmine_O_TNME_Machine_Gunner_RPD_pack";
@@ -612,8 +610,8 @@ class cfgVehicles
     respawnWeapons[]={"AET_F_redJasmine_O_TNME_vn_dp28","AET_F_redJasmine_O_TNME_vn_m1895","Put","Throw"};
     items[]={"vn_o_item_firstaidkit"};
     respawnItems[]={"vn_o_item_firstaidkit"};
-    magazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag"};
-    respawnMagazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag"};
+    magazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag"};
+    respawnMagazines[]={"vn_m1895_mag","vn_m1895_mag","vn_rdg2_mag","vn_rgd33_grenade_mag","vn_t67_grenade_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag"};
     linkedItems[]={"vn_o_item_map","vn_b_item_compass","vn_b_item_watch","vn_o_item_radio_m252","vn_b_bandana_03","vn_o_vest_01"};
     respawnLinkedItems[]={"vn_o_item_map","vn_b_item_compass","vn_b_item_watch","vn_o_item_radio_m252","vn_b_bandana_03","vn_o_vest_01"};
     backpack="AET_F_redJasmine_O_TNME_Machine_Gunner_DP27_pack";
@@ -1369,15 +1367,16 @@ class cfgVehicles
     class TransportWeapons{};
   };
 
-
-  class AET_F_redJasmine_O_TNME_Machine_Gunner_RPD_pack: vn_o_pack_static_rpd_01
+  class AET_F_redJasmine_O_TNME_Machine_Gunner_RPD_pack: vn_o_pack_01
   {
     scope=1;
-    class TransportMagazines{};
+    class TransportMagazines
+    {
+     class _xx_vn_rpd_125_mag {count=4;magazine="vn_rpd_125_mag";};
+    };
     class TransportItems{};
     class TransportWeapons{};
   };
-
 
   class AET_F_redJasmine_O_TNME_Rifleman_pack: vn_o_pack_01
   {
@@ -1434,11 +1433,13 @@ class cfgVehicles
     class TransportWeapons{};
   };
 
-
-  class AET_F_redJasmine_O_TNME_Machine_Gunner_DP27_pack: vn_o_pack_static_dp28_01
+  class AET_F_redJasmine_O_TNME_Machine_Gunner_DP27_pack: vn_o_pack_02
   {
     scope=1;
-    class TransportMagazines{};
+    class TransportMagazines
+    {
+     class _xx_vn_dp28_mag {count=2;magazine="vn_dp28_mag";};
+    };
     class TransportItems{};
     class TransportWeapons{};
   };
