@@ -277,7 +277,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=46;
+		items=45;
 		class Item0
 		{
 			dataType="Group";
@@ -3913,16 +3913,6 @@ class Mission
 			{
 			};
 			id=833;
-		};
-		class Item45
-		{
-			dataType="Group";
-			side="East";
-			class Attributes
-			{
-			};
-			id=977;
-			atlOffset=-5;
 		};
 	};
 };
