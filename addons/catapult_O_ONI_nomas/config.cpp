@@ -171,6 +171,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Helicopter Pilot";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_Army_Uniform_BLK";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7","Put","Throw"};
@@ -189,6 +191,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Squad Leader";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -207,6 +211,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Medic";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -225,6 +231,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Rifleman";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -243,6 +251,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Rifleman Light";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -261,6 +271,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Sniper";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Smartfinder","AET_F_catapult_O_ONI_OPTRE_SRS99C","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -279,6 +291,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Spotter";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_BR45","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -297,6 +311,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Team Leader";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
@@ -315,6 +331,8 @@ class cfgVehicles
 	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Officer";
+	genericNames = "NATOMen";
+	identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
     uniformClass="OPTRE_UNSC_ODST_Uniform";
     weapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
     respawnWeapons[]={"OPTRE_Binoculars","AET_F_catapult_O_ONI_OPTRE_M7_OPTRE_M7","AET_F_catapult_O_ONI_OPTRE_M6C","Put","Throw"};
