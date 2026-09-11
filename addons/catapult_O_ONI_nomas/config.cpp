@@ -168,6 +168,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Helicopter_Pilot: O_helipilot_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Helicopter Pilot";
     uniformClass="OPTRE_UNSC_Army_Uniform_BLK";
@@ -185,6 +186,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Squad_Leader: O_Soldier_SL_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Squad Leader";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -202,6 +204,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Medic: O_medic_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Medic";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -219,6 +222,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Rifleman: O_Soldier_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Rifleman";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -236,6 +240,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Rifleman_Light: O_Soldier_lite_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Rifleman Light";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -253,6 +258,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Sniper: O_sniper_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Sniper";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -270,6 +276,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Spotter: O_spotter_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Spotter";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -287,6 +294,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Team_Leader: O_Soldier_TL_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Team Leader";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -304,6 +312,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Officer: O_officer_F
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Officer";
     uniformClass="OPTRE_UNSC_ODST_Uniform";
@@ -321,6 +330,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_D77H_TCI_Pelican: OPTRE_Pelican_unarmed
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="D77H TCI Pelican";
     hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\pelicanexterior_black_co.paa","","","","",""};
@@ -331,6 +341,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_D77H_TCI_SOCOM_Pelican: OPTRE_Pelican_unarmed_SOCOM
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="D77H TCI SOCOM Pelican";
     hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\pelicanexterior_black_co.paa","","","","",""};
@@ -341,6 +352,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_D77H_TCI_AV_Pelican: OPTRE_Pelican_armed
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="D77H TCI AV Pelican";
     hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\pelicanexterior_black_co.paa","","","",""};
@@ -351,6 +363,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_M12_APC: OPTRE_M12_FAV_APC
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 APC";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\night\m12hogmaav_extupper_night_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\night\transp_lopo_night_co.paa","optre_vehicles\warthog\data\night\hog_apc_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\night\m12hogmaav_interior_night_co.paa","optre_vehicles\warthog\data\warthog_transport_decals_ca.paa","optre_vehicles\warthog\data\warthog_transport_net_ca.paa"};
@@ -361,6 +374,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_M12_LRV_LAAG: OPTRE_M12_LRV
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 LRV LAAG";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\night\m12hogmaav_extupper_night_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\night\m12_turret_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\night\m12hogmaav_interior_night_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa","optre_vehicles\warthog\data\turrets\sight_co.paa","optre_vehicles\warthog\data\night\hog_apc_night_co.paa"};
@@ -371,6 +385,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_M12_FAV: OPTRE_M12_FAV
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 FAV";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\night\m12hogmaav_extupper_night_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\night\m12hogmaav_interior_night_co.paa","optre_vehicles\warthog\data\night\hog_apc_night_co.paa"};
@@ -381,6 +396,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_M831_Troop_Transport: OPTRE_M813_TT
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M831 Troop Transport";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\night\m12hogmaav_extupper_night_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\night\transp_lopo_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\night\m12hogmaav_interior_night_co.paa","optre_vehicles\warthog\data\warthog_transport_net_ca.paa","optre_vehicles\warthog\data\warthog_transport_decals_ca.paa"};
@@ -391,6 +407,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_Medical_Falcon: OPTRE_UNSC_falcon_medical
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="Medical Falcon";
     hiddenSelectionsTextures[]={"optre_vehicles_air\falcon\data\black\falcon_main_co.paa","optre_vehicles_air\falcon\data\black\falcon_attachments_co.paa","optre_vehicles_air\falcon\data\falcon_interior_co.paa","optre_vehicles_air\falcon\data\falcon_glass_ca.paa","optre_vehicles_air\falcon\data\falcon_glass_ca.paa","optre_vehicles_air\falcon\data\medical\camomedical_co.paa","optre_vehicles_air\falcon\data\decal\medical\falcon_decal_ca.paa"};
@@ -405,6 +422,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_MH_144_Falcon: AET_F_catapult_O_ONI_MH_144_Falcon_base_2
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="MH 144 Falcon";
     hiddenSelectionsTextures[]={"optre_vehicles_air\falcon\data\black\falcon_main_co.paa","optre_vehicles_air\falcon\data\black\falcon_attachments_co.paa","optre_vehicles_air\falcon\data\falcon_interior_co.paa","optre_vehicles_air\falcon\data\falcon_glass_ca.paa","optre_vehicles_air\falcon\data\falcon_glass_ca.paa","optre_vehicles_air\falcon\data\decal\unsc_var1\falcon_decal_ca.paa"};
@@ -430,6 +448,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_QQ_38_Wren_Drone : OPTRE_OQ_38_Wren_Drone_UNSC
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Drones";
     side=0;
     displayName="QQ 38 Wren Drone";
   };
@@ -437,6 +456,7 @@ class cfgVehicles
   class AET_F_catapult_O_ONI_QQ_40_Minibee_Black : OPTRE_OQ40_Minibee_Black_UNSC
   {
     faction="AET_F_catapult_O_ONI_nomas";
+	editorSubcategory = "EdSubcat_Drones";
     side=0;
     displayName="QQ 38 Wren Drone";
   };

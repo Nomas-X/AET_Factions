@@ -268,6 +268,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Helicopter Pilot";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -286,6 +287,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Squad Leader";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -304,6 +306,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Team Leader";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
@@ -322,6 +325,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Machine Gunner";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland";
@@ -340,6 +344,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Medic";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_tankTop_woodland";
@@ -358,6 +363,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Marksman";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
@@ -376,6 +382,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Anti Tank Specialist";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -394,6 +401,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Anti Air Specialist";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -412,6 +420,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Rifleman";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -430,6 +439,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Officer";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -448,6 +458,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Sniper";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_woodland";
@@ -466,6 +477,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Personnel";
     side=2;
     displayName="Spotter";
     uniformClass="AET_F_catapult_I_CMA_U_combatUniform_shortsleeve_woodland";
@@ -484,6 +496,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Cars";
     side=2;
     displayName="M121 AT Iguana";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\cgc_lsv.paa","a3\soft_f_exp\lsv_02\data\csat_lsv_02_black_co.paa","a3\soft_f_exp\lsv_02\data\csat_lsv_03_black_co.paa"};
@@ -495,6 +508,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Cars";
     side=2;
     displayName="M121 Iguana";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\cgc_lsv.paa","a3\soft_f_exp\lsv_02\data\csat_lsv_02_black_co.paa","a3\soft_f_exp\lsv_02\data\csat_lsv_03_black_co.paa"};
@@ -506,6 +520,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Cars";
     side=2;
     displayName="M121 MG Iguana";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\cgc_lsv.paa","a3\soft_f_exp\lsv_02\data\csat_lsv_02_black_co.paa","a3\soft_f_exp\lsv_02\data\csat_lsv_03_black_co.paa"};
@@ -517,6 +532,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=2;
     displayName="D77 TC Pelican";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\d77.paa","","","","",""};
@@ -528,6 +544,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=2;
     displayName="D77 TC AV Pelican";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\d77.paa","","","",""};
@@ -539,6 +556,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=2;
     displayName="UH 101 Eagle";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\uh101.paa"};
@@ -554,6 +572,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Cars";
     side=2;
     displayName="ARV 13 Ferret";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\arv_cma.paa","tcf_indfor\sedran\vehicles\data\arv\arv_mg.paa"};
@@ -569,6 +588,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Cars";
     side=2;
     displayName="ARV 13 Ferret M247H";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\arv_cma.paa","tcf_indfor\sedran\vehicles\data\arv\arv_mg.paa"};
@@ -585,6 +605,7 @@ class cfgVehicles
   {
     faction="AET_F_catapult_I_CMA_nomas";
     editorCategory="AET_CMA_Category";
+	editorSubcategory = "EdSubcat_Cars";
     side=2;
     displayName="ARV 13 Ferret MG460 AGL";
     hiddenSelectionsTextures[]={"tcf_indfor\colonial military authority\vehicles\arv_cma.paa","tcf_indfor\sedran\vehicles\data\arv\arv_mg.paa"};
