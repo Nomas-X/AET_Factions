@@ -221,6 +221,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Helicopter_Pilot: O_helipilot_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Helicopter Pilot";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -240,6 +241,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Squad_Leader: O_Soldier_SL_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Squad Leader";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -259,6 +261,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Team_Leader: O_Soldier_TL_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Team Leader";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -278,6 +281,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Medic: O_medic_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Medic";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -297,6 +301,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Autorifleman: O_Soldier_AR_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Autorifleman";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -316,6 +321,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Marksman: O_soldier_M_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Marksman";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -335,6 +341,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Anti_Tank_Specialist: O_Soldier_AT_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Anti Tank Specialist";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -354,6 +361,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Anti_Air_Specialist: O_Soldier_AA_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Anti Air Specialist";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -373,6 +381,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Rifleman: O_Soldier_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Rifleman";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -392,6 +401,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Rifleman_Light: O_Soldier_lite_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Rifleman Light";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -411,6 +421,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Crewman: O_crew_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Crewman";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -430,6 +441,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Officer: O_officer_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Officer";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -449,6 +461,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Breacher: O_Soldier_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Breacher";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -468,6 +481,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Sniper: O_sniper_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Sniper";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -487,6 +501,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_Spotter: O_spotter_F
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Personnel";
     side=0;
     displayName="Spotter";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -506,6 +521,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M413_Bison_MGS: OPTRE_M413_MGS_INS
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_APCs";
     side=0;
     displayName="M413 Bison MGS";
     hiddenSelectionsTextures[]={"optre_vehicles\bison\data\innie\bison_body_woodland_co.paa","optre_vehicles\bison\data\innie\bison_misc_woodland_co.paa","optre_vehicles\bison\data\bison_wheelscannon_co.paa","optre_vehicles\bison\data\bison_seats_co.paa","optre_vehicles\bison\data\bison_interior_co.paa","optre_vehicles\bison\data\bison_mfcdscreens_co.paa","optre_vehicles\bison\data\bison_90mm_co.paa"};
@@ -520,6 +536,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M412_Bison_IFV: OPTRE_M412_IFV_INS
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_APCs";
     side=0;
     displayName="M412 Bison IFV";
     hiddenSelectionsTextures[]={"optre_vehicles\bison\data\innie\bison_body_woodland_co.paa","optre_vehicles\bison\data\innie\bison_misc_woodland_co.paa","optre_vehicles\bison\data\bison_wheelscannon_co.paa","optre_vehicles\bison\data\bison_seats_co.paa","optre_vehicles\bison\data\bison_interior_co.paa","optre_vehicles\bison\data\bison_mfcdscreens_co.paa","optre_vehicles\bison\data\bison_90mm_co.paa"};
@@ -534,6 +551,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_LAAG: optre_catfish_ins_mg_f
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Boats";
     side=0;
     displayName="M112 Wet Patrol Craft LAAG";
     hiddenSelectionsTextures[]={"optre_vehicles\catfish\data\optre_catfish_boat_innie_co.paa","optre_vehicles\catfish\data\optre_catfish_interior_co.paa","optre_vehicles\catfish\data\optre_catfish_seats_co.paa","optre_vehicles\catfish\data\optre_catfish_windscreen_ca.paa","optre_vehicles\warthog\data\turrets\m12_turret_co.paa","optre_vehicles\warthog\data\turrets\sight_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa"};
@@ -544,6 +562,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M112_Wet_Patrol_Craft_Unarmed: optre_catfish_ins_unarmed_f
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Boats";
     side=0;
     displayName="M112 Wet Patrol Craft Unarmed";
     hiddenSelectionsTextures[]={"optre_vehicles\catfish\data\optre_catfish_boat_innie_co.paa"};
@@ -555,6 +574,7 @@ class cfgVehicles
   {
 	scope = 2;
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 APC";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\indapc_lopo_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\apc_ind_det1_lopo_co.paa"};
@@ -572,6 +592,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12_LRV_LAAG: OPTRE_M12_LRV_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 LRV LAAG";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa","optre_vehicles\warthog\data\turrets\sight_co.paa"};
@@ -582,6 +603,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12_TD: OPTRE_M12_TD_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 TD";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\night\transp_lopo_night_co.paa","optre_vehicles\warthog\data\night\hog_apc_night_co.paa","optre_weapons_turrets\fg75\data\cannon_co.paa","optre_weapons_turrets\fg75\data\carriage_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_weapons_turrets\fg75\data\console_co.paa"};
@@ -592,6 +614,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12_APC_VBIED: OPTRE_M12_VBIED_Big
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 APC VBIED";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\indapc_lopo_co.paa","optre_vehicles\warthog\data\apc_ind_det1_lopo_co.paa"};
@@ -602,6 +625,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12_FAV_VBIED: OPTRE_M12_VBIED
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 FAV VBIED";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa"};
@@ -612,6 +636,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12_FAV: OPTRE_M12_FAV_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12 FAV";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa",""};
@@ -622,6 +647,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12A1_LRV_Rocket: OPTRE_M12A1_LRV_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12A1 LRV Rocket";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa","optre_vehicles\warthog\data\turrets\m39_turret_co.paa","optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa",""};
@@ -632,6 +658,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M12R_AA: OPTRE_M12R_AA_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M12R AA";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12hogmaav_extupper_innie2_co.paa","optre_vehicles\warthog\data\night\m12hogmaav_extunder_night_co.paa","optre_vehicles\warthog\data\ins\m79_turret_ins3_co.paa","optre_vehicles\warthog\data\decals_ca.paa","optre_vehicles\warthog\data\m12hogmaav_interior_co.paa",""};
@@ -642,6 +669,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M274R_Mongoose: OPTRE_M274_ATV_Ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Cars";
     side=0;
     displayName="M274R Mongoose";
     hiddenSelectionsTextures[]={"optre_vehicles\mongoose\data\body1_ins_co.paa","optre_vehicles\mongoose\data\body2_ins_co.paa",""};
@@ -652,6 +680,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_AV_14_Hornet: OPTRE_UNSC_hornet_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="AV 14 Hornet";
     hiddenSelectionsTextures[]={"optre_vehicles_air\hornet\data\hornet_hull_innie_co.paa","","",""};
@@ -662,6 +691,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_D77H_TCI_Pelican: OPTRE_Pelican_unarmed_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="D77H TCI Pelican";
     hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\innie\pelicanexterior_woodland_co.paa","","","","",""};
@@ -672,6 +702,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_D77H_TCI_AV_Pelican: OPTRE_Pelican_armed_ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Helicopters";
     side=0;
     displayName="D77H TCI AV Pelican";
     hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\innie\pelicanexterior_woodland_co.paa","","","",""};
@@ -682,6 +713,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M493_APC_Oryx_M37_RCWS: OPTRE_M493_M37_RCWS_Ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_APCs";
     side=0;
     displayName="M493 APC Oryx M37 RCWS";
     hiddenSelectionsTextures[]={"optre_vehicles_tracked\oryx\data\texture\ins\oryx_armor_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_main_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_turret_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\scorp_mg_ins_co.paa",""};
@@ -692,6 +724,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M494_Oryx_IFV: OPTRE_M494_INS
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_APCs";
     side=0;
     displayName="M494 Oryx IFV";
     hiddenSelectionsTextures[]={"optre_vehicles_tracked\oryx\data\texture\ins\oryx_armor_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_main_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_turret_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\scorp_mg_ins_co.paa",""};
@@ -702,6 +735,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_AIE_486H_MMG_Low: OPTRE_AIE_486H_Low_Static_HMG_Innie
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="AIE 486H MMG Low";
     hiddenSelectionsTextures[]={"optre_weapons_turrets\aie_486h\data\innie\aie_woodland2_co.paa","optre_weapons_turrets\aie_486h\data\tripod_co.paa","optre_weapons_turrets\aie_486h\data\innie\decal1_ca.paa"};
@@ -712,6 +746,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_AIE_486H_MMG: OPTRE_AIE_486H_Static_HMG_Innie
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="AIE 486H MMG";
     hiddenSelectionsTextures[]={"optre_weapons_turrets\aie_486h\data\innie\aie_woodland_co.paa","optre_weapons_turrets\aie_486h\data\tripod_co.paa","optre_weapons_turrets\aie_486h\data\innie\decal2_ca.paa"};
@@ -722,6 +757,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_AT_Rocket_Turret: OPTRE_Static_ATGM_Ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="AT Rocket Turret";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa"};
@@ -732,6 +768,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_AU_44: OPTRE_AU_44_INS_Mortar
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="AU 44";
     hiddenSelectionsTextures[]={"optre_weapons_turrets\au_44_mortar\data\camos\innie\mortar_co.paa","optre_weapons_turrets\au_44_mortar\data\computer_screen.paa"};
@@ -742,6 +779,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_FG75_Anti_Tank_Gun: OPTRE_Static_FG75
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="FG75 Anti Tank Gun";
     hiddenSelectionsTextures[]={};
@@ -752,6 +790,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M41_LAAG_Turret: OPTRE_Static_M41_Ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="M41 LAAG Turret";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m12_turret_ins3_co.paa"};
@@ -762,6 +801,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M79_AA_Turret: OPTRE_Static_AA_Ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="M79 AA Turret";
     hiddenSelectionsTextures[]={"optre_vehicles\warthog\data\ins\m79_turret_ins3_co.paa"};
@@ -772,6 +812,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_LAU_65D_SGM_151: TCF_FRI_LAU
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="LAU 65D SGM 151";
     hiddenSelectionsTextures[]={};
@@ -782,6 +823,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M247H_Shield: TCF_M247H_FRI
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Turrets";
     side=0;
     displayName="M247H Shield";
     hiddenSelectionsTextures[]={};
@@ -792,6 +834,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M493_APC_Oryx_M37: OPTRE_M493_M37_Ins
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_APCs";
     side=0;
     displayName="M493 APC Oryx M37";
     hiddenSelectionsTextures[]={"optre_vehicles_tracked\oryx\data\texture\ins\oryx_armor_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_main_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_net_ins_ca.paa","optre_vehicles_tracked\oryx\data\texture\ins\oryx_turret_woodland_co.paa","optre_vehicles_tracked\oryx\data\texture\ins\scorp_mg_ins_co.paa",""};
@@ -802,6 +845,7 @@ class cfgVehicles
   class AET_F_catapult_O_NFI_M808B_Scorpion_MBT: OPTRE_M808B_INS
   {
     faction="AET_F_catapult_O_NFI_nomas";
+	editorSubcategory = "EdSubcat_Tanks";
     side=0;
     displayName="M808B Scorpion MBT";
     hiddenSelectionsTextures[]={"optre_vehicles_tracked\scorpion\data\texture\ins\scorp_base_ins_co.paa","optre_vehicles_tracked\scorpion\data\texture\ins\scorp_tur_ins_co.paa","optre_vehicles_tracked\scorpion\data\texture\ins\det_3_ins_co.paa","optre_vehicles_tracked\scorpion\data\texture\ins\scorp_insdecals_ca.paa","optre_vehicles_tracked\scorpion\data\texture\ins\scorp_net_ins_ca.paa","optre_vehicles_tracked\scorpion\data\texture\ins\scorp_net_ins_ca.paa","optre_vehicles_tracked\scorpion\data\texture\ins\mine_roller_ins_co.paa"};
