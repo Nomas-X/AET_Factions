@@ -201,6 +201,26 @@ dlc = [
 	"S.O.G. Prairie Fire",
 ]
 mission = "Red_Jasmine_TNME_FACTION.VR"
+
 [redJasmineGroupsTNME]
 extends = "redJasmineFactionTNME"
 mission = "Red_Jasmine_TNME_GROUPS.VR"
+
+[silverBulletFactionFIA]
+workshop = [
+	"623475643", # 3den Enhanced
+	"463939057", # ace
+	"3499977893", # Advanced Developer Tools
+	"450814997", # CBA_A3
+	"894678801", # Task Force Arrowhead Radio (BETA!!!)
+	"1779063631", # Zeus Enhanced
+	"1771335720", # Drongos Config Generator
+]
+parameters = [
+    "-noPause",
+    "-noPauseAudio",
+	"-debug",
+	"-showScriptErrors",
+]
+dlc = []
+mission = "Silver_Bullet_FIA_FACTION.VR"
